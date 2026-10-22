@@ -1,0 +1,2 @@
+{"model": "qwen3:1.7b", "mode": "MAXN", "think": "off", "load_s": 4.0370001792907715, "p_idle_loaded_W": 10.27504, "idle_trace_temp_tj": 53.286892, "loadavg_before": 3.84, "num_ctx": 2048, "time": 1792576051.0714927, "nvpmodel": "NV Power Mode: MAXN"}
+{"model": "qwen3:1.7b", "mode": "MAXN", "think": "off", "load_s": 3.903590679168701, "p_idle_loaded_W": 11.07232, "idle_trace_temp_tj": 51.856972083748744, "loadavg_before": 8.32, "num_ctx": 2048, "time": 1792576992.8461885, "nvpmodel": "NV Power Mode: MAXN"}

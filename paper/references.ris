@@ -1,0 +1,1646 @@
+TY  - CONF
+AU  - Brown, Tom
+AU  - Mann, Benjamin
+AU  - Ryder, Nick
+AU  - Subbiah, Melanie
+AU  - Kaplan, Jared D
+AU  - Dhariwal, Prafulla
+AU  - Neelakantan, Arvind
+AU  - Shyam, Pranav
+AU  - Sastry, Girish
+AU  - Askell, Amanda
+AU  - others
+TI  - Language Models are Few-Shot Learners
+T2  - Advances in Neural Information Processing Systems
+PY  - 2020
+VL  - 33
+SP  - 1877
+EP  - 1901
+PB  - Curran Associates, Inc.
+UR  - https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
+ER  - 
+
+TY  - GEN
+AU  - Grattafiori, Aaron
+AU  - Dubey, Abhimanyu
+AU  - Jauhri, Abhinav
+AU  - Pandey, Abhinav
+AU  - Kadian, Abhishek
+AU  - Al-Dahle, Ahmad
+AU  - Letman, Aiesha
+AU  - Mathur, Akhil
+AU  - Schelten, Alan
+AU  - Vaughan, Alex
+AU  - others
+TI  - The Llama 3 Herd of Models
+T2  - arXiv preprint arXiv:2407.21783
+PY  - 2024
+DO  - 10.48550/arXiv.2407.21783
+UR  - https://arxiv.org/abs/2407.21783
+N1  - arXiv:2407.21783
+ER  - 
+
+TY  - ELEC
+AU  - Meta AI
+TI  - Llama 3.2: Revolutionizing Edge AI and Vision with Open, Customizable Models
+PB  - Meta AI Blog
+PY  - 2024
+UR  - https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/
+N1  - Published 25 September 2024. Accessed 3 October 2026
+ER  - 
+
+TY  - GEN
+AU  - Yang, An
+AU  - Yang, Baosong
+AU  - Zhang, Beichen
+AU  - Hui, Binyuan
+AU  - Zheng, Bo
+AU  - Yu, Bowen
+AU  - Li, Chengyuan
+AU  - Liu, Dayiheng
+AU  - Huang, Fei
+AU  - Wei, Haoran
+AU  - others
+TI  - Qwen2.5 Technical Report
+T2  - arXiv preprint arXiv:2412.15115
+PY  - 2024
+DO  - 10.48550/arXiv.2412.15115
+UR  - https://arxiv.org/abs/2412.15115
+N1  - arXiv:2412.15115
+ER  - 
+
+TY  - GEN
+AU  - Yang, An
+AU  - Li, Anfeng
+AU  - Yang, Baosong
+AU  - Zhang, Beichen
+AU  - Hui, Binyuan
+AU  - Zheng, Bo
+AU  - Yu, Bowen
+AU  - Gao, Chang
+AU  - Huang, Chengen
+AU  - Lv, Chenxu
+AU  - others
+TI  - Qwen3 Technical Report
+T2  - arXiv preprint arXiv:2505.09388
+PY  - 2025
+DO  - 10.48550/arXiv.2505.09388
+UR  - https://arxiv.org/abs/2505.09388
+N1  - arXiv:2505.09388
+ER  - 
+
+TY  - GEN
+AU  - Riviere, Morgane
+AU  - Pathak, Shreya
+AU  - Sessa, Pier Giuseppe
+AU  - Hardin, Cassidy
+AU  - Bhupatiraju, Surya
+AU  - Hussenot, Léonard
+AU  - Mesnard, Thomas
+AU  - Shahriari, Bobak
+AU  - Ramé, Alexandre
+AU  - Ferret, Johan
+AU  - others
+TI  - Gemma 2: Improving Open Language Models at a Practical Size
+T2  - arXiv preprint arXiv:2408.00118
+PY  - 2024
+DO  - 10.48550/arXiv.2408.00118
+UR  - https://arxiv.org/abs/2408.00118
+N1  - arXiv:2408.00118
+ER  - 
+
+TY  - CONF
+AU  - Wei, Jason
+AU  - Wang, Xuezhi
+AU  - Schuurmans, Dale
+AU  - Bosma, Maarten
+AU  - Ichter, Brian
+AU  - Xia, Fei
+AU  - Chi, Ed
+AU  - Le, Quoc V
+AU  - Zhou, Denny
+TI  - Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models
+T2  - Advances in Neural Information Processing Systems
+PY  - 2022
+VL  - 35
+SP  - 24824
+EP  - 24837
+PB  - Neural Information Processing Systems Foundation, Inc. (NeurIPS)
+DO  - 10.52202/068431-1800
+UR  - https://doi.org/10.52202/068431-1800
+ER  - 
+
+TY  - CONF
+AU  - Wang, Xuezhi
+AU  - Wei, Jason
+AU  - Schuurmans, Dale
+AU  - Le, Quoc
+AU  - Chi, Ed
+AU  - Narang, Sharan
+AU  - Chowdhery, Aakanksha
+AU  - Zhou, Denny
+TI  - Self-Consistency Improves Chain of Thought Reasoning in Language Models
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2023
+UR  - https://arxiv.org/abs/2203.11171
+N1  - arXiv:2203.11171
+ER  - 
+
+TY  - JOUR
+AU  - Guo, Daya
+AU  - Yang, Dejian
+AU  - Zhang, Haowei
+AU  - Song, Junxiao
+AU  - Wang, Peiyi
+AU  - Zhu, Qihao
+AU  - Xu, Runxin
+AU  - Zhang, Ruoyu
+AU  - Ma, Shirong
+AU  - Bi, Xiao
+AU  - others
+TI  - DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning
+JO  - Nature
+T2  - Nature
+PY  - 2025
+VL  - 645
+IS  - 8081
+SP  - 633
+EP  - 638
+PB  - Springer Science and Business Media LLC
+DO  - 10.1038/s41586-025-09422-z
+UR  - https://doi.org/10.1038/s41586-025-09422-z
+ER  - 
+
+TY  - GEN
+AU  - Kaplan, Jared
+AU  - McCandlish, Sam
+AU  - Henighan, Tom
+AU  - Brown, Tom B.
+AU  - Chess, Benjamin
+AU  - Child, Rewon
+AU  - Gray, Scott
+AU  - Radford, Alec
+AU  - Wu, Jeffrey
+AU  - Amodei, Dario
+TI  - Scaling Laws for Neural Language Models
+T2  - arXiv preprint arXiv:2001.08361
+PY  - 2020
+DO  - 10.48550/arXiv.2001.08361
+UR  - https://arxiv.org/abs/2001.08361
+N1  - arXiv:2001.08361
+ER  - 
+
+TY  - GEN
+AU  - Hoffmann, Jordan
+AU  - Borgeaud, Sebastian
+AU  - Mensch, Arthur
+AU  - Buchatskaya, Elena
+AU  - Cai, Trevor
+AU  - Rutherford, Eliza
+AU  - de Las Casas, Diego
+AU  - Hendricks, Lisa Anne
+AU  - Welbl, Johannes
+AU  - Clark, Aidan
+AU  - others
+TI  - Training Compute-Optimal Large Language Models
+T2  - arXiv preprint arXiv:2203.15556
+PY  - 2022
+DO  - 10.48550/arXiv.2203.15556
+UR  - https://arxiv.org/abs/2203.15556
+N1  - arXiv:2203.15556
+ER  - 
+
+TY  - CONF
+AU  - Dettmers, Tim
+AU  - Lewis, Mike
+AU  - Belkada, Younes
+AU  - Zettlemoyer, Luke
+TI  - LLM.int8(): 8-Bit Matrix Multiplication for Transformers at Scale
+T2  - Advances in Neural Information Processing Systems
+PY  - 2022
+VL  - 35
+SP  - 30318
+EP  - 30332
+PB  - Neural Information Processing Systems Foundation, Inc. (NeurIPS)
+DO  - 10.52202/068431-2198
+UR  - https://doi.org/10.52202/068431-2198
+ER  - 
+
+TY  - CONF
+AU  - Frantar, Elias
+AU  - Ashkboos, Saleh
+AU  - Hoefler, Torsten
+AU  - Alistarh, Dan
+TI  - OPTQ: Accurate Quantization for Generative Pre-trained Transformers
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2023
+UR  - https://iclr.cc/virtual/2023/poster/10855
+N1  - Also known as GPTQ; preprint arXiv:2210.17323
+ER  - 
+
+TY  - CONF
+AU  - Lin, Ji
+AU  - Tang, Jiaming
+AU  - Tang, Haotian
+AU  - Yang, Shang
+AU  - Chen, Wei-Ming
+AU  - Wang, Wei-Chen
+AU  - Xiao, Guangxuan
+AU  - Dang, Xingyu
+AU  - Gan, Chuang
+AU  - Han, Song
+TI  - AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration
+T2  - Proceedings of Machine Learning and Systems
+PY  - 2024
+VL  - 6
+SP  - 87
+EP  - 100
+UR  - https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a452cbafa9dd64e9ba4aa95cc1ef21-Abstract-Conference.html
+ER  - 
+
+TY  - CONF
+AU  - Xiao, Guangxuan
+AU  - Lin, Ji
+AU  - Seznec, Mickael
+AU  - Wu, Hao
+AU  - Demouth, Julien
+AU  - Han, Song
+TI  - SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models
+T2  - Proceedings of the 40th International Conference on Machine Learning
+PY  - 2023
+VL  - 202
+SP  - 38087
+EP  - 38099
+PB  - PMLR
+UR  - https://proceedings.mlr.press/v202/xiao23c.html
+ER  - 
+
+TY  - CONF
+AU  - Dettmers, Tim
+AU  - Pagnoni, Artidoro
+AU  - Holtzman, Ari
+AU  - Zettlemoyer, Luke
+TI  - QLoRA: Efficient Finetuning of Quantized LLMs
+T2  - Advances in Neural Information Processing Systems
+PY  - 2023
+VL  - 36
+SP  - 10088
+EP  - 10115
+PB  - Neural Information Processing Systems Foundation, Inc. (NeurIPS)
+DO  - 10.52202/075280-0441
+UR  - https://doi.org/10.52202/075280-0441
+ER  - 
+
+TY  - CONF
+AU  - Dettmers, Tim
+AU  - Svirschevski, Ruslan
+AU  - Egiazarian, Vage
+AU  - Kuznedelev, Denis
+AU  - Frantar, Elias
+AU  - Ashkboos, Saleh
+AU  - Borzunov, Alexander
+AU  - Hoefler, Torsten
+AU  - Alistarh, Dan
+TI  - SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2024
+UR  - https://openreview.net/forum?id=Q1u25ahSuy
+N1  - arXiv:2306.03078
+ER  - 
+
+TY  - CONF
+AU  - Shao, Wenqi
+AU  - Chen, Mengzhao
+AU  - Zhang, Zhaoyang
+AU  - Xu, Peng
+AU  - Zhao, Lirui
+AU  - Li, Zhiqian
+AU  - Zhang, Kaipeng
+AU  - Gao, Peng
+AU  - Qiao, Yu
+AU  - Luo, Ping
+TI  - OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2024
+UR  - https://openreview.net/forum?id=8Wuvhh0LYW
+N1  - arXiv:2308.13137
+ER  - 
+
+TY  - CONF
+AU  - Dettmers, Tim
+AU  - Zettlemoyer, Luke
+TI  - The case for 4-bit precision: k-bit Inference Scaling Laws
+T2  - Proceedings of the 40th International Conference on Machine Learning
+PY  - 2023
+VL  - 202
+SP  - 7750
+EP  - 7774
+PB  - PMLR
+UR  - https://proceedings.mlr.press/v202/dettmers23a.html
+ER  - 
+
+TY  - CHAP
+AU  - Gholami, Amir
+AU  - Kim, Sehoon
+AU  - Dong, Zhen
+AU  - Yao, Zhewei
+AU  - Mahoney, Michael W.
+AU  - Keutzer, Kurt
+TI  - A Survey of Quantization Methods for Efficient Neural Network Inference
+T2  - Low-Power Computer Vision: Improving the Efficiency of Artificial Intelligence
+PY  - 2022
+SP  - 291
+EP  - 326
+PB  - Chapman and Hall/CRC
+DO  - 10.1201/9781003162810-13
+UR  - https://doi.org/10.1201/9781003162810-13
+ER  - 
+
+TY  - JOUR
+AU  - Huang, Wei
+AU  - Zheng, Xingyu
+AU  - Ma, Xudong
+AU  - Qin, Haotong
+AU  - Lv, Chengtao
+AU  - Chen, Hong
+AU  - Luo, Jie
+AU  - Qi, Xiaojuan
+AU  - Liu, Xianglong
+AU  - Magno, Michele
+TI  - An empirical study of LLaMA3 quantization: from LLMs to MLLMs
+JO  - Visual Intelligence
+T2  - Visual Intelligence
+PY  - 2024
+VL  - 2
+IS  - 1
+SP  - 36
+PB  - Springer Science and Business Media LLC
+DO  - 10.1007/s44267-024-00070-x
+UR  - https://doi.org/10.1007/s44267-024-00070-x
+N1  - Preprint title: How Good Are Low-bit Quantized LLaMA3 Models? An Empirical Study
+ER  - 
+
+TY  - CONF
+AU  - Li, Shiyao
+AU  - Ning, Xuefei
+AU  - Wang, Luning
+AU  - Liu, Tengxuan
+AU  - Shi, Xiangsheng
+AU  - Yan, Shengen
+AU  - Dai, Guohao
+AU  - Yang, Huazhong
+AU  - Wang, Yu
+TI  - Evaluating Quantized Large Language Models
+T2  - Proceedings of the 41st International Conference on Machine Learning
+PY  - 2024
+VL  - 235
+SP  - 28480
+EP  - 28524
+PB  - PMLR
+UR  - https://proceedings.mlr.press/v235/li24bb.html
+ER  - 
+
+TY  - CONF
+AU  - Jin, Renren
+AU  - Du, Jiangcun
+AU  - Huang, Wuwei
+AU  - Liu, Wei
+AU  - Luan, Jian
+AU  - Wang, Bin
+AU  - Xiong, Deyi
+TI  - A Comprehensive Evaluation of Quantization Strategies for Large Language Models
+T2  - Findings of the Association for Computational Linguistics ACL 2024
+PY  - 2024
+SP  - 12186
+EP  - 12215
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/2024.findings-acl.726
+UR  - https://doi.org/10.18653/v1/2024.findings-acl.726
+ER  - 
+
+TY  - ELEC
+AU  - ggml-org
+TI  - llama.cpp: LLM Inference in C/C++
+PB  - GitHub repository
+PY  - 2023
+UR  - https://github.com/ggml-org/llama.cpp
+N1  - Accessed 3 October 2026
+ER  - 
+
+TY  - ELEC
+AU  - ggml-org
+TI  - ggml: Tensor Library for Machine Learning
+PB  - GitHub repository
+PY  - 2023
+UR  - https://github.com/ggml-org/ggml
+N1  - Accessed 3 October 2026
+ER  - 
+
+TY  - ELEC
+AU  - Ollama
+TI  - Ollama
+PB  - GitHub repository
+PY  - 2023
+UR  - https://github.com/ollama/ollama
+N1  - Accessed 3 October 2026
+ER  - 
+
+TY  - CONF
+AU  - Strubell, Emma
+AU  - Ganesh, Ananya
+AU  - McCallum, Andrew
+TI  - Energy and Policy Considerations for Deep Learning in NLP
+T2  - Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
+PY  - 2019
+SP  - 3645
+EP  - 3650
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/P19-1355
+UR  - https://doi.org/10.18653/v1/P19-1355
+ER  - 
+
+TY  - JOUR
+AU  - Schwartz, Roy
+AU  - Dodge, Jesse
+AU  - Smith, Noah A.
+AU  - Etzioni, Oren
+TI  - Green AI
+JO  - Communications of the ACM
+T2  - Communications of the ACM
+PY  - 2020
+VL  - 63
+IS  - 12
+SP  - 54
+EP  - 63
+PB  - Association for Computing Machinery (ACM)
+DO  - 10.1145/3381831
+UR  - https://doi.org/10.1145/3381831
+ER  - 
+
+TY  - GEN
+AU  - Patterson, David
+AU  - Gonzalez, Joseph
+AU  - Le, Quoc
+AU  - Liang, Chen
+AU  - Munguia, Lluis-Miquel
+AU  - Rothchild, Daniel
+AU  - So, David
+AU  - Texier, Maud
+AU  - Dean, Jeff
+TI  - Carbon Emissions and Large Neural Network Training
+T2  - arXiv preprint arXiv:2104.10350
+PY  - 2021
+DO  - 10.48550/arXiv.2104.10350
+UR  - https://arxiv.org/abs/2104.10350
+N1  - arXiv:2104.10350
+ER  - 
+
+TY  - JOUR
+AU  - Patterson, David
+AU  - Gonzalez, Joseph
+AU  - Holzle, Urs
+AU  - Le, Quoc
+AU  - Liang, Chen
+AU  - Munguia, Lluis-Miquel
+AU  - Rothchild, Daniel
+AU  - So, David R.
+AU  - Texier, Maud
+AU  - Dean, Jeff
+TI  - The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink
+JO  - Computer
+T2  - Computer
+PY  - 2022
+VL  - 55
+IS  - 7
+SP  - 18
+EP  - 28
+PB  - Institute of Electrical and Electronics Engineers (IEEE)
+DO  - 10.1109/MC.2022.3148714
+UR  - https://doi.org/10.1109/MC.2022.3148714
+ER  - 
+
+TY  - JOUR
+AU  - Henderson, Peter
+AU  - Hu, Jieru
+AU  - Romoff, Joshua
+AU  - Brunskill, Emma
+AU  - Jurafsky, Dan
+AU  - Pineau, Joelle
+TI  - Towards the Systematic Reporting of the Energy and Carbon Footprints of Machine Learning
+JO  - Journal of Machine Learning Research
+T2  - Journal of Machine Learning Research
+PY  - 2020
+VL  - 21
+IS  - 248
+SP  - 1
+EP  - 43
+UR  - https://jmlr.org/papers/v21/20-312.html
+ER  - 
+
+TY  - GEN
+AU  - Lacoste, Alexandre
+AU  - Luccioni, Alexandra
+AU  - Schmidt, Victor
+AU  - Dandres, Thomas
+TI  - Quantifying the Carbon Emissions of Machine Learning
+T2  - arXiv preprint arXiv:1910.09700
+PY  - 2019
+DO  - 10.48550/arXiv.1910.09700
+UR  - https://arxiv.org/abs/1910.09700
+N1  - arXiv:1910.09700
+ER  - 
+
+TY  - CONF
+AU  - Luccioni, Sasha
+AU  - Jernite, Yacine
+AU  - Strubell, Emma
+TI  - Power Hungry Processing: Watts Driving the Cost of AI Deployment?
+T2  - Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)
+PY  - 2024
+SP  - 85
+EP  - 99
+PB  - ACM
+DO  - 10.1145/3630106.3658542
+UR  - https://doi.org/10.1145/3630106.3658542
+ER  - 
+
+TY  - JOUR
+AU  - Luccioni, Alexandra Sasha
+AU  - Viguier, Sylvain
+AU  - Ligozat, Anne-Laure
+TI  - Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model
+JO  - Journal of Machine Learning Research
+T2  - Journal of Machine Learning Research
+PY  - 2023
+VL  - 24
+IS  - 253
+SP  - 1
+EP  - 15
+UR  - https://jmlr.org/papers/v24/23-0069.html
+ER  - 
+
+TY  - CONF
+AU  - Samsi, Siddharth
+AU  - Zhao, Dan
+AU  - McDonald, Joseph
+AU  - Li, Baolin
+AU  - Michaleas, Adam
+AU  - Jones, Michael
+AU  - Bergeron, William
+AU  - Kepner, Jeremy
+AU  - Tiwari, Devesh
+AU  - Gadepally, Vijay
+TI  - From Words to Watts: Benchmarking the Energy Costs of Large Language Model Inference
+T2  - 2023 IEEE High Performance Extreme Computing Conference (HPEC)
+PY  - 2023
+SP  - 1
+EP  - 9
+PB  - IEEE
+DO  - 10.1109/HPEC58863.2023.10363447
+UR  - https://doi.org/10.1109/HPEC58863.2023.10363447
+ER  - 
+
+TY  - JOUR
+AU  - Desislavov, Radosvet
+AU  - Martínez-Plumed, Fernando
+AU  - Hernández-Orallo, José
+TI  - Trends in AI inference energy consumption: Beyond the performance-vs-parameter laws of deep learning
+JO  - Sustainable Computing: Informatics and Systems
+T2  - Sustainable Computing: Informatics and Systems
+PY  - 2023
+VL  - 38
+SP  - 100857
+PB  - Elsevier BV
+DO  - 10.1016/j.suscom.2023.100857
+UR  - https://doi.org/10.1016/j.suscom.2023.100857
+ER  - 
+
+TY  - JOUR
+AU  - Wilkins, Grant
+AU  - Keshav, Srinivasan
+AU  - Mortier, Richard
+TI  - Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems
+JO  - ACM SIGEnergy Energy Informatics Review
+T2  - ACM SIGEnergy Energy Informatics Review
+PY  - 2024
+VL  - 4
+IS  - 5
+SP  - 113
+EP  - 119
+PB  - Association for Computing Machinery (ACM)
+DO  - 10.1145/3727200.3727217
+UR  - https://doi.org/10.1145/3727200.3727217
+ER  - 
+
+TY  - CONF
+AU  - Stojkovic, Jovan
+AU  - Zhang, Chaojie
+AU  - Goiri, Íñigo
+AU  - Torrellas, Josep
+AU  - Choukse, Esha
+TI  - DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency
+T2  - 2025 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+PY  - 2025
+SP  - 1348
+EP  - 1362
+PB  - IEEE
+DO  - 10.1109/HPCA61900.2025.00102
+UR  - https://doi.org/10.1109/HPCA61900.2025.00102
+ER  - 
+
+TY  - CONF
+AU  - Wu, Carole-Jean
+AU  - Raghavendra, Ramya
+AU  - Gupta, Udit
+AU  - Acun, Bilge
+AU  - Ardalani, Newsha
+AU  - Maeng, Kiwan
+AU  - Chang, Gloria
+AU  - Aga, Fiona
+AU  - Huang, Jinshi
+AU  - Bai, Charles
+AU  - others
+TI  - Sustainable AI: Environmental Implications, Challenges and Opportunities
+T2  - Proceedings of Machine Learning and Systems
+PY  - 2022
+VL  - 4
+SP  - 795
+EP  - 813
+UR  - https://proceedings.mlsys.org/paper_files/paper/2022/hash/462211f67c7d858f663355eff93b745e-Abstract.html
+ER  - 
+
+TY  - JOUR
+AU  - Verdecchia, Roberto
+AU  - Sallou, June
+AU  - Cruz, Luís
+TI  - A systematic review of Green AI
+JO  - WIREs Data Mining and Knowledge Discovery
+T2  - WIREs Data Mining and Knowledge Discovery
+PY  - 2023
+VL  - 13
+IS  - 4
+SP  - e1507
+PB  - Wiley
+DO  - 10.1002/widm.1507
+UR  - https://doi.org/10.1002/widm.1507
+ER  - 
+
+TY  - CONF
+AU  - You, Jie
+AU  - Chung, Jae-Won
+AU  - Chowdhury, Mosharaf
+TI  - Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training
+T2  - 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)
+PY  - 2023
+SP  - 119
+EP  - 139
+PB  - USENIX Association
+UR  - https://www.usenix.org/conference/nsdi23/presentation/you
+ER  - 
+
+TY  - CONF
+AU  - Chung, Jae-Won
+AU  - Ma, Jeff J.
+AU  - Wu, Ruofan
+AU  - Liu, Jiachen
+AU  - Kweon, Oh Jun
+AU  - Xia, Yuxuan
+AU  - Wu, Zhiyu
+AU  - Chowdhury, Mosharaf
+TI  - The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization
+T2  - Advances in Neural Information Processing Systems
+PY  - 2025
+VL  - 38
+SP  - 121191
+EP  - 121219
+PB  - Neural Information Processing Systems Foundation, Inc. (NeurIPS)
+DO  - 10.52202/085713-3652
+UR  - https://doi.org/10.52202/085713-3652
+ER  - 
+
+TY  - CONF
+AU  - Fernandez, Jared
+AU  - Na, Clara
+AU  - Tiwari, Vashisth
+AU  - Bisk, Yonatan
+AU  - Luccioni, Sasha
+AU  - Strubell, Emma
+TI  - Energy Considerations of Large Language Model Inference and Efficiency Optimizations
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+PY  - 2025
+SP  - 32556
+EP  - 32569
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/2025.acl-long.1563
+UR  - https://doi.org/10.18653/v1/2025.acl-long.1563
+ER  - 
+
+TY  - GEN
+AU  - Jin, Yunho
+AU  - Wei, Gu-Yeon
+AU  - Brooks, David
+TI  - The Energy Cost of Reasoning: Analyzing Energy Usage in LLMs with Test-time Compute
+T2  - arXiv preprint arXiv:2505.14733
+PY  - 2025
+DO  - 10.48550/arXiv.2505.14733
+UR  - https://arxiv.org/abs/2505.14733
+N1  - arXiv:2505.14733
+ER  - 
+
+TY  - JOUR
+AU  - Shi, Weisong
+AU  - Cao, Jie
+AU  - Zhang, Quan
+AU  - Li, Youhuizi
+AU  - Xu, Lanyu
+TI  - Edge Computing: Vision and Challenges
+JO  - IEEE Internet of Things Journal
+T2  - IEEE Internet of Things Journal
+PY  - 2016
+VL  - 3
+IS  - 5
+SP  - 637
+EP  - 646
+PB  - Institute of Electrical and Electronics Engineers (IEEE)
+DO  - 10.1109/JIOT.2016.2579198
+UR  - https://doi.org/10.1109/JIOT.2016.2579198
+ER  - 
+
+TY  - JOUR
+AU  - Zhou, Zhi
+AU  - Chen, Xu
+AU  - Li, En
+AU  - Zeng, Liekang
+AU  - Luo, Ke
+AU  - Zhang, Junshan
+TI  - Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing
+JO  - Proceedings of the IEEE
+T2  - Proceedings of the IEEE
+PY  - 2019
+VL  - 107
+IS  - 8
+SP  - 1738
+EP  - 1762
+PB  - Institute of Electrical and Electronics Engineers (IEEE)
+DO  - 10.1109/JPROC.2019.2918951
+UR  - https://doi.org/10.1109/JPROC.2019.2918951
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Jiasi
+AU  - Ran, Xukan
+TI  - Deep Learning With Edge Computing: A Review
+JO  - Proceedings of the IEEE
+T2  - Proceedings of the IEEE
+PY  - 2019
+VL  - 107
+IS  - 8
+SP  - 1655
+EP  - 1674
+PB  - Institute of Electrical and Electronics Engineers (IEEE)
+DO  - 10.1109/JPROC.2019.2921977
+UR  - https://doi.org/10.1109/JPROC.2019.2921977
+ER  - 
+
+TY  - CONF
+AU  - Reddi, Vijay Janapa
+AU  - Cheng, Christine
+AU  - Kanter, David
+AU  - Mattson, Peter
+AU  - Schmuelling, Guenther
+AU  - Wu, Carole-Jean
+AU  - Anderson, Brian
+AU  - Breughe, Maximilien
+AU  - Charlebois, Mark
+AU  - Chou, William
+AU  - others
+TI  - MLPerf Inference Benchmark
+T2  - 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA)
+PY  - 2020
+SP  - 446
+EP  - 459
+PB  - IEEE
+DO  - 10.1109/ISCA45697.2020.00045
+UR  - https://doi.org/10.1109/ISCA45697.2020.00045
+ER  - 
+
+TY  - CONF
+AU  - Liu, Zechun
+AU  - Zhao, Changsheng
+AU  - Iandola, Forrest
+AU  - Lai, Chen
+AU  - Tian, Yuandong
+AU  - Fedorov, Igor
+AU  - Xiong, Yunyang
+AU  - Chang, Ernie
+AU  - Shi, Yangyang
+AU  - Krishnamoorthi, Raghuraman
+AU  - Lai, Liangzhen
+AU  - Chandra, Vikas
+TI  - MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases
+T2  - Proceedings of the 41st International Conference on Machine Learning
+PY  - 2024
+VL  - 235
+SP  - 32431
+EP  - 32454
+PB  - PMLR
+UR  - https://proceedings.mlr.press/v235/liu24ce.html
+ER  - 
+
+TY  - CONF
+AU  - Alizadeh, Keivan
+AU  - Mirzadeh, Seyed Iman
+AU  - Belenko, Dmitry
+AU  - Khatamifard, S.
+AU  - Cho, Minsik
+AU  - Del Mundo, Carlo C
+AU  - Rastegari, Mohammad
+AU  - Farajtabar, Mehrdad
+TI  - LLM in a flash: Efficient Large Language Model Inference with Limited Memory
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+PY  - 2024
+SP  - 12562
+EP  - 12584
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/2024.acl-long.678
+UR  - https://doi.org/10.18653/v1/2024.acl-long.678
+ER  - 
+
+TY  - CONF
+AU  - Song, Yixin
+AU  - Mi, Zeyu
+AU  - Xie, Haotong
+AU  - Chen, Haibo
+TI  - PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU
+T2  - Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
+PY  - 2024
+SP  - 590
+EP  - 606
+PB  - ACM
+DO  - 10.1145/3694715.3695964
+UR  - https://doi.org/10.1145/3694715.3695964
+ER  - 
+
+TY  - CONF
+AU  - Laskaridis, Stefanos
+AU  - Katevas, Kleomenis
+AU  - Minto, Lorenzo
+AU  - Haddadi, Hamed
+TI  - MELTing Point: Mobile Evaluation of Language Transformers
+T2  - Proceedings of the 30th Annual International Conference on Mobile Computing and Networking
+PY  - 2024
+SP  - 890
+EP  - 907
+PB  - ACM
+DO  - 10.1145/3636534.3690668
+UR  - https://doi.org/10.1145/3636534.3690668
+ER  - 
+
+TY  - GEN
+AU  - Xu, Jiajun
+AU  - Li, Zhiyuan
+AU  - Chen, Wei
+AU  - Wang, Qun
+AU  - Gao, Xin
+AU  - Cai, Qi
+AU  - Ling, Ziyuan
+TI  - On-Device Language Models: A Comprehensive Review
+T2  - arXiv preprint arXiv:2409.00088
+PY  - 2024
+DO  - 10.48550/arXiv.2409.00088
+UR  - https://arxiv.org/abs/2409.00088
+N1  - arXiv:2409.00088
+ER  - 
+
+TY  - JOUR
+AU  - Wan, Zhongwei
+AU  - Wang, Xin
+AU  - Liu, Che
+AU  - Alam, Samiul
+AU  - Zheng, Yu
+AU  - Liu, Jiachen
+AU  - Qu, Zhongnan
+AU  - Yan, Shen
+AU  - Zhu, Yi
+AU  - Zhang, Quanlu
+AU  - Chowdhury, Mosharaf
+AU  - Zhang, Mi
+TI  - Efficient Large Language Models: A Survey
+JO  - Transactions on Machine Learning Research
+T2  - Transactions on Machine Learning Research
+PY  - 2024
+UR  - https://openreview.net/forum?id=bsCCJHbO8A
+N1  - arXiv:2312.03863
+ER  - 
+
+TY  - GEN
+AU  - Zhou, Zixuan
+AU  - Ning, Xuefei
+AU  - Hong, Ke
+AU  - Fu, Tianyu
+AU  - Xu, Jiaming
+AU  - Li, Shiyao
+AU  - Lou, Yuming
+AU  - Wang, Luning
+AU  - Yuan, Zhihang
+AU  - Li, Xiuhong
+AU  - Yan, Shengen
+AU  - Dai, Guohao
+AU  - Zhang, Xiao-Ping
+AU  - Dong, Yuhan
+AU  - Wang, Yu
+TI  - A Survey on Efficient Inference for Large Language Models
+T2  - arXiv preprint arXiv:2404.14294
+PY  - 2024
+DO  - 10.48550/arXiv.2404.14294
+UR  - https://arxiv.org/abs/2404.14294
+N1  - arXiv:2404.14294
+ER  - 
+
+TY  - GEN
+AU  - Lu, Zhenyan
+AU  - Li, Xiang
+AU  - Cai, Dongqi
+AU  - Yi, Rongjie
+AU  - Liu, Fangming
+AU  - Zhang, Xiwen
+AU  - Lane, Nicholas D.
+AU  - Xu, Mengwei
+TI  - Small Language Models: Survey, Measurements, and Insights
+T2  - arXiv preprint arXiv:2409.15790
+PY  - 2024
+DO  - 10.48550/arXiv.2409.15790
+UR  - https://arxiv.org/abs/2409.15790
+N1  - arXiv:2409.15790
+ER  - 
+
+TY  - GEN
+AU  - Abdin, Marah
+AU  - Aneja, Jyoti
+AU  - Awadalla, Hany
+AU  - Awadallah, Ahmed
+AU  - Awan, Ammar Ahmad
+AU  - Bach, Nguyen
+AU  - Bahree, Amit
+AU  - Bakhtiari, Arash
+AU  - Bao, Jianmin
+AU  - Behl, Harkirat
+AU  - others
+TI  - Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
+T2  - arXiv preprint arXiv:2404.14219
+PY  - 2024
+DO  - 10.48550/arXiv.2404.14219
+UR  - https://arxiv.org/abs/2404.14219
+N1  - arXiv:2404.14219
+ER  - 
+
+TY  - JOUR
+AU  - Husom, Erik Johannes
+AU  - Goknil, Arda
+AU  - Astekin, Merve
+AU  - Shar, Lwin Khin
+AU  - Kåsen, Andre
+AU  - Sen, Sagar
+AU  - Mithassel, Benedikt Andreas
+AU  - Soylu, Ahmet
+TI  - Sustainable LLM Inference for Edge AI: Evaluating Quantized LLMs for Energy Efficiency, Output Accuracy, and Inference Latency
+JO  - ACM Transactions on Internet of Things
+T2  - ACM Transactions on Internet of Things
+PY  - 2025
+VL  - 6
+IS  - 4
+SP  - 1
+EP  - 35
+PB  - Association for Computing Machinery (ACM)
+DO  - 10.1145/3767742
+UR  - https://doi.org/10.1145/3767742
+ER  - 
+
+TY  - CONF
+AU  - Arya, Mayank
+AU  - Simmhan, Yogesh
+TI  - Understanding the Performance and Power of LLM Inferencing on Edge Accelerators
+T2  - 2025 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)
+PY  - 2025
+SP  - 1108
+EP  - 1111
+PB  - IEEE
+DO  - 10.1109/IPDPSW66978.2025.00173
+UR  - https://doi.org/10.1109/IPDPSW66978.2025.00173
+ER  - 
+
+TY  - CONF
+AU  - Kubwimana, Benjamin
+AU  - Huang, Qijing
+TI  - EdgeReasoning: Characterizing Reasoning LLM Deployment on Edge GPUs
+T2  - 2025 IEEE International Symposium on Workload Characterization (IISWC)
+PY  - 2025
+SP  - 99
+EP  - 115
+PB  - IEEE
+DO  - 10.1109/IISWC66894.2025.00018
+UR  - https://doi.org/10.1109/IISWC66894.2025.00018
+ER  - 
+
+TY  - CONF
+AU  - Seymour, Liam
+AU  - Kutukcu, Basar
+AU  - Baidya, Sabur
+TI  - Large Language Models on Small Resource-Constrained Systems: Performance Analysis and Trade-Offs
+T2  - SoutheastCon 2025
+PY  - 2025
+SP  - 1362
+EP  - 1369
+PB  - IEEE
+DO  - 10.1109/SoutheastCon56624.2025.10971638
+UR  - https://doi.org/10.1109/SoutheastCon56624.2025.10971638
+ER  - 
+
+TY  - CONF
+AU  - Islam, Md Romyull
+AU  - Deng, Bobin
+AU  - Dhar, Nobel
+AU  - Nguyen, Tu N.
+AU  - He, Selena
+AU  - Shi, Yong
+AU  - Suo, Kun
+TI  - Characterizing and Understanding Energy Footprint and Efficiency of Small Language Model on Edges
+T2  - 2025 IEEE 22nd International Conference on Mobile Ad-Hoc and Smart Systems (MASS)
+PY  - 2025
+SP  - 363
+EP  - 371
+PB  - IEEE
+DO  - 10.1109/MASS66014.2025.00059
+UR  - https://doi.org/10.1109/MASS66014.2025.00059
+ER  - 
+
+TY  - JOUR
+AU  - Giedra, Henrikas
+AU  - Matuzevičius, Dalius
+AU  - Sledevič, Tomyslav
+AU  - Shubitidze, Giga
+AU  - Serackis, Artūras
+TI  - Benchmarking Large Language Model Inference on Limited-Resource Edge Systems
+JO  - Electronics
+T2  - Electronics
+PY  - 2026
+VL  - 15
+IS  - 11
+SP  - 2451
+PB  - MDPI AG
+DO  - 10.3390/electronics15112451
+UR  - https://doi.org/10.3390/electronics15112451
+ER  - 
+
+TY  - JOUR
+AU  - Xiao, Jie
+AU  - Huang, Qianyi
+AU  - Chen, Xu
+AU  - Tian, Chen
+TI  - Understanding Large Language Models in Your Pockets: Performance Study on COTS Mobile Devices
+JO  - IEEE Transactions on Mobile Computing
+T2  - IEEE Transactions on Mobile Computing
+PY  - 2026
+VL  - 25
+IS  - 8
+SP  - 13077
+EP  - 13094
+PB  - Institute of Electrical and Electronics Engineers (IEEE)
+DO  - 10.1109/TMC.2026.3674827
+UR  - https://doi.org/10.1109/TMC.2026.3674827
+ER  - 
+
+TY  - CONF
+AU  - Li, Yilong
+AU  - Liu, Jingyu
+AU  - Zhang, Hao
+AU  - Narayanan, M Badri
+AU  - Sharma, Utkarsh
+AU  - Zhang, Shuai
+AU  - Hu, Pan
+AU  - Zeng, Yijing
+AU  - Raghuram, Jayaram
+AU  - Banerjee, Suman
+TI  - PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2025
+UR  - https://openreview.net/forum?id=xzSUdw6s76
+N1  - arXiv:2410.05315
+ER  - 
+
+TY  - GEN
+AU  - Khatib, Maysam
+AU  - Symeonides, Moysis
+AU  - Trihinas, Demetris
+AU  - Pallis, George
+AU  - Dikaiakos, Marios D.
+TI  - A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware
+T2  - arXiv preprint arXiv:2609.08307
+PY  - 2026
+DO  - 10.48550/arXiv.2609.08307
+UR  - https://arxiv.org/abs/2609.08307
+N1  - arXiv:2609.08307
+ER  - 
+
+TY  - GEN
+AU  - Taherin, Amir
+AU  - Taghipour Anvari, Sana
+AU  - Amante, Charles
+AU  - Chen, Yixiao
+AU  - Noroian, Ruben
+AU  - Feric, Zlatan
+AU  - Bohm Agostini, Nicolas
+AU  - Zhao, Pu
+AU  - Cano, José
+AU  - Ren, Bin
+AU  - Wang, Yanzhi
+AU  - Kaeli, David
+TI  - Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels
+T2  - arXiv preprint arXiv:2608.25053
+PY  - 2026
+DO  - 10.48550/arXiv.2608.25053
+UR  - https://arxiv.org/abs/2608.25053
+N1  - arXiv:2608.25053
+ER  - 
+
+TY  - JOUR
+AU  - Gonzalez, R.
+AU  - Horowitz, M.
+TI  - Energy dissipation in general purpose microprocessors
+JO  - IEEE Journal of Solid-State Circuits
+T2  - IEEE Journal of Solid-State Circuits
+PY  - 1996
+VL  - 31
+IS  - 9
+SP  - 1277
+EP  - 1284
+PB  - Institute of Electrical and Electronics Engineers (IEEE)
+DO  - 10.1109/4.535411
+UR  - https://doi.org/10.1109/4.535411
+ER  - 
+
+TY  - CONF
+AU  - Le Sueur, Etienne
+AU  - Heiser, Gernot
+TI  - Dynamic Voltage and Frequency Scaling: The Laws of Diminishing Returns
+T2  - Proceedings of the 2010 Workshop on Power Aware Computing and Systems (HotPower '10)
+PY  - 2010
+PB  - USENIX Association
+UR  - https://www.usenix.org/legacy/events/hotpower10/tech/full_papers/LeSueur.pdf
+ER  - 
+
+TY  - JOUR
+AU  - Awan, Muhammad Ali
+AU  - Petters, Stefan M.
+TI  - Race-to-halt energy saving strategies
+JO  - Journal of Systems Architecture
+T2  - Journal of Systems Architecture
+PY  - 2014
+VL  - 60
+IS  - 10
+SP  - 796
+EP  - 815
+PB  - Elsevier BV
+DO  - 10.1016/j.sysarc.2014.10.001
+UR  - https://doi.org/10.1016/j.sysarc.2014.10.001
+ER  - 
+
+TY  - CONF
+AU  - Tang, Zhenheng
+AU  - Wang, Yuxin
+AU  - Wang, Qiang
+AU  - Chu, Xiaowen
+TI  - The Impact of GPU DVFS on the Energy and Performance of Deep Learning
+T2  - Proceedings of the Tenth ACM International Conference on Future Energy Systems (e-Energy '19)
+PY  - 2019
+SP  - 315
+EP  - 325
+PB  - ACM
+DO  - 10.1145/3307772.3328315
+UR  - https://doi.org/10.1145/3307772.3328315
+ER  - 
+
+TY  - CONF
+AU  - Zhang, Ziyang
+AU  - Zhao, Yang
+AU  - Chang, Ming-Ching
+AU  - Lin, Changyao
+AU  - Liu, Jie
+TI  - E4: Energy-Efficient DNN Inference for Edge Video Analytics via Early Exiting and DVFS
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+PY  - 2025
+VL  - 39
+IS  - 1
+SP  - 1165
+EP  - 1173
+PB  - Association for the Advancement of Artificial Intelligence (AAAI)
+DO  - 10.1609/aaai.v39i1.32104
+UR  - https://doi.org/10.1609/aaai.v39i1.32104
+ER  - 
+
+TY  - JOUR
+AU  - S. K., Prashanthi
+AU  - Kesanapalli, Sai Anuroop
+AU  - Simmhan, Yogesh
+TI  - Characterizing the Performance of Accelerated Jetson Edge Devices for Training Deep Learning Models
+JO  - Proceedings of the ACM on Measurement and Analysis of Computing Systems
+T2  - Proceedings of the ACM on Measurement and Analysis of Computing Systems
+PY  - 2022
+VL  - 6
+IS  - 3
+SP  - 1
+EP  - 26
+PB  - Association for Computing Machinery (ACM)
+DO  - 10.1145/3570604
+UR  - https://doi.org/10.1145/3570604
+ER  - 
+
+TY  - GEN
+AU  - Xu, Hao
+AU  - Peng, Long
+AU  - Song, Shezheng
+AU  - Liu, Xiaodong
+AU  - Jun, Ma
+AU  - Li, Shasha
+AU  - Yu, Jie
+AU  - Mao, Xiaoguang
+TI  - Camel: Energy-Aware LLM Inference on Resource-Constrained Devices
+T2  - arXiv preprint arXiv:2508.09173
+PY  - 2025
+DO  - 10.48550/arXiv.2508.09173
+UR  - https://arxiv.org/abs/2508.09173
+N1  - arXiv:2508.09173
+ER  - 
+
+TY  - CONF
+AU  - Shalavi, Neda
+AU  - Khoshsirat, Aria
+AU  - Stellini, Marco
+AU  - Zanella, Andrea
+AU  - Rossi, Michele
+TI  - Accurate Calibration of Power Measurements from Internal Power Sensors on NVIDIA Jetson Devices
+T2  - 2023 IEEE International Conference on Edge Computing and Communications (EDGE)
+PY  - 2023
+SP  - 166
+EP  - 170
+PB  - IEEE
+DO  - 10.1109/EDGE60047.2023.00034
+UR  - https://doi.org/10.1109/EDGE60047.2023.00034
+ER  - 
+
+TY  - ELEC
+AU  - NVIDIA Corporation
+TI  - Platform Power and Performance: Jetson Orin Nano Series, Jetson Orin NX Series and Jetson AGX Orin Series
+PB  - NVIDIA Jetson Linux Developer Guide (r36.4)
+PY  - 2024
+UR  - https://docs.nvidia.com/jetson/archives/r36.4/DeveloperGuide/SD/PlatformPowerAndPerformance/JetsonOrinNanoSeriesJetsonOrinNxSeriesAndJetsonAgxOrinSeries.html
+N1  - Accessed 3 October 2026
+ER  - 
+
+TY  - ELEC
+AU  - Karumbunathan, Leela S.
+TI  - NVIDIA Jetson AGX Orin Series Technical Brief: A Giant Leap Forward for Robotics and Edge AI Applications
+PB  - NVIDIA Technical Brief TB_10749-001_v1.2
+PY  - 2022
+UR  - https://www.nvidia.com/content/dam/en-zz/Solutions/gtcf21/jetson-orin/nvidia-jetson-agx-orin-technical-brief.pdf
+N1  - Version 1.2, July 2022
+ER  - 
+
+TY  - ELEC
+AU  - Texas Instruments
+TI  - INA3221 26-V, Triple-Channel, 13-Bit, I2C Output Current and Voltage Monitor With Alerts
+PB  - Data sheet SBOS576C
+PY  - 2012
+UR  - https://www.ti.com/lit/ds/symlink/ina3221.pdf
+N1  - May 2012, revised September 2026. Accessed 3 October 2026
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Lingjiao
+AU  - Zaharia, Matei
+AU  - Zou, James
+TI  - FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance
+JO  - Transactions on Machine Learning Research
+T2  - Transactions on Machine Learning Research
+PY  - 2024
+UR  - https://openreview.net/forum?id=cSimKw5p6R
+N1  - arXiv:2305.05176
+ER  - 
+
+TY  - CONF
+AU  - Ong, Isaac
+AU  - Almahairi, Amjad
+AU  - Wu, Vincent
+AU  - Chiang, Wei-Lin
+AU  - Wu, Tianhao
+AU  - Gonzalez, Joseph E.
+AU  - Kadous, M Waleed
+AU  - Stoica, Ion
+TI  - RouteLLM: Learning to Route LLMs from Preference Data
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2025
+UR  - https://openreview.net/forum?id=8sSqNntaMr
+N1  - arXiv:2406.18665
+ER  - 
+
+TY  - CONF
+AU  - Varshney, Neeraj
+AU  - Baral, Chitta
+TI  - Model Cascading: Towards Jointly Improving Efficiency and Accuracy of NLP Systems
+T2  - Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing
+PY  - 2022
+SP  - 11007
+EP  - 11021
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/2022.emnlp-main.756
+UR  - https://doi.org/10.18653/v1/2022.emnlp-main.756
+ER  - 
+
+TY  - CONF
+AU  - Gupta, Neha
+AU  - Narasimhan, Harikrishna
+AU  - Jitkrittum, Wittawat
+AU  - Rawat, Ankit Singh
+AU  - Menon, Aditya Krishna
+AU  - Kumar, Sanjiv
+TI  - Language Model Cascades: Token-Level Uncertainty and Beyond
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2024
+UR  - https://openreview.net/forum?id=KgaBScZ4VI
+N1  - arXiv:2404.10136
+ER  - 
+
+TY  - CONF
+AU  - Aggarwal, Pranjal
+AU  - Madaan, Aman
+AU  - Anand, Ankit
+AU  - Potharaju, Srividya Pranavi
+AU  - Mishra, Swaroop
+AU  - Zhou, Pei
+AU  - Gupta, Aditya
+AU  - Rajagopal, Dheeraj
+AU  - Kappaganthu, Karthik
+AU  - Yang, Yiming
+AU  - Upadhyay, Shyam
+AU  - Faruqui, Manaal
+AU  - Mausam, Mausam
+TI  - AutoMix: Automatically Mixing Language Models
+T2  - Advances in Neural Information Processing Systems
+PY  - 2024
+VL  - 37
+SP  - 131000
+EP  - 131034
+PB  - Neural Information Processing Systems Foundation, Inc. (NeurIPS)
+DO  - 10.52202/079017-4164
+UR  - https://doi.org/10.52202/079017-4164
+ER  - 
+
+TY  - CONF
+AU  - Ding, Dujian
+AU  - Mallick, Ankur
+AU  - Wang, Chi
+AU  - Sim, Robert
+AU  - Mukherjee, Subhabrata
+AU  - Ruhle, Victor
+AU  - Lakshmanan, Laks V. S.
+AU  - Awadallah, Ahmed Hassan
+TI  - Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2024
+UR  - https://openreview.net/forum?id=02f3mUtqnM
+N1  - arXiv:2404.14618
+ER  - 
+
+TY  - CONF
+AU  - Chen, Xingyu
+AU  - Xu, Jiahao
+AU  - Liang, Tian
+AU  - He, Zhiwei
+AU  - Pang, Jianhui
+AU  - Yu, Dian
+AU  - Song, Linfeng
+AU  - Liu, Qiuzhi
+AU  - Zhou, Mengfei
+AU  - Zhang, Zhuosheng
+AU  - Wang, Rui
+AU  - Tu, Zhaopeng
+AU  - Mi, Haitao
+AU  - Yu, Dong
+TI  - Do NOT Think That Much for 2+3=? On the Overthinking of Long Reasoning Models
+T2  - Proceedings of the 42nd International Conference on Machine Learning
+PY  - 2025
+VL  - 267
+SP  - 9487
+EP  - 9499
+PB  - PMLR
+UR  - https://proceedings.mlr.press/v267/chen25bx.html
+N1  - Preprint title: Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs
+ER  - 
+
+TY  - JOUR
+AU  - Sui, Yang
+AU  - Chuang, Yu-Neng
+AU  - Wang, Guanchu
+AU  - Zhang, Jiamu
+AU  - Zhang, Tianyi
+AU  - Yuan, Jiayi
+AU  - Liu, Hongyi
+AU  - Wen, Andrew
+AU  - Zhong, Shaochen
+AU  - Zou, Na
+AU  - Chen, Hanjie
+AU  - Hu, Xia
+TI  - Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models
+JO  - Transactions on Machine Learning Research
+T2  - Transactions on Machine Learning Research
+PY  - 2025
+UR  - https://openreview.net/forum?id=HvoG8SxggZ
+N1  - arXiv:2503.16419
+ER  - 
+
+TY  - GEN
+AU  - Cobbe, Karl
+AU  - Kosaraju, Vineet
+AU  - Bavarian, Mohammad
+AU  - Chen, Mark
+AU  - Jun, Heewoo
+AU  - Kaiser, Lukasz
+AU  - Plappert, Matthias
+AU  - Tworek, Jerry
+AU  - Hilton, Jacob
+AU  - Nakano, Reiichiro
+AU  - Hesse, Christopher
+AU  - Schulman, John
+TI  - Training Verifiers to Solve Math Word Problems
+T2  - arXiv preprint arXiv:2110.14168
+PY  - 2021
+DO  - 10.48550/arXiv.2110.14168
+UR  - https://arxiv.org/abs/2110.14168
+N1  - arXiv:2110.14168
+ER  - 
+
+TY  - GEN
+AU  - Clark, Peter
+AU  - Cowhey, Isaac
+AU  - Etzioni, Oren
+AU  - Khot, Tushar
+AU  - Sabharwal, Ashish
+AU  - Schoenick, Carissa
+AU  - Tafjord, Oyvind
+TI  - Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge
+T2  - arXiv preprint arXiv:1803.05457
+PY  - 2018
+DO  - 10.48550/arXiv.1803.05457
+UR  - https://arxiv.org/abs/1803.05457
+N1  - arXiv:1803.05457
+ER  - 
+
+TY  - CONF
+AU  - Clark, Christopher
+AU  - Lee, Kenton
+AU  - Chang, Ming-Wei
+AU  - Kwiatkowski, Tom
+AU  - Collins, Michael
+AU  - Toutanova, Kristina
+TI  - BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions
+T2  - Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)
+PY  - 2019
+SP  - 2924
+EP  - 2936
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/N19-1300
+UR  - https://doi.org/10.18653/v1/N19-1300
+ER  - 
+
+TY  - CONF
+AU  - Sainz, Oscar
+AU  - Campos, Jon
+AU  - García-Ferrero, Iker
+AU  - Etxaniz, Julen
+AU  - de Lacalle, Oier Lopez
+AU  - Agirre, Eneko
+TI  - NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+PY  - 2023
+SP  - 10776
+EP  - 10787
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/2023.findings-emnlp.722
+UR  - https://doi.org/10.18653/v1/2023.findings-emnlp.722
+ER  - 
+
+TY  - CONF
+AU  - Golchin, Shahriar
+AU  - Surdeanu, Mihai
+TI  - Time Travel in LLMs: Tracing Data Contamination in Large Language Models
+T2  - International Conference on Learning Representations (ICLR)
+PY  - 2024
+UR  - https://openreview.net/forum?id=2Rwq6c3tvr
+N1  - arXiv:2308.08493
+ER  - 
+
+TY  - JOUR
+AU  - Efron, B.
+TI  - Bootstrap Methods: Another Look at the Jackknife
+JO  - The Annals of Statistics
+T2  - The Annals of Statistics
+PY  - 1979
+VL  - 7
+IS  - 1
+SP  - 1
+EP  - 26
+PB  - Institute of Mathematical Statistics
+DO  - 10.1214/aos/1176344552
+UR  - https://doi.org/10.1214/aos/1176344552
+ER  - 
+
+TY  - JOUR
+AU  - McNemar, Quinn
+TI  - Note on the Sampling Error of the Difference Between Correlated Proportions or Percentages
+JO  - Psychometrika
+T2  - Psychometrika
+PY  - 1947
+VL  - 12
+IS  - 2
+SP  - 153
+EP  - 157
+PB  - Cambridge University Press (CUP)
+DO  - 10.1007/BF02295996
+UR  - https://doi.org/10.1007/BF02295996
+ER  - 
+
+TY  - JOUR
+AU  - Dietterich, Thomas G.
+TI  - Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms
+JO  - Neural Computation
+T2  - Neural Computation
+PY  - 1998
+VL  - 10
+IS  - 7
+SP  - 1895
+EP  - 1923
+PB  - MIT Press
+DO  - 10.1162/089976698300017197
+UR  - https://doi.org/10.1162/089976698300017197
+ER  - 
+
+TY  - JOUR
+AU  - Holm, Sture
+TI  - A Simple Sequentially Rejective Multiple Test Procedure
+JO  - Scandinavian Journal of Statistics
+T2  - Scandinavian Journal of Statistics
+PY  - 1979
+VL  - 6
+IS  - 2
+SP  - 65
+EP  - 70
+UR  - https://www.jstor.org/stable/4615733
+ER  - 
+
+TY  - CONF
+AU  - Dror, Rotem
+AU  - Baumer, Gili
+AU  - Shlomov, Segev
+AU  - Reichart, Roi
+TI  - The Hitchhiker's Guide to Testing Statistical Significance in Natural Language Processing
+T2  - Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+PY  - 2018
+SP  - 1383
+EP  - 1392
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/P18-1128
+UR  - https://doi.org/10.18653/v1/P18-1128
+ER  - 
+
+TY  - CONF
+AU  - Ethayarajh, Kawin
+AU  - Jurafsky, Dan
+TI  - Utility is in the Eye of the User: A Critique of NLP Leaderboards
+T2  - Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+PY  - 2020
+SP  - 4846
+EP  - 4853
+PB  - Association for Computational Linguistics
+DO  - 10.18653/v1/2020.emnlp-main.393
+UR  - https://doi.org/10.18653/v1/2020.emnlp-main.393
+ER  - 
+
+TY  - JOUR
+AU  - Liang, Percy
+AU  - Bommasani, Rishi
+AU  - Lee, Tony
+AU  - Tsipras, Dimitris
+AU  - Soylu, Dilara
+AU  - Yasunaga, Michihiro
+AU  - Zhang, Yian
+AU  - Narayanan, Deepak
+AU  - Wu, Yuhuai
+AU  - Kumar, Ananya
+AU  - others
+TI  - Holistic Evaluation of Language Models
+JO  - Transactions on Machine Learning Research
+T2  - Transactions on Machine Learning Research
+PY  - 2023
+UR  - https://openreview.net/forum?id=iO4LZibEqW
+N1  - arXiv:2211.09110
+ER  - 

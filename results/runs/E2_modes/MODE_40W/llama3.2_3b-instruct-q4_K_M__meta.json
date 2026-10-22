@@ -1,0 +1,1 @@
+{"model": "llama3.2:3b-instruct-q4_K_M", "mode": "MODE_40W", "think": null, "load_s": 5.502959251403809, "p_idle_loaded_W": 9.438080000000001, "idle_trace_temp_tj": 53.77592799999999, "loadavg_before": 2.46, "num_ctx": 2048, "time": 1792614612.4726691, "nvpmodel": "NV Power Mode: MODE_40W"}

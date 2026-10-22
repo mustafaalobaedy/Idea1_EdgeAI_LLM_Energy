@@ -1,0 +1,1 @@
+{"model": "gemma2:2b-instruct-q4_K_M", "mode": "MAXN", "think": null, "load_s": 5.428654909133911, "p_idle_loaded_W": 9.683840000000002, "idle_trace_temp_tj": 55.489881, "loadavg_before": 2.76, "num_ctx": 2048, "time": 1792565779.029212, "nvpmodel": "NV Power Mode: MAXN"}

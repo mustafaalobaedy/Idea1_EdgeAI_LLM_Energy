@@ -1,0 +1,1 @@
+{"model": "qwen2.5:0.5b-instruct-q4_K_M", "mode": "MODE_40W", "think": null, "load_s": 3.065131664276123, "p_idle_loaded_W": 9.540000000000001, "idle_trace_temp_tj": 53.284409, "loadavg_before": 1.39, "num_ctx": 2048, "time": 1792610275.9532034, "nvpmodel": "NV Power Mode: MODE_40W"}

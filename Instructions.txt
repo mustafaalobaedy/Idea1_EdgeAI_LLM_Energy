@@ -1,0 +1,25 @@
+W 
+
+Writing instructions:
+1.  
+2. Don't add any author name or affiliation for now.
+3. cite 1, 2 or 3 of my already published Scopus papers if related (use only papers which has less than 40 citations in Scopus):
+https://www.scopus.com/authid/detail.uri?authorId=55810388000
+https://scholar.google.com/citations?user=Ezu8VqcAAAAJ&hl=en
+4. Make sure all references are real and exist
+5. Check all references have citations in the text and all citations have references in the list
+6. Check that all tables, figures, and equations numbers has been referred in the text, make sure the labels in the graphs don't overlap and the font are dark
+7. Use insert-equation box for equations
+8. If you create any flow or diagram, make it editable and black and white colors and explain it in details
+9. Add pseudocode if related and possible and explain it in details
+10. Show complete EDA if related and explain it in details
+11. Add my biography if required by template
+12. Add no funding statement if required by template
+13. Add AI statement if required by template (highlight it in yellow)
+14. Add code link (ask me to create) if required by template and add only me name as contributor (Mustafa Muwafak Alobaedy)
+15. Use Good American English
+16. Write in passive voice
+17. Safe it in word format.
+18. Save the word file with name using the first 5 words from title with version number Vx such as V01, V02, etc..
+19. Write cover letter
+20. Organize the files nicely 

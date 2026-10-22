@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+logs/ollama_bench_server*.log
+paper/paper.docx
+paper/*.pdf
+paper/*.docx
+results/analyze_stderr.txt
+results/analyze_stdout.txt
+.DS_Store
+*.conflicted copy*

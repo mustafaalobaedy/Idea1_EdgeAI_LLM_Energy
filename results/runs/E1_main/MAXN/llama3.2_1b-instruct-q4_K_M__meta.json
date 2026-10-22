@@ -1,0 +1,1 @@
+{"model": "llama3.2:1b-instruct-q4_K_M", "mode": "MAXN", "think": null, "load_s": 3.7717387676239014, "p_idle_loaded_W": 9.786240000000001, "idle_trace_temp_tj": 55.58345199999999, "loadavg_before": 2.06, "num_ctx": 2048, "time": 1792558113.4245977, "nvpmodel": "NV Power Mode: MAXN"}

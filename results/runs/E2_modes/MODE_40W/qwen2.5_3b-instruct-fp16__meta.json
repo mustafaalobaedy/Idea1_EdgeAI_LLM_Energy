@@ -1,0 +1,1 @@
+{"model": "qwen2.5:3b-instruct-fp16", "mode": "MODE_40W", "think": null, "load_s": 9.868301153182983, "p_idle_loaded_W": 9.53776, "idle_trace_temp_tj": 53.167539, "loadavg_before": 3.98, "num_ctx": 2048, "time": 1792612353.1107836, "nvpmodel": "NV Power Mode: MODE_40W"}

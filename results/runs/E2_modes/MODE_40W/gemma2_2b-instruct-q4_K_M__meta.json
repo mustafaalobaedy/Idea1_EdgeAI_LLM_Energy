@@ -1,0 +1,1 @@
+{"model": "gemma2:2b-instruct-q4_K_M", "mode": "MODE_40W", "think": null, "load_s": 5.545233249664307, "p_idle_loaded_W": 9.540000000000001, "idle_trace_temp_tj": 53.54675199999999, "loadavg_before": 4.6, "num_ctx": 2048, "time": 1792615123.5584636, "nvpmodel": "NV Power Mode: MODE_40W"}

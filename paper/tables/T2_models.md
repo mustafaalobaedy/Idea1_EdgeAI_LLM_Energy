@@ -1,0 +1,29 @@
+| Ollama tag | Family | Params (B) | Quant. | File size (GB) | Bits per weight |
+|---|---|---|---|---|---|
+| qwen2.5:0.5b-instruct-q4_K_M | Qwen2.5 | 0.49 | Q4_K_M | 0.40 | 6.4 |
+| qwen2.5:0.5b-instruct-q8_0 | Qwen2.5 | 0.49 | Q8_0 | 0.53 | 8.6 |
+| qwen2.5:0.5b-instruct-fp16 | Qwen2.5 | 0.49 | FP16 | 0.99 | 16.1 |
+| qwen2.5:1.5b-instruct-q4_K_M | Qwen2.5 | 1.54 | Q4_K_M | 0.99 | 5.1 |
+| qwen2.5:1.5b-instruct-q8_0 | Qwen2.5 | 1.54 | Q8_0 | 1.65 | 8.5 |
+| qwen2.5:1.5b-instruct-fp16 | Qwen2.5 | 1.54 | FP16 | 3.09 | 16.0 |
+| qwen2.5:3b-instruct-q3_K_M | Qwen2.5 | 3.09 | Q3_K_M | 1.59 | 4.1 |
+| qwen2.5:3b-instruct-q4_K_M | Qwen2.5 | 3.09 | Q4_K_M | 1.93 | 5.0 |
+| qwen2.5:3b-instruct-q5_K_M | Qwen2.5 | 3.09 | Q5_K_M | 2.22 | 5.8 |
+| qwen2.5:3b-instruct-q6_K | Qwen2.5 | 3.09 | Q6_K | 2.54 | 6.6 |
+| qwen2.5:3b-instruct-q8_0 | Qwen2.5 | 3.09 | Q8_0 | 3.29 | 8.5 |
+| qwen2.5:3b-instruct-fp16 | Qwen2.5 | 3.09 | FP16 | 6.18 | 16.0 |
+| qwen2.5:7b-instruct-q4_K_M | Qwen2.5 | 7.62 | Q4_K_M | 4.68 | 4.9 |
+| qwen2.5:7b-instruct-q8_0 | Qwen2.5 | 7.62 | Q8_0 | 8.10 | 8.5 |
+| llama3.2:1b-instruct-q4_K_M | Llama3.2 | 1.24 | Q4_K_M | 0.81 | 5.2 |
+| llama3.2:1b-instruct-q8_0 | Llama3.2 | 1.24 | Q8_0 | 1.32 | 8.6 |
+| llama3.2:1b-instruct-fp16 | Llama3.2 | 1.24 | FP16 | 2.48 | 16.1 |
+| llama3.2:3b-instruct-q4_K_M | Llama3.2 | 3.21 | Q4_K_M | 2.02 | 5.0 |
+| llama3.2:3b-instruct-q8_0 | Llama3.2 | 3.21 | Q8_0 | 3.42 | 8.5 |
+| llama3.2:3b-instruct-fp16 | Llama3.2 | 3.21 | FP16 | 6.43 | 16.0 |
+| gemma2:2b-instruct-q4_K_M | Gemma2 | 2.61 | Q4_K_M | 1.71 | 5.2 |
+| gemma2:2b-instruct-q8_0 | Gemma2 | 2.61 | Q8_0 | 2.78 | 8.5 |
+| gemma2:2b-instruct-fp16 | Gemma2 | 2.61 | FP16 | 5.24 | 16.0 |
+| qwen3:1.7b | Qwen3 | 2.03 | Q4_K_M | 1.36 | 5.4 |
+| qwen3:4b | Qwen3 | 4.02 | Q4_K_M | 2.50 | 5.0 |
+| qwen3:4b-instruct-2507-q4_K_M | Qwen3 | 4.02 | Q4_K_M | 2.50 | 5.0 |
+| qwen3:8b | Qwen3 | 8.19 | Q4_K_M | 5.23 | 5.1 |

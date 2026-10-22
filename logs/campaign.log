@@ -1,0 +1,1026 @@
+Sat Oct  3 10:45:48 AM UTC 2026 all models downloaded
+Sat Oct  3 10:46:25 AM UTC 2026 power mode -> NV Power Mode: MAXN
+{'mode': 'MAXN', 'time': 1791024445.5863254, 'secs': 60, 'P_VDD_GPU_SOC': 3.44064, 'P_VDD_CPU_CV': 0.73728, 'P_VIN_SYS_5V0': 4.89216, 'P_VDDQ_VDD2_1V8AO': 0.5096, 'P_total': 9.579680000000002, 'T_cpu': 47.968, 'T_gpu': 44.562, 'T_soc0': 45.656, 'T_tj': 47.968, 'gpu_load': 0.0, 'gpu_freq_mhz': 306.0, 'nvpmodel': 'NV Power Mode: MAXN'}
+10:47:31 == qwen2.5:0.5b-instruct-q4_K_M mode=MAXN think=None loadavg=0.92
+10:47:55    load=2.8s idle=9.58W
+10:47:55    arc 0/300 E=1.9J P=10.9W out=8 ok=True
+10:48:00    arc 50/300 E=1.2J P=23.3W out=2 ok=True
+10:48:04    arc 100/300 E=2.4J P=24.2W out=8 ok=False
+10:48:08    arc 150/300 E=2.4J P=24.7W out=8 ok=True
+10:48:13    arc 200/300 E=2.1J P=24.0W out=8 ok=True
+10:48:17    arc 250/300 E=2.1J P=23.9W out=8 ok=False
+10:48:22    boolq 0/300 E=1.7J P=23.5W out=3 ok=True
+10:48:26    boolq 50/300 E=1.4J P=18.1W out=3 ok=True
+10:48:30    boolq 100/300 E=1.6J P=18.2W out=3 ok=True
+10:48:35    boolq 150/300 E=2.1J P=18.5W out=3 ok=True
+10:48:40    boolq 200/300 E=1.5J P=17.2W out=3 ok=True
+10:48:45    boolq 250/300 E=1.3J P=18.4W out=3 ok=False
+10:48:51    gsm8k 0/200 E=40.6J P=25.1W out=205 ok=False
+10:50:53    gsm8k 50/200 E=44.9J P=30.0W out=199 ok=True
+10:52:39    gsm8k 100/200 E=70.6J P=30.2W out=315 ok=True
+10:54:44    gsm8k 150/200 E=75.0J P=30.3W out=335 ok=False
+10:56:54 == qwen2.5:0.5b-instruct-q8_0 mode=MAXN think=None loadavg=4.18
+10:57:17    load=2.7s idle=10.03W
+10:57:17    arc 0/300 E=1.9J P=11.3W out=8 ok=True
+10:57:20    arc 50/300 E=1.2J P=23.0W out=2 ok=True
+10:57:23    arc 100/300 E=1.1J P=22.6W out=2 ok=False
+10:57:26    arc 150/300 E=1.1J P=21.9W out=2 ok=True
+10:57:29    arc 200/300 E=1.0J P=21.6W out=2 ok=False
+10:57:32    arc 250/300 E=0.9J P=23.9W out=2 ok=False
+10:57:35    boolq 0/300 E=1.5J P=21.8W out=2 ok=True
+10:57:39    boolq 50/300 E=1.6J P=22.2W out=3 ok=True
+10:57:42    boolq 100/300 E=1.3J P=19.9W out=2 ok=True
+10:57:47    boolq 150/300 E=1.5J P=19.4W out=3 ok=True
+10:57:51    boolq 200/300 E=1.7J P=18.8W out=3 ok=True
+10:57:55    boolq 250/300 E=1.3J P=20.4W out=3 ok=False
+10:58:01    gsm8k 0/200 E=45.2J P=27.2W out=223 ok=False
+10:59:59    gsm8k 50/200 E=40.3J P=33.0W out=162 ok=True
+11:01:39    gsm8k 100/200 E=77.6J P=31.9W out=349 ok=True
+11:03:33    gsm8k 150/200 E=58.4J P=32.0W out=261 ok=False
+11:05:22 == qwen2.5:0.5b-instruct-fp16 mode=MAXN think=None loadavg=4.47
+11:05:46    load=3.3s idle=10.62W
+11:05:46    arc 0/300 E=1.4J P=11.5W out=2 ok=True
+11:05:51    arc 50/300 E=1.6J P=26.2W out=2 ok=True
+11:05:55    arc 100/300 E=1.5J P=25.3W out=2 ok=False
+11:05:59    arc 150/300 E=1.6J P=26.1W out=2 ok=True
+11:06:02    arc 200/300 E=1.5J P=24.9W out=2 ok=False
+11:06:07    arc 250/300 E=1.3J P=24.7W out=2 ok=False
+11:06:10    boolq 0/300 E=2.2J P=23.9W out=3 ok=True
+11:06:15    boolq 50/300 E=2.1J P=23.9W out=3 ok=True
+11:06:20    boolq 100/300 E=1.7J P=24.1W out=2 ok=True
+11:06:24    boolq 150/300 E=2.6J P=24.3W out=3 ok=True
+11:06:29    boolq 200/300 E=2.0J P=24.2W out=3 ok=True
+11:06:33    boolq 250/300 E=1.9J P=22.8W out=3 ok=False
+11:06:42    gsm8k 0/200 E=113.7J P=29.5W out=223 ok=False
+11:11:16    gsm8k 50/200 E=84.7J P=30.4W out=162 ok=True
+11:15:43    gsm8k 100/200 E=180.6J P=30.1W out=349 ok=True
+11:20:24    gsm8k 150/200 E=122.6J P=29.6W out=243 ok=False
+11:25:07 == qwen2.5:1.5b-instruct-q4_K_M mode=MAXN think=None loadavg=5.00
+11:25:31    load=3.0s idle=9.58W
+11:25:32    arc 0/300 E=3.7J P=12.4W out=8 ok=True
+11:25:40    arc 50/300 E=4.7J P=28.4W out=7 ok=True
+11:25:48    arc 100/300 E=5.4J P=29.3W out=8 ok=True
+11:25:56    arc 150/300 E=3.5J P=29.2W out=4 ok=True
+11:26:05    arc 200/300 E=3.6J P=28.8W out=5 ok=False
+11:26:13    arc 250/300 E=3.2J P=27.4W out=5 ok=True
+11:26:21    boolq 0/300 E=4.0J P=27.2W out=3 ok=True
+11:26:29    boolq 50/300 E=2.5J P=25.4W out=3 ok=False
+11:26:35    boolq 100/300 E=3.3J P=24.7W out=3 ok=True
+11:26:43    boolq 150/300 E=4.3J P=24.6W out=3 ok=True
+11:26:49    boolq 200/300 E=3.0J P=24.3W out=3 ok=True
+11:26:57    boolq 250/300 E=2.2J P=24.8W out=2 ok=False
+11:27:07    gsm8k 0/200 E=114.2J P=32.1W out=212 ok=True
+11:31:31    gsm8k 50/200 E=91.2J P=33.2W out=163 ok=True
+11:35:55    gsm8k 100/200 E=162.6J P=32.8W out=280 ok=True
+11:37:37    foreign load detected: ['python3(2734597):96%']
+11:37:37    CONTAMINATED by ['python3(2734597):96%']: quarantined, retrying (attempt 1)
+11:37:42 waiting for idle machine: heavy=['python3(2734597):99%'] sys_ollama=[]
+11:39:47 waiting for idle machine: heavy=['python3(2734597):656%'] sys_ollama=[]
+11:41:53 waiting for idle machine: heavy=['python3(2734597):522%'] sys_ollama=[]
+11:43:58 waiting for idle machine: heavy=['python3(2734597):704%'] sys_ollama=[]
+11:46:03 waiting for idle machine: heavy=['python3(2734597):677%'] sys_ollama=[]
+11:48:08 waiting for idle machine: heavy=['python3(2734597):639%'] sys_ollama=[]
+11:50:13 waiting for idle machine: heavy=['python3(2734597):698%'] sys_ollama=[]
+11:52:19 waiting for idle machine: heavy=['python3(2734597):706%'] sys_ollama=[]
+11:54:24 waiting for idle machine: heavy=['python3(2734597):698%'] sys_ollama=[]
+11:56:29 waiting for idle machine: heavy=['python3(2734597):703%'] sys_ollama=[]
+11:58:34 waiting for idle machine: heavy=['python3(2734597):699%'] sys_ollama=[]
+12:00:40 waiting for idle machine: heavy=['python3(2734597):706%'] sys_ollama=[]
+12:02:45 waiting for idle machine: heavy=['python3(2734597):668%'] sys_ollama=[]
+12:04:50 waiting for idle machine: heavy=['python3(2734597):674%'] sys_ollama=[]
+12:06:55 waiting for idle machine: heavy=['python3(2734597):700%'] sys_ollama=[]
+12:09:01 waiting for idle machine: heavy=['python3(2734597):616%'] sys_ollama=[]
+12:11:06 waiting for idle machine: heavy=['python3(2734597):688%'] sys_ollama=[]
+12:13:11 waiting for idle machine: heavy=['python3(2734597):691%'] sys_ollama=[]
+12:15:16 waiting for idle machine: heavy=['python3(2734597):689%'] sys_ollama=[]
+12:17:22 waiting for idle machine: heavy=['python3(2734597):693%'] sys_ollama=[]
+12:19:27 waiting for idle machine: heavy=['python3(2734597):688%'] sys_ollama=[]
+12:21:32 waiting for idle machine: heavy=['python3(2734597):689%'] sys_ollama=[]
+12:23:37 waiting for idle machine: heavy=['python3(2734597):662%'] sys_ollama=[]
+12:25:43 waiting for idle machine: heavy=['python3(2734597):688%'] sys_ollama=[]
+12:27:48 waiting for idle machine: heavy=['python3(2734597):688%'] sys_ollama=[]
+12:29:53 waiting for idle machine: heavy=['python3(2734597):684%'] sys_ollama=[]
+12:31:58 waiting for idle machine: heavy=['python3(2734597):671%'] sys_ollama=[]
+12:34:04 waiting for idle machine: heavy=['python3(2734597):694%'] sys_ollama=[]
+12:36:09 waiting for idle machine: heavy=['python3(2734597):741%'] sys_ollama=[]
+12:38:14 waiting for idle machine: heavy=['python3(2734597):740%'] sys_ollama=[]
+12:40:19 waiting for idle machine: heavy=['python3(2734597):741%'] sys_ollama=[]
+12:42:25 waiting for idle machine: heavy=['python3(2734597):716%'] sys_ollama=[]
+12:44:30 waiting for idle machine: heavy=['python3(2734597):706%'] sys_ollama=[]
+12:46:35 waiting for idle machine: heavy=['python3(2734597):468%'] sys_ollama=[]
+12:48:40 == qwen2.5:1.5b-instruct-q4_K_M mode=MAXN think=None loadavg=2.15
+12:49:04    load=3.0s idle=9.58W
+12:49:05    arc 0/300 E=3.6J P=12.2W out=8 ok=True
+12:49:18    arc 50/300 E=4.6J P=28.2W out=7 ok=True
+12:49:27    arc 100/300 E=5.7J P=29.2W out=8 ok=True
+12:49:35    arc 150/300 E=3.3J P=28.2W out=4 ok=True
+12:49:43    arc 200/300 E=3.7J P=28.5W out=5 ok=False
+12:49:51    arc 250/300 E=3.2J P=27.5W out=5 ok=True
+12:50:00    boolq 0/300 E=4.2J P=27.9W out=3 ok=True
+12:50:07    boolq 50/300 E=2.6J P=24.1W out=3 ok=False
+12:50:14    boolq 100/300 E=3.1J P=24.6W out=3 ok=True
+12:50:21    boolq 150/300 E=4.3J P=24.4W out=3 ok=True
+12:50:28    boolq 200/300 E=2.9J P=23.6W out=3 ok=True
+12:50:35    boolq 250/300 E=2.2J P=24.1W out=2 ok=False
+12:50:46    gsm8k 0/200 E=114.6J P=32.3W out=212 ok=True
+12:55:04    gsm8k 50/200 E=90.2J P=33.2W out=163 ok=True
+12:59:19    gsm8k 100/200 E=154.7J P=33.3W out=280 ok=True
+13:03:28    gsm8k 150/200 E=125.3J P=32.9W out=228 ok=True
+13:07:36 == qwen2.5:1.5b-instruct-q8_0 mode=MAXN think=None loadavg=5.62
+13:08:00    load=3.6s idle=9.58W
+13:08:01    arc 0/300 E=3.3J P=12.9W out=8 ok=True
+13:08:10    arc 50/300 E=5.3J P=29.3W out=7 ok=True
+13:08:19    arc 100/300 E=6.0J P=29.1W out=8 ok=True
+13:08:28    arc 150/300 E=3.9J P=29.7W out=4 ok=True
+13:08:37    arc 200/300 E=3.6J P=29.5W out=4 ok=False
+13:08:46    arc 250/300 E=3.9J P=29.0W out=5 ok=True
+13:08:55    boolq 0/300 E=3.4J P=28.0W out=2 ok=True
+13:09:02    boolq 50/300 E=2.7J P=25.0W out=2 ok=True
+13:09:08    boolq 100/300 E=2.7J P=25.6W out=2 ok=True
+13:09:15    boolq 150/300 E=4.4J P=25.3W out=3 ok=True
+13:09:22    boolq 200/300 E=2.6J P=25.1W out=2 ok=True
+13:09:29    boolq 250/300 E=2.1J P=25.8W out=2 ok=False
+13:09:40    gsm8k 0/200 E=168.6J P=33.1W out=256 ok=True
+13:14:23    gsm8k 50/200 E=95.4J P=33.7W out=142 ok=True
+13:19:09    gsm8k 100/200 E=163.8J P=33.9W out=244 ok=True
+13:24:14    gsm8k 150/200 E=143.9J P=33.7W out=215 ok=False
+13:29:05 == qwen2.5:1.5b-instruct-fp16 mode=MAXN think=None loadavg=5.09
+13:29:31    load=4.8s idle=9.58W
+13:29:31    arc 0/300 E=5.6J P=14.9W out=8 ok=True
+13:29:45    arc 50/300 E=8.2J P=28.6W out=7 ok=True
+13:29:59    arc 100/300 E=9.6J P=28.7W out=8 ok=True
+13:30:13    arc 150/300 E=5.4J P=29.1W out=4 ok=True
+13:30:26    arc 200/300 E=5.1J P=28.5W out=4 ok=False
+13:30:40    arc 250/300 E=5.9J P=28.1W out=5 ok=True
+13:30:54    boolq 0/300 E=3.9J P=27.5W out=2 ok=True
+13:31:01    boolq 50/300 E=3.1J P=27.4W out=2 ok=True
+13:31:08    boolq 100/300 E=3.5J P=27.7W out=2 ok=True
+13:31:16    boolq 150/300 E=5.4J P=26.7W out=3 ok=True
+13:31:24    boolq 200/300 E=3.3J P=26.7W out=2 ok=True
+13:31:31    boolq 250/300 E=3.2J P=27.0W out=2 ok=False
+13:31:50    gsm8k 0/200 E=354.6J P=31.3W out=313 ok=True
+Sat Oct  3 01:34:49 PM UTC 2026 restored MAXN
+
+===== Tue Oct 20 07:50:01 PM +08 2026 RESUME =====
+Tue Oct 20 07:50:03 PM +08 2026 bench server up: {"version":"0.33.0"}
+Tue Oct 20 09:08:27 PM +08 2026 all models present, starting campaign
+Tue Oct 20 09:08:27 PM +08 2026 all models downloaded
+Tue Oct 20 09:09:03 PM +08 2026 power mode -> NV Power Mode: MAXN
+{'mode': 'MAXN', 'time': 1792501804.029946, 'secs': 60, 'P_VDD_GPU_SOC': 3.44064, 'P_VDD_CPU_CV': 0.73728, 'P_VIN_SYS_5V0': 4.89216, 'P_VDDQ_VDD2_1V8AO': 0.5096, 'P_total': 9.579680000000002, 'T_cpu': 47.937, 'T_gpu': 44.5, 'T_soc0': 45.625, 'T_tj': 47.937, 'gpu_load': 0.0, 'gpu_freq_mhz': 306.0, 'nvpmodel': 'NV Power Mode: MAXN'}
+21:10:05 skip qwen2.5:0.5b-instruct-q4_K_M: complete
+21:10:05 skip qwen2.5:0.5b-instruct-q8_0: complete
+21:10:05 skip qwen2.5:0.5b-instruct-fp16: complete
+21:10:05 skip qwen2.5:1.5b-instruct-q4_K_M: complete
+21:10:05 skip qwen2.5:1.5b-instruct-q8_0: complete
+21:10:10 == qwen2.5:1.5b-instruct-fp16 mode=MAXN think=None loadavg=0.76
+21:10:37    load=6.1s idle=10.03W
+21:10:38    arc 0/300 E=6.1J P=15.6W out=8 ok=True
+21:10:52    arc 50/300 E=8.4J P=29.1W out=7 ok=True
+21:11:07    arc 100/300 E=9.6J P=29.0W out=8 ok=True
+21:11:20    arc 150/300 E=5.7J P=28.8W out=4 ok=True
+21:11:34    arc 200/300 E=5.4J P=29.2W out=4 ok=False
+21:11:48    arc 250/300 E=6.1J P=28.6W out=5 ok=True
+21:12:02    boolq 0/300 E=4.0J P=27.7W out=2 ok=True
+21:12:10    boolq 50/300 E=3.1J P=27.7W out=2 ok=True
+21:12:17    boolq 100/300 E=3.6J P=27.9W out=2 ok=True
+21:12:24    boolq 150/300 E=6.0J P=27.3W out=3 ok=True
+21:12:32    boolq 200/300 E=3.6J P=26.9W out=2 ok=True
+21:12:40    boolq 250/300 E=2.9J P=28.4W out=2 ok=False
+21:12:58    gsm8k 0/200 E=360.9J P=31.6W out=313 ok=True
+21:22:13    gsm8k 50/200 E=183.3J P=31.2W out=160 ok=True
+21:31:05    gsm8k 100/200 E=275.2J P=31.5W out=240 ok=True
+21:39:44    gsm8k 150/200 E=248.6J P=31.0W out=219 ok=True
+21:48:43 == qwen2.5:3b-instruct-q3_K_M mode=MAXN think=None loadavg=4.86
+21:49:08    load=3.9s idle=9.68W
+21:49:08    arc 0/300 E=4.0J P=12.7W out=3 ok=False
+21:49:19    arc 50/300 E=4.7J P=25.8W out=3 ok=True
+21:49:30    arc 100/300 E=4.4J P=28.5W out=2 ok=False
+21:49:41    arc 150/300 E=5.1J P=25.2W out=3 ok=True
+21:49:51    arc 200/300 E=3.4J P=25.3W out=2 ok=False
+21:50:02    arc 250/300 E=6.4J P=26.2W out=5 ok=True
+21:50:13    boolq 0/300 E=5.7J P=23.9W out=2 ok=True
+21:50:25    boolq 50/300 E=4.0J P=24.8W out=2 ok=True
+21:50:36    boolq 100/300 E=5.1J P=25.7W out=2 ok=True
+21:50:47    boolq 150/300 E=7.2J P=25.1W out=2 ok=True
+21:50:59    boolq 200/300 E=4.6J P=25.0W out=2 ok=True
+21:51:10    boolq 250/300 E=3.7J P=25.3W out=2 ok=False
+21:51:34    gsm8k 0/200 E=410.8J P=31.3W out=353 ok=True
+22:00:27    gsm8k 50/200 E=120.6J P=30.7W out=104 ok=True
+22:09:05    gsm8k 100/200 E=367.7J P=31.3W out=317 ok=True
+22:18:27    gsm8k 150/200 E=592.5J P=31.2W out=512 ok=False
+22:27:33 == qwen2.5:3b-instruct-q4_K_M mode=MAXN think=None loadavg=3.61
+22:27:58    load=4.2s idle=9.68W
+22:27:58    arc 0/300 E=2.3J P=11.6W out=2 ok=True
+22:28:05    arc 50/300 E=3.2J P=26.0W out=2 ok=True
+22:28:12    arc 100/300 E=3.7J P=25.3W out=2 ok=True
+22:28:19    arc 150/300 E=3.6J P=25.6W out=2 ok=True
+22:28:26    arc 200/300 E=3.0J P=25.4W out=2 ok=True
+22:28:33    arc 250/300 E=2.8J P=24.5W out=2 ok=True
+22:28:40    boolq 0/300 E=5.4J P=24.1W out=2 ok=True
+22:28:51    boolq 50/300 E=3.6J P=25.4W out=2 ok=True
+22:29:01    boolq 100/300 E=4.6J P=26.6W out=2 ok=True
+22:29:12    boolq 150/300 E=6.9J P=26.1W out=2 ok=True
+22:29:22    boolq 200/300 E=4.5J P=25.6W out=2 ok=True
+22:29:32    boolq 250/300 E=3.4J P=25.8W out=2 ok=False
+22:29:51    gsm8k 0/200 E=291.8J P=34.2W out=300 ok=True
+22:37:51    gsm8k 50/200 E=222.7J P=34.5W out=227 ok=True
+22:46:00    gsm8k 100/200 E=314.3J P=34.6W out=321 ok=True
+22:54:25    gsm8k 150/200 E=307.8J P=34.8W out=313 ok=True
+23:02:55 == qwen2.5:3b-instruct-q5_K_M mode=MAXN think=None loadavg=3.46
+23:03:23    load=7.5s idle=10.13W
+23:03:23    arc 0/300 E=2.6J P=12.3W out=2 ok=True
+23:03:31    arc 50/300 E=3.6J P=27.5W out=2 ok=True
+23:03:38    arc 100/300 E=4.1J P=26.9W out=2 ok=True
+23:03:45    arc 150/300 E=3.7J P=26.7W out=2 ok=True
+23:03:52    arc 200/300 E=3.3J P=26.5W out=2 ok=True
+23:03:59    arc 250/300 E=3.0J P=26.1W out=2 ok=False
+23:04:07    boolq 0/300 E=5.8J P=26.2W out=2 ok=True
+23:04:18    boolq 50/300 E=3.8J P=27.2W out=2 ok=True
+23:04:28    boolq 100/300 E=5.3J P=27.6W out=2 ok=True
+23:04:39    boolq 150/300 E=7.3J P=27.0W out=2 ok=True
+23:04:49    boolq 200/300 E=4.5J P=26.8W out=2 ok=True
+23:05:00    boolq 250/300 E=3.5J P=27.2W out=2 ok=False
+23:05:17    gsm8k 0/200 E=269.8J P=35.8W out=249 ok=True
+23:13:50    gsm8k 50/200 E=187.2J P=35.0W out=163 ok=True
+23:23:13    gsm8k 100/200 E=308.9J P=34.9W out=271 ok=True
+23:32:43    gsm8k 150/200 E=318.6J P=35.9W out=294 ok=True
+23:41:51 == qwen2.5:3b-instruct-q6_K mode=MAXN think=None loadavg=5.49
+23:42:21    load=9.0s idle=10.38W
+23:42:21    arc 0/300 E=2.7J P=12.6W out=2 ok=True
+23:42:29    arc 50/300 E=4.2J P=28.2W out=2 ok=True
+23:42:37    arc 100/300 E=4.6J P=28.1W out=2 ok=True
+23:42:45    arc 150/300 E=4.5J P=28.8W out=2 ok=True
+23:42:56    arc 200/300 E=3.9J P=28.0W out=2 ok=True
+23:43:04    arc 250/300 E=3.8J P=28.5W out=2 ok=False
+23:43:13    boolq 0/300 E=7.0J P=27.8W out=2 ok=True
+23:43:26    boolq 50/300 E=4.7J P=28.9W out=2 ok=True
+23:43:37    boolq 100/300 E=6.5J P=29.5W out=2 ok=True
+23:43:49    boolq 150/300 E=9.1J P=28.8W out=2 ok=True
+23:44:05    boolq 200/300 E=5.4J P=28.8W out=2 ok=True
+23:44:17    boolq 250/300 E=4.2J P=27.8W out=2 ok=False
+23:44:42    gsm8k 0/200 E=527.8J P=36.3W out=394 ok=True
+23:55:48    gsm8k 50/200 E=338.8J P=31.2W out=223 ok=True
+00:08:03    gsm8k 100/200 E=410.1J P=35.6W out=300 ok=True
+00:18:32    gsm8k 150/200 E=357.1J P=36.5W out=275 ok=True
+00:26:07    foreign load detected: ['python(562462):282%']
+00:26:07    CONTAMINATED by ['python(562462):282%']: quarantined, retrying (attempt 1)
+00:26:12 waiting for idle machine: heavy=['python(562462):708%'] sys_ollama=[]
+00:28:17 waiting for idle machine: heavy=['python(562462):419%'] sys_ollama=[]
+00:30:22 waiting for idle machine: heavy=['python(562462):242%'] sys_ollama=[]
+00:32:27 waiting for idle machine: heavy=['python(562462):246%'] sys_ollama=[]
+00:34:33 == qwen2.5:3b-instruct-q6_K mode=MAXN think=None loadavg=2.80
+00:35:44    load=49.8s idle=10.83W
+00:35:44    arc 0/300 E=3.5J P=13.4W out=2 ok=True
+00:35:57    arc 50/300 E=3.8J P=29.2W out=2 ok=True
+00:36:06    arc 100/300 E=5.2J P=32.3W out=2 ok=True
+00:36:14    arc 150/300 E=4.7J P=30.6W out=2 ok=True
+00:36:22    arc 200/300 E=4.3J P=34.7W out=2 ok=True
+00:36:29    arc 250/300 E=4.7J P=36.0W out=2 ok=False
+00:36:37    boolq 0/300 E=9.2J P=34.6W out=2 ok=True
+00:36:50    boolq 50/300 E=5.7J P=36.8W out=2 ok=True
+00:37:01    boolq 100/300 E=7.4J P=36.6W out=2 ok=True
+00:37:12    boolq 150/300 E=11.0J P=35.4W out=2 ok=True
+00:37:24    boolq 200/300 E=6.6J P=34.9W out=2 ok=True
+00:37:36    boolq 250/300 E=5.2J P=35.2W out=2 ok=False
+00:38:02    gsm8k 0/200 E=629.6J P=42.2W out=394 ok=True
+00:38:58    foreign load detected: ['python(575246):640%']
+00:38:58    CONTAMINATED by ['python(575246):640%']: quarantined, retrying (attempt 2)
+00:39:03 waiting for idle machine: heavy=['python(575246):749%'] sys_ollama=[]
+00:41:08 waiting for idle machine: heavy=['python(575246):736%'] sys_ollama=[]
+00:43:13 waiting for idle machine: heavy=['python(575246):755%'] sys_ollama=[]
+00:45:19 waiting for idle machine: heavy=['python(575246):752%'] sys_ollama=[]
+00:47:24 waiting for idle machine: heavy=['python(575246):740%'] sys_ollama=[]
+00:49:29 waiting for idle machine: heavy=['python(575246):744%'] sys_ollama=[]
+00:51:34 waiting for idle machine: heavy=['python(575246):478%'] sys_ollama=[]
+00:53:40 waiting for idle machine: heavy=['python(575246):603%'] sys_ollama=[]
+00:55:45 waiting for idle machine: heavy=['python(575246):622%'] sys_ollama=[]
+00:57:50 waiting for idle machine: heavy=['python(575246):612%'] sys_ollama=[]
+00:59:55 waiting for idle machine: heavy=['python(575246):624%'] sys_ollama=[]
+01:02:00 waiting for idle machine: heavy=['python(575246):627%'] sys_ollama=[]
+01:04:06 waiting for idle machine: heavy=['python(575246):656%'] sys_ollama=[]
+01:06:11 waiting for idle machine: heavy=['python(575246):664%'] sys_ollama=[]
+01:08:16 waiting for idle machine: heavy=['python(575246):99%'] sys_ollama=[]
+01:10:21 == qwen2.5:3b-instruct-q6_K mode=MAXN think=None loadavg=1.57
+01:10:49    load=5.4s idle=29.39W
+01:10:49    arc 0/300 E=11.0J P=29.4W out=2 ok=True
+01:11:12    arc 50/300 E=9.0J P=29.6W out=2 ok=True
+01:11:30    arc 100/300 E=10.5J P=29.9W out=2 ok=True
+01:11:48    arc 150/300 E=12.3J P=29.1W out=2 ok=True
+01:12:06    arc 200/300 E=12.9J P=29.3W out=2 ok=True
+01:12:23    arc 250/300 E=8.0J P=29.5W out=2 ok=False
+01:12:42    boolq 0/300 E=15.8J P=29.7W out=2 ok=True
+01:13:08    boolq 50/300 E=9.8J P=29.6W out=2 ok=True
+01:13:32    boolq 100/300 E=12.3J P=29.4W out=2 ok=True
+01:14:02    boolq 150/300 E=18.7J P=29.9W out=2 ok=True
+01:14:27    boolq 200/300 E=11.5J P=29.6W out=2 ok=True
+01:14:52    boolq 250/300 E=13.4J P=29.4W out=2 ok=False
+01:15:52    gsm8k 0/200 E=1138.0J P=31.5W out=394 ok=True
+01:40:47    gsm8k 50/200 E=285.2J P=36.1W out=223 ok=True
+02:04:47    gsm8k 100/200 E=866.1J P=31.3W out=300 ok=True
+02:31:30    gsm8k 150/200 E=791.0J P=31.4W out=275 ok=True
+02:50:28    foreign load detected: ['python(636494):92%']
+02:50:28    CONTAMINATED by ['python(636494):92%']: quarantined, retrying (attempt 3)
+02:50:34 waiting for idle machine: heavy=['python(636494):84%'] sys_ollama=[]
+02:52:39 waiting for idle machine: heavy=['python(636494):300%'] sys_ollama=[]
+02:54:44 waiting for idle machine: heavy=['python(636494):766%'] sys_ollama=[]
+02:56:49 waiting for idle machine: heavy=['python(636494):769%'] sys_ollama=[]
+02:58:55 waiting for idle machine: heavy=['python(636494):752%'] sys_ollama=[]
+03:01:00 waiting for idle machine: heavy=['python(636494):769%'] sys_ollama=[]
+03:03:05 waiting for idle machine: heavy=['python(636494):608%'] sys_ollama=[]
+03:05:10 waiting for idle machine: heavy=['python(636494):617%'] sys_ollama=[]
+03:07:16 waiting for idle machine: heavy=['python(636494):601%'] sys_ollama=[]
+03:09:21 waiting for idle machine: heavy=['python(636494):620%'] sys_ollama=[]
+03:11:26 waiting for idle machine: heavy=['python(636494):656%'] sys_ollama=[]
+03:13:31 waiting for idle machine: heavy=['python(636494):665%'] sys_ollama=[]
+03:15:36 waiting for idle machine: heavy=['python(636494):99%'] sys_ollama=[]
+03:17:42 == qwen2.5:3b-instruct-q6_K mode=MAXN think=None loadavg=1.66
+03:18:10    load=5.9s idle=29.64W
+03:18:10    arc 0/300 E=10.8J P=29.8W out=2 ok=True
+03:18:33    arc 50/300 E=9.4J P=29.6W out=2 ok=True
+03:18:50    arc 100/300 E=10.5J P=29.7W out=2 ok=True
+03:19:08    arc 150/300 E=11.9J P=29.2W out=2 ok=True
+03:19:26    arc 200/300 E=9.9J P=29.7W out=2 ok=True
+03:19:44    arc 250/300 E=8.0J P=29.8W out=2 ok=False
+03:20:03    boolq 0/300 E=15.6J P=29.3W out=2 ok=True
+03:20:29    boolq 50/300 E=9.6J P=29.7W out=2 ok=True
+03:20:52    boolq 100/300 E=12.4J P=29.4W out=2 ok=True
+03:21:22    boolq 150/300 E=18.7J P=29.5W out=2 ok=True
+03:21:47    boolq 200/300 E=11.5J P=29.3W out=2 ok=True
+03:22:13    boolq 250/300 E=11.2J P=29.4W out=2 ok=False
+03:23:12    gsm8k 0/200 E=1132.5J P=31.4W out=394 ok=True
+03:48:43    gsm8k 50/200 E=643.4J P=31.2W out=223 ok=True
+04:02:40    foreign load detected: ['python(636494):87%']
+04:02:40    CONTAMINATED by ['python(636494):87%']: quarantined, retrying (attempt 4)
+04:02:45 waiting for idle machine: heavy=['python(636494):93%'] sys_ollama=[]
+04:04:50 waiting for idle machine: heavy=['python(636494):756%'] sys_ollama=[]
+04:06:56 waiting for idle machine: heavy=['python(636494):758%'] sys_ollama=[]
+04:09:01 waiting for idle machine: heavy=['python(636494):768%'] sys_ollama=[]
+04:11:06 waiting for idle machine: heavy=['python(636494):764%'] sys_ollama=[]
+04:13:11 waiting for idle machine: heavy=['python(636494):766%'] sys_ollama=[]
+04:15:17 waiting for idle machine: heavy=['python(636494):760%'] sys_ollama=[]
+04:17:22 waiting for idle machine: heavy=['python(636494):713%'] sys_ollama=[]
+04:19:27 waiting for idle machine: heavy=['python(636494):632%'] sys_ollama=[]
+04:21:32 waiting for idle machine: heavy=['python(636494):619%'] sys_ollama=[]
+04:23:38 waiting for idle machine: heavy=['python(636494):632%'] sys_ollama=[]
+04:25:43 waiting for idle machine: heavy=['python(636494):623%'] sys_ollama=[]
+04:27:48 waiting for idle machine: heavy=['python(636494):640%'] sys_ollama=[]
+04:29:53 waiting for idle machine: heavy=['python(636494):665%'] sys_ollama=[]
+04:31:59 waiting for idle machine: heavy=['python(636494):664%'] sys_ollama=[]
+04:34:04 waiting for idle machine: heavy=['python(636494):67%'] sys_ollama=[]
+04:36:09 == qwen2.5:3b-instruct-q8_0 mode=MAXN think=None loadavg=1.50
+04:36:38    load=6.5s idle=29.64W
+04:36:38    arc 0/300 E=9.5J P=30.0W out=2 ok=True
+04:36:59    arc 50/300 E=8.2J P=29.9W out=2 ok=True
+04:37:15    arc 100/300 E=9.3J P=30.0W out=2 ok=True
+04:37:31    arc 150/300 E=12.3J P=29.9W out=2 ok=True
+04:37:47    arc 200/300 E=9.6J P=29.6W out=2 ok=True
+04:38:03    arc 250/300 E=7.2J P=29.9W out=2 ok=True
+04:38:20    boolq 0/300 E=13.1J P=30.1W out=2 ok=True
+04:38:42    boolq 50/300 E=8.8J P=30.9W out=2 ok=True
+04:39:01    boolq 100/300 E=10.4J P=30.1W out=2 ok=True
+04:39:22    boolq 150/300 E=15.5J P=30.1W out=2 ok=True
+04:39:43    boolq 200/300 E=9.9J P=30.2W out=2 ok=True
+04:40:10    boolq 250/300 E=11.6J P=30.1W out=2 ok=False
+04:40:50    gsm8k 0/200 E=656.5J P=31.4W out=251 ok=True
+05:04:24    gsm8k 50/200 E=504.8J P=31.4W out=193 ok=True
+05:27:28    gsm8k 100/200 E=910.9J P=31.3W out=350 ok=True
+05:39:46    foreign load detected: ['python(636494):86%']
+05:39:46    CONTAMINATED by ['python(636494):86%']: quarantined, retrying (attempt 1)
+05:39:51 waiting for idle machine: heavy=['python(636494):84%'] sys_ollama=[]
+05:41:56 waiting for idle machine: heavy=['python(636494):760%'] sys_ollama=[]
+05:44:02 waiting for idle machine: heavy=['python(636494):758%'] sys_ollama=[]
+05:46:07 waiting for idle machine: heavy=['python(636494):766%'] sys_ollama=[]
+05:48:12 waiting for idle machine: heavy=['python(636494):759%'] sys_ollama=[]
+05:50:17 waiting for idle machine: heavy=['python(636494):762%'] sys_ollama=[]
+05:52:23 waiting for idle machine: heavy=['python(636494):611%'] sys_ollama=[]
+05:54:28 waiting for idle machine: heavy=['python(636494):601%'] sys_ollama=[]
+05:56:33 waiting for idle machine: heavy=['python(636494):611%'] sys_ollama=[]
+05:58:38 waiting for idle machine: heavy=['python(636494):610%'] sys_ollama=[]
+06:00:43 waiting for idle machine: heavy=['python(636494):665%'] sys_ollama=[]
+06:02:49 waiting for idle machine: heavy=['python(636494):653%'] sys_ollama=[]
+06:04:54 == qwen2.5:3b-instruct-q8_0 mode=MAXN think=None loadavg=2.50
+06:05:22    load=6.1s idle=29.64W
+06:05:22    arc 0/300 E=9.4J P=29.8W out=2 ok=True
+06:05:43    arc 50/300 E=8.2J P=32.3W out=2 ok=True
+06:05:59    arc 100/300 E=8.9J P=30.0W out=2 ok=True
+06:06:15    arc 150/300 E=11.6J P=29.6W out=2 ok=True
+06:06:31    arc 200/300 E=10.1J P=29.3W out=2 ok=True
+06:06:47    arc 250/300 E=7.5J P=30.2W out=2 ok=True
+06:07:04    boolq 0/300 E=13.3J P=29.7W out=2 ok=True
+06:07:26    boolq 50/300 E=8.1J P=30.3W out=2 ok=True
+06:07:46    boolq 100/300 E=10.5J P=30.1W out=2 ok=True
+06:08:07    boolq 150/300 E=15.3J P=29.8W out=2 ok=True
+06:08:28    boolq 200/300 E=10.2J P=32.5W out=2 ok=True
+06:08:33    foreign load detected: ['update-manager(876760):96%']
+06:08:33    CONTAMINATED by ['update-manager(876760):96%']: quarantined, retrying (attempt 2)
+06:08:38 waiting for idle machine: heavy=['update-manager(876760):96%'] sys_ollama=[]
+06:10:43 == qwen2.5:3b-instruct-q8_0 mode=MAXN think=None loadavg=2.08
+06:11:12    load=6.4s idle=28.51W
+06:11:12    arc 0/300 E=9.7J P=28.8W out=2 ok=True
+06:11:29    arc 50/300 E=8.7J P=29.0W out=2 ok=True
+06:11:51    arc 100/300 E=9.5J P=29.2W out=2 ok=True
+06:12:08    arc 150/300 E=11.9J P=29.6W out=2 ok=True
+06:12:26    arc 200/300 E=10.2J P=28.8W out=2 ok=True
+06:12:43    arc 250/300 E=7.3J P=29.2W out=2 ok=True
+06:13:01    boolq 0/300 E=13.5J P=29.0W out=2 ok=True
+06:13:25    boolq 50/300 E=9.2J P=29.2W out=2 ok=True
+06:13:46    boolq 100/300 E=10.9J P=29.8W out=2 ok=True
+06:14:08    boolq 150/300 E=16.0J P=29.6W out=2 ok=True
+06:14:30    boolq 200/300 E=10.1J P=29.3W out=2 ok=True
+06:14:58    boolq 250/300 E=10.2J P=29.8W out=2 ok=False
+06:15:42    gsm8k 0/200 E=695.9J P=31.0W out=251 ok=True
+06:40:46    gsm8k 50/200 E=530.1J P=30.7W out=193 ok=True
+06:51:52    foreign load detected: ['python(636494):92%']
+06:51:52    CONTAMINATED by ['python(636494):92%']: quarantined, retrying (attempt 3)
+06:51:57 waiting for idle machine: heavy=['python(636494):83%'] sys_ollama=[]
+06:54:02 waiting for idle machine: heavy=['python(636494):725%'] sys_ollama=[]
+06:56:08 waiting for idle machine: heavy=['python(636494):733%'] sys_ollama=[]
+06:58:13 waiting for idle machine: heavy=['python(636494):737%'] sys_ollama=[]
+07:00:18 waiting for idle machine: heavy=['python(636494):734%'] sys_ollama=[]
+07:02:23 waiting for idle machine: heavy=['python(636494):740%'] sys_ollama=[]
+07:04:29 waiting for idle machine: heavy=['python(636494):749%'] sys_ollama=[]
+07:06:34 waiting for idle machine: heavy=['python(636494):745%'] sys_ollama=[]
+07:08:39 waiting for idle machine: heavy=['python(636494):592%'] sys_ollama=[]
+07:10:44 waiting for idle machine: heavy=['python(636494):584%'] sys_ollama=[]
+07:12:50 waiting for idle machine: heavy=['python(636494):463%'] sys_ollama=[]
+07:14:55 waiting for idle machine: heavy=['python(636494):521%'] sys_ollama=[]
+07:17:00 waiting for idle machine: heavy=['python(636494):623%'] sys_ollama=[]
+07:19:05 waiting for idle machine: heavy=['python(636494):631%'] sys_ollama=[]
+07:21:10 waiting for idle machine: heavy=['python(636494):573%'] sys_ollama=[]
+07:23:16 waiting for idle machine: heavy=['python(636494):657%'] sys_ollama=[]
+07:25:21 waiting for idle machine: heavy=['python(636494):98%'] sys_ollama=[]
+07:27:26 == qwen2.5:3b-instruct-q8_0 mode=MAXN think=None loadavg=1.00
+07:27:54    load=6.1s idle=29.39W
+07:27:54    arc 0/300 E=9.3J P=29.8W out=2 ok=True
+07:28:15    arc 50/300 E=8.1J P=29.5W out=2 ok=True
+07:28:31    arc 100/300 E=9.1J P=30.1W out=2 ok=True
+07:28:47    arc 150/300 E=12.1J P=29.6W out=2 ok=True
+07:29:03    arc 200/300 E=10.2J P=29.6W out=2 ok=True
+07:29:20    arc 250/300 E=7.1J P=29.9W out=2 ok=True
+07:29:37    boolq 0/300 E=13.3J P=29.7W out=2 ok=True
+07:29:59    boolq 50/300 E=9.0J P=30.3W out=2 ok=True
+07:30:18    boolq 100/300 E=10.7J P=30.5W out=2 ok=True
+07:30:39    boolq 150/300 E=15.3J P=30.0W out=2 ok=True
+07:31:05    boolq 200/300 E=9.8J P=29.7W out=2 ok=True
+07:31:27    boolq 250/300 E=10.0J P=29.8W out=2 ok=False
+07:32:07    gsm8k 0/200 E=656.7J P=31.4W out=251 ok=True
+07:55:39    gsm8k 50/200 E=502.3J P=31.3W out=193 ok=True
+08:18:48    gsm8k 100/200 E=911.5J P=31.4W out=350 ok=True
+08:30:56    foreign load detected: ['python(636494):98%']
+08:30:56    CONTAMINATED by ['python(636494):98%']: quarantined, retrying (attempt 4)
+08:31:01 waiting for idle machine: heavy=['python(636494):84%'] sys_ollama=[]
+08:33:06 waiting for idle machine: heavy=['python(636494):84%'] sys_ollama=[]
+08:35:11 waiting for idle machine: heavy=['python(636494):754%'] sys_ollama=[]
+08:37:17 waiting for idle machine: heavy=['python(636494):753%'] sys_ollama=[]
+08:39:22 waiting for idle machine: heavy=['python(636494):759%'] sys_ollama=[]
+08:41:27 waiting for idle machine: heavy=['python(636494):766%'] sys_ollama=[]
+08:43:32 waiting for idle machine: heavy=['python(636494):614%'] sys_ollama=[]
+08:45:38 waiting for idle machine: heavy=['python(636494):610%'] sys_ollama=[]
+08:47:43 waiting for idle machine: heavy=['python(636494):612%'] sys_ollama=[]
+08:49:48 waiting for idle machine: heavy=['python(636494):617%'] sys_ollama=[]
+08:51:53 waiting for idle machine: heavy=['python(636494):616%'] sys_ollama=[]
+08:53:59 waiting for idle machine: heavy=['python(636494):670%'] sys_ollama=[]
+08:56:04 waiting for idle machine: heavy=['python(636494):99%'] sys_ollama=[]
+08:58:09 == qwen2.5:3b-instruct-fp16 mode=MAXN think=None loadavg=2.13
+08:58:41    load=10.0s idle=29.64W
+08:58:42    arc 0/300 E=10.8J P=30.6W out=2 ok=True
+08:59:05    arc 50/300 E=9.2J P=31.3W out=2 ok=True
+08:59:22    arc 100/300 E=11.2J P=31.8W out=2 ok=True
+08:59:40    arc 150/300 E=13.6J P=31.1W out=2 ok=True
+08:59:59    arc 200/300 E=10.7J P=31.1W out=2 ok=True
+09:00:17    arc 250/300 E=9.0J P=31.6W out=2 ok=True
+09:00:35    boolq 0/300 E=13.4J P=31.7W out=2 ok=True
+09:00:58    boolq 50/300 E=10.9J P=31.8W out=2 ok=True
+09:01:19    boolq 100/300 E=12.3J P=31.8W out=2 ok=True
+09:01:41    boolq 150/300 E=16.5J P=31.8W out=2 ok=True
+09:02:09    boolq 200/300 E=12.0J P=31.8W out=2 ok=True
+09:02:31    boolq 250/300 E=11.8J P=31.0W out=2 ok=False
+09:03:21    gsm8k 0/200 E=940.4J P=32.3W out=251 ok=True
+09:36:06    gsm8k 50/200 E=715.2J P=32.2W out=193 ok=True
+09:45:50    foreign load detected: ['python(636494):86%']
+09:45:50    CONTAMINATED by ['python(636494):86%']: quarantined, retrying (attempt 1)
+09:45:55 waiting for idle machine: heavy=['python(636494):90%'] sys_ollama=[]
+09:48:00 == qwen2.5:3b-instruct-fp16 mode=MAXN think=None loadavg=1.35
+09:48:30    load=9.1s idle=12.00W
+09:48:31    arc 0/300 E=3.8J P=16.5W out=2 ok=True
+09:48:39    arc 50/300 E=5.3J P=35.4W out=2 ok=True
+09:48:47    arc 100/300 E=5.7J P=31.2W out=2 ok=True
+09:49:00    arc 150/300 E=4.8J P=31.6W out=2 ok=True
+09:49:08    arc 200/300 E=4.4J P=31.9W out=2 ok=True
+09:49:16    arc 250/300 E=4.1J P=31.2W out=2 ok=True
+09:49:24    boolq 0/300 E=6.3J P=30.2W out=2 ok=True
+09:49:35    boolq 50/300 E=5.3J P=32.6W out=2 ok=True
+09:49:44    boolq 100/300 E=5.7J P=32.6W out=2 ok=True
+09:49:55    boolq 150/300 E=7.6J P=32.1W out=2 ok=True
+09:50:05    boolq 200/300 E=5.9J P=31.9W out=2 ok=True
+09:50:15    boolq 250/300 E=4.5J P=31.9W out=2 ok=False
+09:50:36    gsm8k 0/200 E=443.5J P=38.2W out=251 ok=True
+10:03:52    gsm8k 50/200 E=341.3J P=38.3W out=193 ok=True
+10:17:04    gsm8k 100/200 E=599.1J P=38.5W out=338 ok=True
+10:31:07    gsm8k 150/200 E=480.5J P=37.5W out=276 ok=True
+10:44:19 == qwen2.5:7b-instruct-q4_K_M mode=MAXN think=None loadavg=3.70
+10:44:47    load=7.5s idle=10.13W
+10:44:48    arc 0/300 E=4.5J P=13.7W out=2 ok=True
+10:44:59    arc 50/300 E=6.1J P=30.2W out=2 ok=True
+10:45:10    arc 100/300 E=7.4J P=29.6W out=2 ok=True
+10:45:21    arc 150/300 E=7.1J P=29.0W out=2 ok=True
+10:45:33    arc 200/300 E=5.3J P=29.2W out=2 ok=True
+10:45:44    arc 250/300 E=5.2J P=30.2W out=2 ok=False
+10:45:55    boolq 0/300 E=10.9J P=27.6W out=2 ok=True
+10:46:14    boolq 50/300 E=6.9J P=29.9W out=2 ok=True
+10:46:31    boolq 100/300 E=8.1J P=28.8W out=2 ok=False
+10:46:49    boolq 150/300 E=13.3J P=28.7W out=2 ok=True
+10:47:07    boolq 200/300 E=7.7J P=28.4W out=2 ok=True
+10:47:30    boolq 250/300 E=5.9J P=28.6W out=2 ok=False
+10:47:59    gsm8k 0/200 E=469.2J P=37.3W out=238 ok=True
+11:01:42    gsm8k 50/200 E=327.7J P=37.5W out=167 ok=True
+11:15:27    gsm8k 100/200 E=538.8J P=37.5W out=276 ok=True
+11:29:35    gsm8k 150/200 E=407.6J P=37.3W out=210 ok=True
+11:43:14 == qwen2.5:7b-instruct-q8_0 mode=MAXN think=None loadavg=3.19
+11:43:45    load=10.5s idle=11.16W
+11:43:46    arc 0/300 E=5.1J P=16.7W out=2 ok=True
+11:43:57    arc 50/300 E=6.6J P=32.7W out=2 ok=True
+11:44:08    arc 100/300 E=7.6J P=32.9W out=2 ok=True
+11:44:19    arc 150/300 E=7.7J P=32.4W out=2 ok=True
+11:44:30    arc 200/300 E=6.1J P=32.6W out=2 ok=True
+11:44:41    arc 250/300 E=5.7J P=32.7W out=2 ok=False
+11:44:53    boolq 0/300 E=11.4J P=30.7W out=2 ok=True
+11:45:10    boolq 50/300 E=7.4J P=32.1W out=2 ok=True
+11:45:26    boolq 100/300 E=8.4J P=31.2W out=2 ok=False
+11:45:43    boolq 150/300 E=12.8J P=29.6W out=2 ok=True
+11:46:00    boolq 200/300 E=8.2J P=30.3W out=2 ok=True
+11:46:23    boolq 250/300 E=6.4J P=31.2W out=2 ok=False
+11:46:54    gsm8k 0/200 E=624.0J P=40.8W out=267 ok=True
+12:01:57    gsm8k 50/200 E=471.4J P=41.0W out=201 ok=True
+12:17:30    gsm8k 100/200 E=658.8J P=41.0W out=281 ok=True
+12:32:41    gsm8k 150/200 E=680.3J P=41.1W out=290 ok=True
+12:48:09 == llama3.2:1b-instruct-q4_K_M mode=MAXN think=None loadavg=2.06
+12:48:33    load=3.8s idle=9.79W
+12:48:33    arc 0/300 E=1.4J P=10.5W out=3 ok=False
+12:48:38    arc 50/300 E=2.0J P=27.6W out=3 ok=False
+12:48:42    arc 100/300 E=2.3J P=28.9W out=3 ok=True
+12:48:46    arc 150/300 E=2.5J P=27.1W out=4 ok=False
+12:48:50    arc 200/300 E=1.8J P=26.0W out=3 ok=False
+12:48:54    arc 250/300 E=2.5J P=28.5W out=5 ok=False
+12:48:58    boolq 0/300 E=2.9J P=25.6W out=3 ok=True
+12:49:04    boolq 50/300 E=2.1J P=24.6W out=3 ok=True
+12:49:09    boolq 100/300 E=2.6J P=24.6W out=3 ok=True
+12:49:14    boolq 150/300 E=3.3J P=24.7W out=3 ok=False
+12:49:20    boolq 200/300 E=2.3J P=25.3W out=3 ok=True
+12:49:25    boolq 250/300 E=2.0J P=24.8W out=3 ok=False
+12:49:32    gsm8k 0/200 E=77.7J P=35.8W out=174 ok=False
+12:51:53    gsm8k 50/200 E=42.7J P=38.0W out=90 ok=True
+12:53:54    gsm8k 100/200 E=107.5J P=38.2W out=228 ok=False
+12:55:59    gsm8k 150/200 E=90.5J P=38.2W out=192 ok=False
+12:57:58 == llama3.2:1b-instruct-q8_0 mode=MAXN think=None loadavg=5.74
+12:58:23    load=4.2s idle=9.93W
+12:58:23    arc 0/300 E=1.4J P=11.2W out=3 ok=False
+12:58:28    arc 50/300 E=2.1J P=29.4W out=3 ok=False
+12:58:32    arc 100/300 E=2.4J P=30.3W out=3 ok=True
+12:58:37    arc 150/300 E=2.7J P=29.1W out=4 ok=False
+12:58:41    arc 200/300 E=3.0J P=28.2W out=5 ok=False
+12:58:45    arc 250/300 E=2.8J P=29.4W out=5 ok=False
+12:58:50    boolq 0/300 E=3.0J P=26.8W out=3 ok=True
+12:58:55    boolq 50/300 E=2.1J P=26.3W out=3 ok=False
+12:59:00    boolq 100/300 E=2.4J P=26.1W out=2 ok=True
+12:59:05    boolq 150/300 E=2.9J P=27.1W out=2 ok=False
+12:59:10    boolq 200/300 E=2.4J P=25.0W out=2 ok=True
+12:59:15    boolq 250/300 E=2.5J P=26.0W out=3 ok=False
+12:59:25    gsm8k 0/200 E=169.0J P=36.8W out=322 ok=False
+13:02:03    gsm8k 50/200 E=48.9J P=38.0W out=90 ok=True
+13:04:23    gsm8k 100/200 E=88.7J P=37.9W out=165 ok=False
+13:06:48    gsm8k 150/200 E=130.8J P=38.2W out=242 ok=False
+13:09:09 == llama3.2:1b-instruct-fp16 mode=MAXN think=None loadavg=4.51
+13:09:35    load=5.6s idle=9.93W
+13:09:35    arc 0/300 E=1.9J P=11.8W out=3 ok=False
+13:09:41    arc 50/300 E=2.9J P=32.3W out=3 ok=False
+13:09:46    arc 100/300 E=3.2J P=33.5W out=3 ok=True
+13:09:51    arc 150/300 E=3.5J P=31.3W out=4 ok=False
+13:09:57    arc 200/300 E=4.1J P=31.9W out=5 ok=False
+13:10:02    arc 250/300 E=4.0J P=33.5W out=5 ok=False
+13:10:08    boolq 0/300 E=3.5J P=30.1W out=3 ok=True
+13:10:13    boolq 50/300 E=2.8J P=29.9W out=3 ok=False
+13:10:18    boolq 100/300 E=3.2J P=30.4W out=3 ok=True
+13:10:24    boolq 150/300 E=3.1J P=30.0W out=2 ok=False
+13:10:29    boolq 200/300 E=2.5J P=28.0W out=2 ok=True
+13:10:35    boolq 250/300 E=2.6J P=30.0W out=3 ok=False
+13:10:44    gsm8k 0/200 E=159.0J P=38.5W out=213 ok=False
+13:14:12    gsm8k 50/200 E=69.2J P=39.4W out=90 ok=True
+13:17:29    gsm8k 100/200 E=116.5J P=39.4W out=154 ok=False
+13:20:36    gsm8k 150/200 E=183.6J P=39.5W out=242 ok=False
+13:23:44 == llama3.2:3b-instruct-q4_K_M mode=MAXN think=None loadavg=4.58
+13:24:10    load=5.4s idle=9.93W
+13:24:10    arc 0/300 E=3.1J P=12.4W out=3 ok=True
+13:24:18    arc 50/300 E=4.2J P=27.0W out=3 ok=True
+13:24:25    arc 100/300 E=3.7J P=25.9W out=2 ok=True
+13:24:33    arc 150/300 E=3.7J P=25.3W out=2 ok=True
+13:24:40    arc 200/300 E=3.0J P=25.1W out=2 ok=True
+13:24:47    arc 250/300 E=2.7J P=26.3W out=2 ok=True
+13:24:55    boolq 0/300 E=5.6J P=24.9W out=2 ok=True
+13:25:06    boolq 50/300 E=3.9J P=26.9W out=2 ok=False
+13:25:16    boolq 100/300 E=5.0J P=26.6W out=2 ok=False
+13:25:27    boolq 150/300 E=7.4J P=26.4W out=3 ok=True
+13:25:38    boolq 200/300 E=4.3J P=26.4W out=2 ok=True
+13:25:49    boolq 250/300 E=3.7J P=25.9W out=2 ok=False
+13:26:07    gsm8k 0/200 E=266.9J P=35.6W out=266 ok=False
+13:31:46    gsm8k 50/200 E=157.5J P=35.4W out=158 ok=True
+13:37:18    gsm8k 100/200 E=173.0J P=35.6W out=173 ok=True
+13:42:56    gsm8k 150/200 E=205.9J P=35.9W out=204 ok=True
+13:48:28 == llama3.2:3b-instruct-q8_0 mode=MAXN think=None loadavg=3.87
+13:48:55    load=6.4s idle=9.93W
+13:48:55    arc 0/300 E=3.1J P=12.9W out=3 ok=True
+13:49:03    arc 50/300 E=4.6J P=28.9W out=3 ok=True
+13:49:11    arc 100/300 E=3.8J P=28.1W out=2 ok=True
+13:49:19    arc 150/300 E=4.0J P=28.2W out=2 ok=True
+13:49:27    arc 200/300 E=3.5J P=28.7W out=2 ok=True
+13:49:34    arc 250/300 E=3.1J P=28.9W out=2 ok=True
+13:49:42    boolq 0/300 E=6.8J P=28.2W out=3 ok=True
+13:49:53    boolq 50/300 E=3.9J P=28.1W out=2 ok=False
+13:50:04    boolq 100/300 E=6.0J P=29.2W out=3 ok=False
+13:50:15    boolq 150/300 E=7.6J P=28.3W out=3 ok=True
+13:50:26    boolq 200/300 E=5.4J P=29.3W out=3 ok=True
+13:50:37    boolq 250/300 E=3.8J P=28.7W out=2 ok=False
+13:50:53    gsm8k 0/200 E=216.2J P=36.5W out=180 ok=True
+13:57:33    gsm8k 50/200 E=162.6J P=37.0W out=134 ok=True
+14:03:25    gsm8k 100/200 E=265.1J P=36.9W out=219 ok=True
+14:09:45    gsm8k 150/200 E=262.1J P=36.8W out=218 ok=True
+14:16:15 == llama3.2:3b-instruct-fp16 mode=MAXN think=None loadavg=4.16
+14:16:46    load=9.7s idle=10.13W
+14:16:46    arc 0/300 E=4.2J P=14.7W out=3 ok=True
+14:16:55    arc 50/300 E=6.7J P=32.7W out=3 ok=True
+14:17:04    arc 100/300 E=5.1J P=32.6W out=2 ok=True
+14:17:13    arc 150/300 E=5.3J P=32.9W out=2 ok=True
+14:17:22    arc 200/300 E=4.4J P=32.7W out=2 ok=True
+14:17:30    arc 250/300 E=4.2J P=32.7W out=2 ok=True
+14:17:39    boolq 0/300 E=8.6J P=32.0W out=3 ok=True
+14:17:51    boolq 50/300 E=5.1J P=33.2W out=2 ok=False
+14:18:02    boolq 100/300 E=8.0J P=34.2W out=3 ok=False
+14:18:14    boolq 150/300 E=9.2J P=34.3W out=3 ok=True
+14:18:26    boolq 200/300 E=7.5J P=33.4W out=3 ok=True
+14:18:38    boolq 250/300 E=4.7J P=33.3W out=2 ok=False
+14:18:59    gsm8k 0/200 E=370.7J P=38.8W out=196 ok=False
+14:28:53    gsm8k 50/200 E=250.8J P=38.9W out=134 ok=True
+14:37:34    gsm8k 100/200 E=410.8J P=38.9W out=219 ok=True
+14:46:44    gsm8k 150/200 E=408.0J P=38.9W out=218 ok=True
+14:55:52 == gemma2:2b-instruct-q4_K_M mode=MAXN think=None loadavg=2.76
+14:56:19    load=5.4s idle=9.68W
+14:56:19    arc 0/300 E=3.9J P=12.2W out=4 ok=True
+14:56:31    arc 50/300 E=6.1J P=27.1W out=4 ok=True
+14:56:43    arc 100/300 E=6.9J P=28.0W out=4 ok=True
+14:56:55    arc 150/300 E=6.5J P=27.6W out=4 ok=True
+14:57:07    arc 200/300 E=6.0J P=27.1W out=4 ok=True
+14:57:19    arc 250/300 E=5.6J P=27.3W out=4 ok=False
+14:57:31    boolq 0/300 E=7.4J P=25.2W out=4 ok=True
+14:57:46    boolq 50/300 E=6.5J P=27.2W out=4 ok=True
+14:58:00    boolq 100/300 E=7.1J P=28.2W out=4 ok=False
+14:58:15    boolq 150/300 E=9.6J P=27.1W out=4 ok=True
+14:58:30    boolq 200/300 E=7.7J P=27.5W out=4 ok=False
+14:58:44    boolq 250/300 E=6.3J P=26.8W out=4 ok=False
+14:59:09    gsm8k 0/200 E=196.3J P=33.6W out=212 ok=False
+15:04:27    gsm8k 50/200 E=90.1J P=34.0W out=95 ok=True
+15:09:25    gsm8k 100/200 E=202.8J P=34.0W out=217 ok=True
+15:14:51    gsm8k 150/200 E=172.0J P=34.0W out=185 ok=False
+15:19:50 == gemma2:2b-instruct-q8_0 mode=MAXN think=None loadavg=4.17
+15:20:17    load=6.4s idle=9.79W
+15:20:17    arc 0/300 E=3.5J P=13.2W out=4 ok=True
+15:20:29    arc 50/300 E=6.6J P=28.9W out=4 ok=True
+15:20:42    arc 100/300 E=7.1J P=28.7W out=4 ok=True
+15:20:54    arc 150/300 E=7.0J P=27.9W out=4 ok=True
+15:21:06    arc 200/300 E=6.8J P=28.9W out=4 ok=True
+15:21:18    arc 250/300 E=6.5J P=28.2W out=4 ok=False
+15:21:31    boolq 0/300 E=7.6J P=26.8W out=4 ok=True
+15:21:46    boolq 50/300 E=6.7J P=28.7W out=4 ok=True
+15:22:00    boolq 100/300 E=7.4J P=27.8W out=4 ok=False
+15:22:15    boolq 150/300 E=8.9J P=28.1W out=4 ok=True
+15:22:29    boolq 200/300 E=7.7J P=27.6W out=4 ok=False
+15:22:44    boolq 250/300 E=6.2J P=27.8W out=4 ok=False
+15:23:08    gsm8k 0/200 E=177.5J P=32.9W out=164 ok=False
+15:28:48    gsm8k 50/200 E=104.6J P=33.1W out=95 ok=True
+15:34:28    gsm8k 100/200 E=222.6J P=33.2W out=205 ok=True
+15:40:24    gsm8k 150/200 E=208.9J P=33.3W out=192 ok=True
+15:46:09 == gemma2:2b-instruct-fp16 mode=MAXN think=None loadavg=3.46
+15:46:40    load=9.3s idle=9.93W
+15:46:40    arc 0/300 E=4.9J P=14.1W out=4 ok=True
+15:46:54    arc 50/300 E=8.5J P=32.1W out=4 ok=True
+15:47:08    arc 100/300 E=8.7J P=33.0W out=4 ok=True
+15:47:22    arc 150/300 E=9.6J P=31.4W out=4 ok=True
+15:47:36    arc 200/300 E=8.2J P=31.2W out=4 ok=True
+15:47:50    arc 250/300 E=8.1J P=31.9W out=4 ok=False
+15:48:04    boolq 0/300 E=9.1J P=30.1W out=4 ok=True
+15:48:20    boolq 50/300 E=8.6J P=31.7W out=4 ok=True
+15:48:36    boolq 100/300 E=9.1J P=33.3W out=4 ok=False
+15:48:52    boolq 150/300 E=10.6J P=31.7W out=4 ok=True
+15:49:13    boolq 200/300 E=9.8J P=31.5W out=4 ok=False
+15:49:29    boolq 250/300 E=8.4J P=31.8W out=4 ok=False
+15:49:52    gsm8k 0/200 E=270.3J P=36.6W out=170 ok=False
+15:57:36    gsm8k 50/200 E=152.2J P=36.6W out=95 ok=True
+16:05:06    gsm8k 100/200 E=318.2J P=35.3W out=205 ok=True
+16:12:50    gsm8k 150/200 E=307.4J P=37.0W out=192 ok=True
+16:20:19 == qwen2.5:0.5b-instruct-q4_K_M mode=MAXN think=None loadavg=4.04
+16:20:42    load=2.9s idle=9.93W
+16:20:43    arc 0/100 E=2.2J P=11.0W out=8 ok=True
+16:20:47    arc 50/100 E=1.1J P=24.0W out=2 ok=True
+16:20:52    boolq 0/100 E=1.7J P=26.0W out=3 ok=True
+16:20:56    boolq 50/100 E=1.4J P=18.5W out=3 ok=True
+16:21:02    gsm8k 0/60 E=42.1J P=26.2W out=205 ok=False
+16:22:58    gsm8k 50/60 E=44.0J P=29.3W out=199 ok=True
+16:23:25 == qwen2.5:1.5b-instruct-q4_K_M mode=MAXN think=None loadavg=3.15
+16:23:49    load=3.7s idle=9.93W
+16:23:49    arc 0/100 E=3.1J P=12.7W out=8 ok=True
+16:23:58    arc 50/100 E=4.6J P=29.0W out=7 ok=True
+16:24:06    boolq 0/100 E=4.0J P=29.2W out=3 ok=True
+16:24:14    boolq 50/100 E=2.6J P=24.8W out=3 ok=False
+16:24:24    gsm8k 0/60 E=119.2J P=33.4W out=212 ok=True
+16:28:43    gsm8k 50/60 E=91.7J P=33.6W out=163 ok=True
+16:29:25 == qwen2.5:3b-instruct-q4_K_M mode=MAXN think=None loadavg=3.82
+16:29:51    load=4.5s idle=9.78W
+16:29:51    arc 0/100 E=2.5J P=12.2W out=2 ok=True
+16:29:58    arc 50/100 E=3.3J P=25.5W out=2 ok=True
+16:30:05    boolq 0/100 E=5.5J P=25.5W out=2 ok=True
+16:30:16    boolq 50/100 E=3.6J P=25.8W out=2 ok=True
+16:30:34    gsm8k 0/60 E=296.0J P=34.8W out=300 ok=True
+16:38:29    gsm8k 50/60 E=227.3J P=35.2W out=227 ok=True
+16:39:56 == qwen2.5:3b-instruct-q8_0 mode=MAXN think=None loadavg=4.39
+16:40:23    load=5.8s idle=10.28W
+16:40:23    arc 0/100 E=2.2J P=11.9W out=2 ok=True
+16:40:30    arc 50/100 E=3.4J P=28.1W out=2 ok=True
+16:40:37    boolq 0/100 E=5.6J P=27.8W out=2 ok=True
+16:40:47    boolq 50/100 E=3.7J P=27.7W out=2 ok=True
+16:41:04    gsm8k 0/60 E=291.6J P=36.6W out=251 ok=True
+16:50:06    gsm8k 50/60 E=226.2J P=36.8W out=193 ok=True
+16:51:40 == qwen2.5:3b-instruct-fp16 mode=MAXN think=None loadavg=2.95
+16:52:10    load=8.9s idle=10.13W
+16:52:10    arc 0/100 E=3.0J P=13.6W out=2 ok=True
+16:52:18    arc 50/100 E=4.7J P=33.3W out=2 ok=True
+16:52:25    boolq 0/100 E=6.1J P=31.6W out=2 ok=True
+16:52:36    boolq 50/100 E=5.5J P=33.9W out=2 ok=True
+16:52:58    gsm8k 0/60 E=479.3J P=38.3W out=251 ok=True
+16:54:47    foreign load detected: ['python(1480892):54%']
+16:54:47    CONTAMINATED by ['python(1480892):54%']: quarantined, retrying (attempt 1)
+16:54:52 waiting for idle machine: heavy=['python(1480892):93%'] sys_ollama=[]
+16:56:57 == qwen2.5:3b-instruct-fp16 mode=MAXN think=None loadavg=1.70
+16:57:27    load=9.0s idle=10.62W
+16:57:27    arc 0/100 E=2.8J P=13.4W out=2 ok=True
+16:57:35    arc 50/100 E=4.5J P=31.9W out=2 ok=True
+16:57:43    boolq 0/100 E=6.7J P=33.9W out=2 ok=True
+16:57:59    boolq 50/100 E=5.2J P=33.5W out=2 ok=True
+16:58:20    gsm8k 0/60 E=449.5J P=38.4W out=251 ok=True
+17:11:45    gsm8k 50/60 E=349.9J P=38.9W out=193 ok=True
+17:13:54 == qwen2.5:7b-instruct-q4_K_M mode=MAXN think=None loadavg=5.59
+17:14:22    load=7.0s idle=10.13W
+17:14:22    arc 0/100 E=4.4J P=14.2W out=2 ok=True
+17:14:33    arc 50/100 E=6.0J P=29.6W out=2 ok=True
+17:14:45    boolq 0/100 E=11.4J P=28.4W out=2 ok=True
+17:15:04    boolq 50/100 E=6.7J P=29.5W out=2 ok=True
+17:15:33    gsm8k 0/60 E=470.8J P=37.3W out=238 ok=True
+17:29:15    gsm8k 50/60 E=326.6J P=37.4W out=167 ok=True
+17:31:37 == llama3.2:3b-instruct-q4_K_M mode=MAXN think=None loadavg=2.84
+17:32:03    load=4.9s idle=9.93W
+17:32:03    arc 0/100 E=3.2J P=12.7W out=3 ok=True
+17:32:11    arc 50/100 E=4.0J P=27.9W out=3 ok=True
+17:32:18    boolq 0/100 E=5.4J P=25.4W out=2 ok=True
+17:32:29    boolq 50/100 E=3.5J P=26.9W out=2 ok=False
+17:32:47    gsm8k 0/60 E=269.6J P=35.9W out=266 ok=False
+17:38:30    gsm8k 50/60 E=161.3J P=36.0W out=158 ok=True
+17:39:26 == gemma2:2b-instruct-q4_K_M mode=MAXN think=None loadavg=4.16
+17:39:52    load=5.0s idle=10.03W
+17:39:53    arc 0/100 E=3.7J P=13.0W out=4 ok=True
+17:40:04    arc 50/100 E=6.3J P=28.4W out=4 ok=True
+17:40:16    boolq 0/100 E=7.7J P=27.3W out=4 ok=True
+17:40:31    boolq 50/100 E=6.5J P=27.6W out=4 ok=True
+17:40:51    gsm8k 0/60 E=201.2J P=34.2W out=212 ok=False
+17:46:16    gsm8k 50/60 E=90.3J P=33.6W out=95 ok=True
+17:47:06 == qwen3:1.7b mode=MAXN think=off loadavg=3.84
+17:47:31    load=4.0s idle=10.28W
+17:47:31    arc 0/100 E=2.9J P=12.8W out=8 ok=True
+17:47:41    arc 50/100 E=5.4J P=29.2W out=7 ok=True
+17:47:57    gsm8k 0/100 E=211.3J P=35.9W out=323 ok=True
+17:50:11    foreign load detected: ['python(1536336):100%']
+17:50:11    CONTAMINATED by ['python(1536336):100%']: quarantined, retrying (attempt 1)
+17:50:17 waiting for idle machine: heavy=['python(1536336):74%'] sys_ollama=[]
+17:52:22 waiting for idle machine: heavy=['python(1536336):711%'] sys_ollama=[]
+17:54:27 waiting for idle machine: heavy=['python(1536336):717%'] sys_ollama=[]
+17:56:32 waiting for idle machine: heavy=['python(1536336):737%'] sys_ollama=[]
+17:58:37 waiting for idle machine: heavy=['python(1536336):707%'] sys_ollama=[]
+18:00:43 waiting for idle machine: heavy=['python(1536336):718%'] sys_ollama=[]
+18:02:48 == qwen3:1.7b mode=MAXN think=off loadavg=8.32
+18:03:13    load=3.9s idle=11.07W
+18:03:13    arc 0/100 E=3.9J P=13.3W out=8 ok=True
+18:03:29    arc 50/100 E=5.6J P=29.3W out=7 ok=True
+18:03:45    gsm8k 0/100 E=212.7J P=35.9W out=323 ok=True
+18:08:15    gsm8k 50/100 E=98.3J P=35.5W out=152 ok=True
+18:12:49 == qwen3:4b mode=MAXN think=off loadavg=3.87
+18:13:15    load=5.6s idle=9.93W
+18:13:16    arc 0/100 E=6.4J P=15.1W out=8 ok=False
+18:13:36    arc 50/100 E=11.9J P=30.4W out=8 ok=False
+18:14:14    gsm8k 0/100 E=654.3J P=34.8W out=512 ok=False
+18:30:29    gsm8k 50/100 E=470.0J P=34.8W out=363 ok=True
+18:46:36 == qwen3:8b mode=MAXN think=off loadavg=2.95
+18:47:05    load=8.1s idle=9.93W
+18:47:06    arc 0/100 E=11.4J P=18.1W out=8 ok=True
+18:47:27    arc 50/100 E=17.3J P=33.0W out=7 ok=True
+18:47:59    gsm8k 0/100 E=458.8J P=38.3W out=218 ok=True
+19:00:56    gsm8k 50/100 E=326.7J P=38.3W out=155 ok=True
+19:13:54 == qwen3:1.7b mode=MAXN think=on loadavg=2.45
+19:14:19    load=3.9s idle=9.93W
+19:14:27    arc 0/100 E=286.5J P=34.2W out=459 ok=True
+19:27:27    arc 50/100 E=346.8J P=34.3W out=547 ok=False
+19:39:13    gsm8k 0/100 E=1403.1J P=36.0W out=2074 ok=True
+20:07:42    gsm8k 50/100 E=331.6J P=34.2W out=523 ok=True
+20:36:56 == qwen3:4b mode=MAXN think=on loadavg=3.42
+20:37:23    load=5.5s idle=10.38W
+20:38:06    arc 0/100 E=1477.6J P=34.8W out=1132 ok=True
+21:25:17    arc 50/100 E=1369.3J P=34.8W out=1062 ok=True
+22:11:39    gsm8k 0/100 E=1712.5J P=33.9W out=1267 ok=True
+23:01:57    gsm8k 50/100 E=452.0J P=33.3W out=363 ok=True
+23:49:26 == qwen3:8b mode=MAXN think=on loadavg=5.71
+23:49:55    load=8.0s idle=10.03W
+23:50:17    arc 0/100 E=824.1J P=37.9W out=398 ok=True
+00:17:38    arc 50/100 E=1083.0J P=38.6W out=513 ok=True
+00:45:45    gsm8k 0/100 E=3158.4J P=38.5W out=1488 ok=True
+02:02:01    gsm8k 50/100 E=1015.3J P=38.4W out=482 ok=True
+Thu Oct 22 03:16:25 AM +08 2026 power mode -> NV Power Mode: MODE_40W
+{'mode': 'MODE_40W', 'time': 1792610246.1385357, 'secs': 60, 'P_VDD_GPU_SOC': 3.44288, 'P_VDD_CPU_CV': 0.49184, 'P_VIN_SYS_5V0': 4.99408, 'P_VDDQ_VDD2_1V8AO': 0.5096, 'P_total': 9.438400000000001, 'T_cpu': 53.906, 'T_gpu': 50.687, 'T_soc0': 51.625, 'T_tj': 53.906, 'gpu_load': 0.0, 'gpu_freq_mhz': 306.0, 'nvpmodel': 'NV Power Mode: MODE_40W'}
+03:17:32 == qwen2.5:0.5b-instruct-q4_K_M mode=MODE_40W think=None loadavg=1.39
+03:17:56    load=3.1s idle=9.54W
+03:17:56    arc 0/100 E=2.0J P=11.2W out=8 ok=True
+03:18:01    arc 50/100 E=1.0J P=20.7W out=2 ok=True
+03:18:06    boolq 0/100 E=1.7J P=21.6W out=3 ok=True
+03:18:11    boolq 50/100 E=1.4J P=16.9W out=3 ok=True
+03:18:17    gsm8k 0/60 E=40.1J P=22.3W out=205 ok=False
+03:20:27    gsm8k 50/60 E=42.5J P=25.9W out=199 ok=True
+03:20:55 == qwen2.5:1.5b-instruct-q4_K_M mode=MODE_40W think=None loadavg=4.19
+03:21:20    load=3.8s idle=9.44W
+03:21:20    arc 0/100 E=3.7J P=12.0W out=8 ok=True
+03:21:30    arc 50/100 E=4.6J P=25.6W out=7 ok=True
+03:21:39    boolq 0/100 E=3.9J P=24.8W out=3 ok=True
+03:21:47    boolq 50/100 E=2.7J P=23.0W out=3 ok=False
+03:21:58    gsm8k 0/60 E=113.9J P=28.7W out=212 ok=True
+03:26:45    gsm8k 50/60 E=88.9J P=29.3W out=163 ok=True
+03:27:36 == qwen2.5:3b-instruct-q4_K_M mode=MODE_40W think=None loadavg=6.13
+03:28:02    load=4.9s idle=9.54W
+03:28:03    arc 0/100 E=2.3J P=11.5W out=2 ok=True
+03:28:10    arc 50/100 E=3.3J P=23.3W out=2 ok=True
+03:28:18    boolq 0/100 E=5.5J P=23.4W out=2 ok=True
+03:28:30    boolq 50/100 E=3.5J P=23.1W out=2 ok=True
+03:28:50    gsm8k 0/60 E=291.1J P=30.9W out=300 ok=True
+03:37:41    gsm8k 50/60 E=219.6J P=30.8W out=227 ok=True
+03:39:12 == qwen2.5:3b-instruct-q8_0 mode=MODE_40W think=None loadavg=4.49
+03:39:39    load=6.5s idle=9.64W
+03:39:39    arc 0/100 E=2.2J P=11.6W out=2 ok=True
+03:39:47    arc 50/100 E=3.4J P=25.2W out=2 ok=True
+03:39:54    boolq 0/100 E=5.8J P=25.0W out=2 ok=True
+03:40:06    boolq 50/100 E=3.8J P=25.9W out=2 ok=True
+03:40:24    gsm8k 0/60 E=284.9J P=32.5W out=251 ok=True
+03:50:14    gsm8k 50/60 E=219.2J P=32.7W out=193 ok=True
+03:52:02 == qwen2.5:3b-instruct-fp16 mode=MODE_40W think=None loadavg=3.98
+03:52:33    load=9.9s idle=9.54W
+03:52:33    arc 0/100 E=2.7J P=12.6W out=2 ok=True
+03:52:42    arc 50/100 E=4.3J P=29.2W out=2 ok=True
+03:52:50    boolq 0/100 E=6.4J P=28.3W out=2 ok=True
+03:53:02    boolq 50/100 E=5.3J P=29.8W out=2 ok=True
+03:53:25    gsm8k 0/60 E=435.5J P=34.3W out=251 ok=True
+04:07:54    gsm8k 50/60 E=334.4J P=34.4W out=193 ok=True
+04:10:19 == qwen2.5:7b-instruct-q4_K_M mode=MODE_40W think=None loadavg=2.74
+04:10:47    load=7.6s idle=9.78W
+04:10:48    arc 0/100 E=4.6J P=13.3W out=2 ok=True
+04:11:00    arc 50/100 E=5.9J P=26.3W out=2 ok=True
+04:11:13    boolq 0/100 E=11.0J P=25.0W out=2 ok=True
+04:11:34    boolq 50/100 E=6.6J P=26.2W out=2 ok=True
+04:12:06    gsm8k 0/60 E=458.7J P=33.4W out=238 ok=True
+04:27:10    gsm8k 50/60 E=323.0J P=33.5W out=167 ok=True
+04:29:46 == llama3.2:3b-instruct-q4_K_M mode=MODE_40W think=None loadavg=2.46
+04:30:12    load=5.5s idle=9.44W
+04:30:12    arc 0/100 E=3.4J P=11.9W out=3 ok=True
+04:30:21    arc 50/100 E=4.0J P=24.6W out=3 ok=True
+04:30:29    boolq 0/100 E=5.6J P=23.4W out=2 ok=True
+04:30:41    boolq 50/100 E=3.6J P=23.7W out=2 ok=False
+04:31:01    gsm8k 0/60 E=262.2J P=31.5W out=266 ok=False
+04:37:15    gsm8k 50/60 E=155.0J P=31.5W out=158 ok=True
+04:38:17 == gemma2:2b-instruct-q4_K_M mode=MODE_40W think=None loadavg=4.60
+04:38:43    load=5.5s idle=9.54W
+04:38:44    arc 0/100 E=4.0J P=12.0W out=4 ok=True
+04:38:57    arc 50/100 E=6.1J P=24.3W out=4 ok=True
+04:39:10    boolq 0/100 E=7.8J P=25.2W out=4 ok=True
+04:39:26    boolq 50/100 E=6.5J P=25.0W out=4 ok=True
+04:39:48    gsm8k 0/60 E=195.0J P=30.0W out=212 ok=False
+04:45:45    gsm8k 50/60 E=88.1J P=29.9W out=95 ok=True
+Thu Oct 22 04:47:04 AM +08 2026 power mode -> NV Power Mode: MODE_40W
+FAILED to set MODE_30W
+Thu Oct 22 04:47:05 AM +08 2026 restored MAXN
+===== Thu Oct 22 04:48:50 AM +08 2026 CATCH-UP (E1 missing configs) =====
+Thu Oct 22 04:48:50 AM +08 2026 bench server up: {"version":"0.33.0"}
+Thu Oct 22 04:48:50 AM +08 2026 all models present, starting campaign
+Thu Oct 22 04:48:50 AM +08 2026 all models downloaded
+Thu Oct 22 04:49:27 AM +08 2026 power mode -> NV Power Mode: MAXN
+{'mode': 'MAXN', 'time': 1792615827.937608, 'secs': 60, 'P_VDD_GPU_SOC': 3.6864, 'P_VDD_CPU_CV': 0.98304, 'P_VIN_SYS_5V0': 5.096, 'P_VDDQ_VDD2_1V8AO': 0.61152, 'P_total': 10.37696, 'T_cpu': 51.437, 'T_gpu': 47.906, 'T_soc0': 48.968, 'T_tj': 51.437, 'gpu_load': 0.0, 'gpu_freq_mhz': 306.0, 'nvpmodel': 'NV Power Mode: MAXN'}
+04:50:28 skip qwen2.5:0.5b-instruct-q4_K_M: complete
+04:50:28 skip qwen2.5:0.5b-instruct-q8_0: complete
+04:50:29 skip qwen2.5:0.5b-instruct-fp16: complete
+04:50:29 skip qwen2.5:1.5b-instruct-q4_K_M: complete
+04:50:29 skip qwen2.5:1.5b-instruct-q8_0: complete
+04:50:29 skip qwen2.5:1.5b-instruct-fp16: complete
+04:50:29 skip qwen2.5:3b-instruct-q3_K_M: complete
+04:50:29 skip qwen2.5:3b-instruct-q4_K_M: complete
+04:50:29 skip qwen2.5:3b-instruct-q5_K_M: complete
+04:50:34 == qwen2.5:3b-instruct-q6_K mode=MAXN think=None loadavg=1.26
+04:51:24    load=28.8s idle=10.03W
+04:51:24    arc 0/300 E=2.8J P=12.1W out=2 ok=True
+04:51:32    arc 50/300 E=3.9J P=28.2W out=2 ok=True
+04:51:39    arc 100/300 E=4.6J P=28.0W out=2 ok=True
+04:51:47    arc 150/300 E=4.3J P=27.5W out=2 ok=True
+04:51:55    arc 200/300 E=3.7J P=27.5W out=2 ok=True
+04:52:02    arc 250/300 E=3.5J P=27.7W out=2 ok=False
+04:52:10    boolq 0/300 E=7.1J P=29.8W out=2 ok=True
+04:52:22    boolq 50/300 E=5.0J P=27.8W out=2 ok=True
+04:52:33    boolq 100/300 E=5.4J P=28.4W out=2 ok=True
+04:52:45    boolq 150/300 E=8.3J P=27.2W out=2 ok=True
+04:52:56    boolq 200/300 E=4.8J P=27.4W out=2 ok=True
+04:53:08    boolq 250/300 E=4.0J P=27.5W out=2 ok=False
+04:53:32    gsm8k 0/200 E=510.1J P=36.5W out=394 ok=True
+05:03:35    gsm8k 50/200 E=289.4J P=36.6W out=223 ok=True
+05:13:40    gsm8k 100/200 E=390.0J P=36.7W out=300 ok=True
+05:24:05    gsm8k 150/200 E=357.2J P=36.7W out=275 ok=True
+05:34:28 == qwen2.5:3b-instruct-q8_0 mode=MAXN think=None loadavg=3.82
+05:34:55    load=5.8s idle=9.79W
+05:34:55    arc 0/300 E=2.3J P=11.9W out=2 ok=True
+05:35:02    arc 50/300 E=3.5J P=28.3W out=2 ok=True
+05:35:09    arc 100/300 E=4.0J P=27.9W out=2 ok=True
+05:35:16    arc 150/300 E=4.3J P=28.0W out=2 ok=True
+05:35:23    arc 200/300 E=3.3J P=27.1W out=2 ok=True
+05:35:29    arc 250/300 E=3.1J P=27.9W out=2 ok=True
+05:35:36    boolq 0/300 E=5.4J P=27.0W out=2 ok=True
+05:35:47    boolq 50/300 E=3.8J P=28.2W out=2 ok=True
+05:35:56    boolq 100/300 E=4.8J P=28.3W out=2 ok=True
+05:36:05    boolq 150/300 E=7.0J P=27.6W out=2 ok=True
+05:36:15    boolq 200/300 E=4.5J P=28.1W out=2 ok=True
+05:36:25    boolq 250/300 E=3.9J P=27.5W out=2 ok=False
+05:36:42    gsm8k 0/200 E=292.9J P=36.7W out=251 ok=True
+05:45:43    gsm8k 50/200 E=225.9J P=36.9W out=193 ok=True
+05:54:42    gsm8k 100/200 E=407.3J P=36.8W out=350 ok=True
+06:02:52    foreign load detected: ['packagekitd(4576):98%']
+06:02:52    CONTAMINATED by ['packagekitd(4576):98%']: quarantined, retrying (attempt 1)
+06:02:57 == qwen2.5:3b-instruct-q8_0 mode=MAXN think=None loadavg=4.19
+06:03:24    load=5.9s idle=10.13W
+06:03:24    arc 0/300 E=2.3J P=12.1W out=2 ok=True
+06:03:31    arc 50/300 E=3.5J P=27.9W out=2 ok=True
+06:03:37    arc 100/300 E=3.8J P=27.6W out=2 ok=True
+06:03:44    arc 150/300 E=3.9J P=27.8W out=2 ok=True
+06:03:51    arc 200/300 E=3.5J P=28.9W out=2 ok=True
+06:03:58    arc 250/300 E=3.2J P=27.6W out=2 ok=True
+06:04:05    boolq 0/300 E=5.6J P=27.6W out=2 ok=True
+06:04:15    boolq 50/300 E=3.8J P=28.5W out=2 ok=True
+06:04:24    boolq 100/300 E=4.9J P=29.3W out=2 ok=True
+06:04:34    boolq 150/300 E=6.7J P=28.1W out=2 ok=True
+06:04:44    boolq 200/300 E=4.6J P=28.0W out=2 ok=True
+06:04:54    boolq 250/300 E=3.9J P=28.7W out=2 ok=False
+06:05:11    gsm8k 0/200 E=293.0J P=36.7W out=251 ok=True
+06:14:27    gsm8k 50/200 E=238.7J P=35.2W out=193 ok=True
+06:24:21    gsm8k 100/200 E=432.2J P=35.2W out=350 ok=True
+06:34:44    gsm8k 150/200 E=353.7J P=34.9W out=287 ok=True
+06:44:40 skip qwen2.5:3b-instruct-fp16: complete
+06:44:40 skip qwen2.5:7b-instruct-q4_K_M: complete
+06:44:40 skip qwen2.5:7b-instruct-q8_0: complete
+06:44:40 skip llama3.2:1b-instruct-q4_K_M: complete
+06:44:40 skip llama3.2:1b-instruct-q8_0: complete
+06:44:40 skip llama3.2:1b-instruct-fp16: complete
+06:44:40 skip llama3.2:3b-instruct-q4_K_M: complete
+06:44:40 skip llama3.2:3b-instruct-q8_0: complete
+06:44:40 skip llama3.2:3b-instruct-fp16: complete
+06:44:40 skip gemma2:2b-instruct-q4_K_M: complete
+06:44:40 skip gemma2:2b-instruct-q8_0: complete
+06:44:40 skip gemma2:2b-instruct-fp16: complete
+06:44:41 skip qwen2.5:0.5b-instruct-q4_K_M: complete
+06:44:41 skip qwen2.5:1.5b-instruct-q4_K_M: complete
+06:44:41 skip qwen2.5:3b-instruct-q4_K_M: complete
+06:44:41 skip qwen2.5:3b-instruct-q8_0: complete
+06:44:41 skip qwen2.5:3b-instruct-fp16: complete
+06:44:41 skip qwen2.5:7b-instruct-q4_K_M: complete
+06:44:41 skip llama3.2:3b-instruct-q4_K_M: complete
+06:44:41 skip gemma2:2b-instruct-q4_K_M: complete
+06:44:42 skip qwen3:1.7b: complete
+06:44:42 skip qwen3:4b: complete
+06:44:42 skip qwen3:8b: complete
+06:44:43 skip qwen3:1.7b: complete
+06:44:43 skip qwen3:4b: complete
+06:44:43 skip qwen3:8b: complete
+Thu Oct 22 06:45:14 AM +08 2026 power mode -> NV Power Mode: MODE_40W
+{'mode': 'MODE_40W', 'time': 1792622775.1112893, 'secs': 60, 'P_VDD_GPU_SOC': 3.6864, 'P_VDD_CPU_CV': 0.73728, 'P_VIN_SYS_5V0': 4.99408, 'P_VDDQ_VDD2_1V8AO': 0.61152, 'P_total': 10.029280000000002, 'T_cpu': 52.937, 'T_gpu': 49.656, 'T_soc0': 50.656, 'T_tj': 52.937, 'gpu_load': 7.8, 'gpu_freq_mhz': 306.0, 'nvpmodel': 'NV Power Mode: MODE_40W'}
+06:46:16 skip qwen2.5:0.5b-instruct-q4_K_M: complete
+06:46:16 skip qwen2.5:1.5b-instruct-q4_K_M: complete
+06:46:16 skip qwen2.5:3b-instruct-q4_K_M: complete
+06:46:16 skip qwen2.5:3b-instruct-q8_0: complete
+06:46:16 skip qwen2.5:3b-instruct-fp16: complete
+06:46:16 skip qwen2.5:7b-instruct-q4_K_M: complete
+06:46:16 skip llama3.2:3b-instruct-q4_K_M: complete
+06:46:16 skip gemma2:2b-instruct-q4_K_M: complete
+Thu Oct 22 06:46:46 AM +08 2026 power mode -> NV Power Mode: MODE_40W
+FAILED to set MODE_30W
+Thu Oct 22 06:46:47 AM +08 2026 restored MAXN
+===== Thu Oct 22 06:51:50 AM +08 2026 E3 extra: qwen3:4b-instruct-2507 think=off (non-thinking sibling of the 4B thinking model) =====
+06:51:56 == qwen3:4b-instruct-2507-q4_K_M mode=MAXN think=off loadavg=2.20
+06:52:23    load=5.5s idle=11.32W
+06:52:23    arc 0/100 E=8.2J P=16.0W out=8 ok=True
+06:52:37    arc 50/100 E=5.9J P=28.2W out=2 ok=True
+06:53:05    gsm8k 0/100 E=394.0J P=33.1W out=277 ok=True
+07:04:11    gsm8k 50/100 E=175.6J P=33.4W out=129 ok=True

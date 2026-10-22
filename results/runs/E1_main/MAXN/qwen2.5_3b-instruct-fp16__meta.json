@@ -1,0 +1,1 @@
+{"model": "qwen2.5:3b-instruct-fp16", "mode": "MAXN", "think": null, "load_s": 9.106622219085693, "p_idle_loaded_W": 12.002400000000002, "idle_trace_temp_tj": 52.83351093439363, "loadavg_before": 1.35, "num_ctx": 2048, "time": 1792547310.7510543, "nvpmodel": "NV Power Mode: MAXN"}

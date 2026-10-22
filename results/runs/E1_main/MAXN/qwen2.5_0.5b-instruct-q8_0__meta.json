@@ -1,0 +1,1 @@
+{"model": "qwen2.5:0.5b-instruct-q8_0", "mode": "MAXN", "think": null, "load_s": 2.6932151317596436, "p_idle_loaded_W": 10.029280000000002, "idle_trace_temp_tj": 50.929677, "loadavg_before": 4.18, "num_ctx": 2048, "time": 1791025037.0021858, "nvpmodel": "NV Power Mode: MAXN"}

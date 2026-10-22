@@ -1,0 +1,1 @@
+{"model": "llama3.2:1b-instruct-fp16", "mode": "MAXN", "think": null, "load_s": 5.614977121353149, "p_idle_loaded_W": 9.927360000000002, "idle_trace_temp_tj": 55.079809999999995, "loadavg_before": 4.51, "num_ctx": 2048, "time": 1792559375.448596, "nvpmodel": "NV Power Mode: MAXN"}

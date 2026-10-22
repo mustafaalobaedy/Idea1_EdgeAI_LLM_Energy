@@ -1,0 +1,1 @@
+{"model": "gemma2:2b-instruct-fp16", "mode": "MAXN", "think": null, "load_s": 9.283894300460815, "p_idle_loaded_W": 9.927360000000002, "idle_trace_temp_tj": 54.56889099999999, "loadavg_before": 3.46, "num_ctx": 2048, "time": 1792568800.0136645, "nvpmodel": "NV Power Mode: MAXN"}
