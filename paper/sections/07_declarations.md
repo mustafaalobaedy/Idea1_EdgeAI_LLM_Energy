@@ -1,7 +1,3 @@
-# Acknowledgements
-
-None.
-
 # Additional Information and Declarations
 
 ## Funding

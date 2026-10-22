@@ -376,9 +376,40 @@ class Builder:
         self.para([], after=6)
 
 
+# ---------------------------------------------------------------- diagram export (submission figure file)
+def export_diagram_png(name, out_png):
+    """Render an editable diagram to a 300 dpi PNG through LibreOffice (page -> PDF -> PNG -> auto-crop)."""
+    import tempfile
+    from PIL import Image, ImageChops
+    tmp = Path(tempfile.mkdtemp())
+    T = Builder()
+    T.diagram(name, '', '0')
+    T.d.paragraphs[-1]._p.getparent().remove(T.d.paragraphs[-1]._p)  # drop the empty caption
+    for sect in T.d.sections:  # no line numbers on the exported figure page
+        for ln in sect._sectPr.findall(qn('w:lnNumType')):
+            sect._sectPr.remove(ln)
+    T.d.save(tmp / 'diagram.docx')
+    subprocess.run(['soffice', '--headless', '--convert-to', 'pdf', '--outdir', str(tmp), str(tmp / 'diagram.docx')],
+                   capture_output=True, timeout=300)
+    subprocess.run(['pdftoppm', '-r', '300', '-f', '1', '-l', '1', '-png', str(tmp / 'diagram.pdf'), str(tmp / 'pg')],
+                   capture_output=True, timeout=300)
+    png = next(tmp.glob('pg*.png'))
+    im = Image.open(png).convert('RGB')
+    bg = Image.new('RGB', im.size, (255, 255, 255))
+    bbox = ImageChops.difference(im, bg).getbbox()
+    pad = 30
+    im = im.crop((max(bbox[0] - pad, 0), max(bbox[1] - pad, 0), min(bbox[2] + pad, im.width), min(bbox[3] + pad, im.height)))
+    im.save(out_png, dpi=(300, 300))
+
+
 # ---------------------------------------------------------------- main
 def main():
     version = sys.argv[sys.argv.index('--version') + 1] if '--version' in sys.argv else None
+    submission = '--submission' in sys.argv
+    sub_dir = HERE / 'submission'
+    if submission:
+        sub_dir.mkdir(exist_ok=True)
+    legends = []
     bib = parse_bib((HERE / 'references.bib').read_text())
     files = sorted(f for f in glob.glob(str(HERE / 'sections' / '*.md')) if 'outline' not in os.path.basename(f))
     draft = '\n\n'.join(Path(f).read_text() for f in files)
@@ -425,12 +456,21 @@ def main():
         raise KeyError(f'referenced but undefined: {sorted(used - set(labels))}')
     if set(labels) - used:
         raise KeyError(f'defined but never referenced in the text: {sorted(set(labels) - used)}')
+    for kind in ('fig', 'tab'):
+        defined = [k.split(':', 1)[1] for k in labels if k.startswith(kind + ':')]
+        cited = []
+        for m in re.finditer(r'\[(fig|tab):([\w-]+)\]', body_text):
+            if m.group(1) == kind and m.group(2) not in cited:
+                cited.append(m.group(2))
+        if cited != defined:
+            raise ValueError(f'{kind}: first-citation order {cited} differs from numbering order {defined}')
     draft = re.sub(r'\[((?:fig|tab|eq|alg):[\w-]+)\]', lambda m: labels[m.group(1)], draft)
     if re.search(r'\[TO (WRITE|FINALI[SZ]E)', draft):
         print('WARNING: draft still contains [TO WRITE] placeholders')
 
     B = Builder()
     algo = None
+    abstract_started = False
     long_sentences = 0
     for line in draft.splitlines():
         s = line.strip()
@@ -458,13 +498,30 @@ def main():
             B.equation(s[5:-2], labels[f'eq:{s[5:-2]}'])
         elif s.startswith('{{FIG:'):
             path, cap, lab = [x.strip() for x in s[6:-2].split('|')[:3]]
-            B.figure(path, cap, labels[f'fig:{lab}'].split()[-1])
+            n = labels[f'fig:{lab}'].split()[-1]
+            if submission:
+                legends.append(f'Figure {n}: {re.sub(r"[*`]", "", cap)}')
+                (sub_dir / f'Figure{n}.png').write_bytes((ROOT / path).read_bytes())
+            else:
+                B.figure(path, cap, n)
         elif s.startswith('{{DIAGRAM:'):
             name, cap, lab = [x.strip() for x in s[10:-2].split('|')[:3]]
-            B.diagram(name, cap, labels[f'fig:{lab}'].split()[-1])
+            n = labels[f'fig:{lab}'].split()[-1]
+            if submission:
+                legends.append(f'Figure {n}: {re.sub(r"[*`]", "", cap)}')
+                export_diagram_png(name, sub_dir / f'Figure{n}.png')
+            else:
+                B.diagram(name, cap, n)
         elif s.startswith('{{TABLE:'):
             path, cap, lab = [x.strip() for x in s[8:-2].split('|')[:3]]
-            B.table(path, cap, labels[f'tab:{lab}'].split()[-1])
+            n = labels[f'tab:{lab}'].split()[-1]
+            if submission:
+                legends.append(f'Table {n}: {re.sub(r"[*`]", "", cap)}')
+                T = Builder()
+                T.table(path, cap, n)
+                T.d.save(sub_dir / f'Table{n}.docx')
+            else:
+                B.table(path, cap, n)
         elif s.startswith('TITLE:'):
             B.para([(s[6:].strip(), False, True, False)], size=18, after=18)
         elif s.startswith('AUTHOR:'):
@@ -477,8 +534,12 @@ def main():
             B.para([(addr, False, False, False)], after=0)
             B.para([('Email address: ', False, False, False), (email, False, False, False)], after=12)
         elif s.startswith('ABSTRACT:'):
-            B.heading('Abstract', 1)
-            B.para(inline(s[9:].strip()))
+            if not abstract_started:
+                B.heading('Abstract', 1)
+                abstract_started = True
+            txt = s[9:].strip()
+            m_h = re.match(r'^([A-Z][a-z]+)\. (.*)$', txt)  # structured abstract: bold heading followed by a period
+            B.para(([(m_h.group(1) + '. ', False, True, False)] + inline(m_h.group(2))) if m_h else inline(txt), after=4)
         elif s.startswith('KEYWORDS:'):
             B.para([('Keywords: ', False, True, False)] + inline(s[9:].strip()))
         elif s.startswith('#### '):
@@ -501,13 +562,15 @@ def main():
         segs = [(t, it, False, False) for t, it in peerj_ref(bib[key], year_label[key])]
         B.para(segs, size=11, after=6, left_indent=0.3, hanging=0.3)
 
+    if submission:
+        (sub_dir / 'figure_and_table_legends.txt').write_text('\n\n'.join(legends) + '\n')
     B.d.save(OUT)
     unused = sorted(set(bib) - set(ordered))
     print(f'wrote {OUT}  ({len(ordered)} references cited; {len(unused)} bib entries unused; {long_sentences} long sentences)')
     if version:
         title = re.search(r'^TITLE:\s*(.+)$', draft, re.M).group(1)
         words = re.sub(r'[^\w\s]', '', title).split()[:5]
-        name = ' '.join(words) + f' {version}.docx'
+        name = ' '.join(words) + f' {version}' + (' submission' if submission else '') + '.docx'
         (HERE / name).write_bytes(OUT.read_bytes())
         subprocess.run(['soffice', '--headless', '--convert-to', 'pdf', '--outdir', str(HERE), str(HERE / name)],
                        capture_output=True, text=True, timeout=300)

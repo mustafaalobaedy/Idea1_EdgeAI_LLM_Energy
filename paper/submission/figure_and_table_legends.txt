@@ -1,0 +1,43 @@
+Table 1: Positioning against the closest edge-measurement studies (Y = covered; P = partially; – = not covered), based on each paper's published description
+
+Table 2: Stock power modes of the AGX Orin 32 GB (values read from the device's nvpmodel configuration). MAXN and MODE_40W were evaluated; MODE_30W and MODE_15W require a reboot
+
+Figure 1: Measurement setup. The benchmark harness sends one request at a time to a dedicated Ollama server and reads the four INA3221 power rails at 50 Hz in a background thread. Energy is integrated between the request timestamps t0 and t1
+
+Table 3: Evaluated model configurations (Ollama tags; size is the GGUF weight-file size; bits per weight are computed from file size and parameter count)
+
+Figure 2: One minute of the module power trace during GSM8K decoding (stacked rails, top) and the GPU load (bottom). The gap near 27 s is the pause between two requests
+
+Figure 3: Idle module power by rail with no model loaded, for the two evaluated power modes
+
+Figure 4: Prompt-length distribution per task (left) and GSM8K output-length distribution per model configuration (right, boxes show quartiles and whiskers the full range)
+
+Figure 5: Empirical cumulative distributions of per-query energy for four configurations on the three tasks (log scale)
+
+Figure 6: Junction, GPU, and CPU temperatures (left) and GPU clock (right) during the longest single run of the campaign (Qwen2.5-7B Q8_0 on GSM8K at MAXN). The periodic dips are the pauses between requests
+
+Table 4: Main grid at MAXN: accuracy, mean energy per query, and joules per correct answer (JPCA) for every configuration and task (300 ARC, 300 BoolQ, and 200 GSM8K items)
+
+Table 5: Main grid at MAXN: mean end-to-end latency and decode throughput per task, time-to-first-token on ARC, and the truncation and parse-failure rates over all tasks
+
+Figure 7: Accuracy against mean energy per query for all main-grid configurations at MAXN. Marker color gives the model family, marker shape the quantization level, and marker size the parameter count. The dashed line joins the Pareto-optimal configurations
+
+Table 6: Pre-specified paired comparisons on identical items: accuracy difference with its paired-bootstrap 95% confidence interval, the discordant item counts (A correct and B wrong / A wrong and B correct) on which the exact McNemar test is based, the exact and Holm-corrected p-values, and the JPCA ratio with its paired-bootstrap 95% confidence interval
+
+Figure 8: Decode energy per output token (left) and time per output token (right) against the weight-file size for all main-grid configurations, with least-squares fits
+
+Table 7: Ordinary-least-squares regression of log energy per query on log weight-file size, log output tokens, log prompt tokens, and model family (reference: Gemma 2), with HC3 robust standard errors
+
+Figure 9: Per-item ratio of energy per query (top) and latency per query (bottom) between the 40 W mode and MAXN for the eight sweep configurations and three tasks. Boxes show the quartiles over items and whiskers the 1.5 IQR range
+
+Table 8: Power-mode sweep: mean power, energy per query, and the median ratios of energy, latency, and JPCA relative to MAXN over the eight configurations (100 ARC, 100 BoolQ, and 60 GSM8K items)
+
+Figure 10: Quantization ladder of Qwen2.5-3B: accuracy with 95% bootstrap intervals (left), joules per correct answer (center, log scale), and GSM8K decode throughput (right) against the effective bits per weight
+
+Table 9: Thinking study on 100 ARC and 100 GSM8K items: accuracy, mean output tokens, latency, energy per query, JPCA, and the share of outputs cut at the budget
+
+Figure 11: Accuracy against energy per query with thinking off (circles) and on (stars) for the three Qwen3 sizes. Arrows join the two settings of the same size
+
+Table 10: Agreement cascade selected on one half of the items and evaluated on the held-out half, compared with the best single model and with an oracle router
+
+Figure 12: Accuracy against energy per query on the held-out half for all single models (circles) and all candidate agreement cascades (diamonds). The circled point is the cascade selected on the selection half

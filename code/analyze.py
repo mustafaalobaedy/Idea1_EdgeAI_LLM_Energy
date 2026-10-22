@@ -14,6 +14,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt  # noqa: E402
 import matplotlib.ticker  # noqa: E402
+import matplotlib.patches  # noqa: E402
 import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
 import requests  # noqa: E402
@@ -389,24 +390,36 @@ def fig_modes(s2, meta):
     for c in ['E_query_J', 'latency_s', 'EDP']:
         rel[c + '_rel'] = rel[c] / rel[c + '_maxn']
     rel.to_csv(os.path.join(TAB, 'T4_power_modes_relative.csv'), index=False)
-    fig, ax = plt.subplots(2, 3, figsize=(7.2, 4.2), sharex=True)
+    fig, ax = plt.subplots(2, 3, figsize=(7.2, 4.4), sharex=True)
     models = sorted(s2.model.unique(), key=lambda m: meta.loc[m, 'size_GB'])
     x = np.arange(len(models))
-    w = 0.2
-    modes = [m for m in MODES if m in set(s2['mode'])]
+    modes = [m for m in MODES if m in set(s2['mode']) and m != 'MAXN']
+    w = 0.7 / max(len(modes), 1)
+    d2 = D_ALL[D_ALL.tag == 'E2_modes']
+    base_q = d2[d2['mode'] == 'MAXN'].set_index(['model', 'task', 'qid'])
     for j, t in enumerate(TASKS):
         for k, md in enumerate(modes):
-            h = rel[(rel.task == t) & (rel['mode'] == md)].set_index('model').reindex(models)
-            ax[0, j].bar(x + (k - 1.5) * w, h.E_query_J_rel, w, color=MODE_COLOR[md], label=MODE_LABEL[md],
-                         edgecolor='white', linewidth=0.5)
-            ax[1, j].bar(x + (k - 1.5) * w, h.latency_s_rel, w, color=MODE_COLOR[md], edgecolor='white', linewidth=0.5)
+            g = d2[(d2['mode'] == md) & (d2.task == t)].set_index(['model', 'task', 'qid'])
+            common = g.index.intersection(base_q.index)
+            e_ratio = (g.loc[common, 'energy_J'] / base_q.loc[common, 'energy_J'])
+            l_ratio = (g.loc[common, 'wall_s'] / base_q.loc[common, 'wall_s'])
+            pos = x + (k - (len(modes) - 1) / 2) * w
+            for row, ratio in ((0, e_ratio), (1, l_ratio)):
+                data = [ratio.xs(m, level='model').values if m in ratio.index.get_level_values('model') else [] for m in models]
+                bp = ax[row, j].boxplot(data, positions=pos, widths=w * 0.85, showfliers=False, patch_artist=True,
+                                        medianprops=dict(color=INK, lw=1), whiskerprops=dict(color=INK2, lw=0.8),
+                                        capprops=dict(color=INK2, lw=0.8), boxprops=dict(lw=0.8, edgecolor=INK2))
+                for box in bp['boxes']:
+                    box.set_facecolor(MODE_COLOR[md])
+                    box.set_alpha(0.85)
         ax[0, j].axhline(1, color=INK2, lw=0.8)
         ax[1, j].axhline(1, color=INK2, lw=0.8)
         ax[0, j].set_title(TASK_LABEL[t])
         ax[1, j].set_xticks(x, [short(meta.loc[m, 'label']) for m in models], rotation=70, fontsize=7)
     ax[0, 0].set_ylabel('Energy / query\n(relative to MAXN)')
     ax[1, 0].set_ylabel('Latency / query\n(relative to MAXN)')
-    ax[0, 2].legend(fontsize=6, loc='upper left', bbox_to_anchor=(1, 1))
+    h = [matplotlib.patches.Patch(facecolor=MODE_COLOR[md], label=f'{MODE_LABEL[md]} / MAXN, per item') for md in modes]
+    ax[0, 2].legend(handles=h, fontsize=6, loc='upper left', bbox_to_anchor=(1, 1))
     save(fig, 'fig09_power_modes')
     summ = rel.groupby(['mode', 'task'])[['E_query_J_rel', 'latency_s_rel', 'EDP_rel']].agg(['mean', 'min', 'max'])
     summ.to_csv(os.path.join(TAB, 'T4b_power_modes_summary.csv'))
@@ -471,7 +484,8 @@ def fig_think(s3, d, meta):
                                    E_mult=n.E_query_J / o.E_query_J, JPCA_off=o.JPCA, JPCA_on=n.JPCA,
                                    marginal_J_per_extra_correct=(n.E_query_J - o.E_query_J) / (n.acc - o.acc)
                                    if n.acc > o.acc else np.inf,
-                                   mcnemar_p=float(mt.pvalue), out_tok_off=o.out_tokens, out_tok_on=n.out_tokens,
+                                   mcnemar_p=float(mt.pvalue), n_on_only=int(tb.values[0, 1]), n_off_only=int(tb.values[1, 0]),
+                                   out_tok_off=o.out_tokens, out_tok_on=n.out_tokens,
                                    trunc_on=n.truncated)
         logx(a)
         a.set_title(TASK_LABEL[t])
@@ -622,9 +636,13 @@ def key_tests(d1, meta):
             idx = RNG.integers(0, len(p), (B, len(p)))
             ea, eb, ca, cb = ep[a].values, ep[b].values, p[a].values.astype(float), p[b].values.astype(float)
             ratio = (ea[idx].sum(1) / np.maximum(ca[idx].sum(1), 1)) / (eb[idx].sum(1) / np.maximum(cb[idx].sum(1), 1))
+            diff_bs = (ca[idx].mean(1) - cb[idx].mean(1)) * 100
+            mt = mcnemar(tb.values, exact=True)
             rows.append(dict(A=meta.loc[a, 'label'], B=meta.loc[b, 'label'], task=t, n=len(p), acc_A=ca.mean(),
                              acc_B=cb.mean(), diff_pp=(ca.mean() - cb.mean()) * 100,
-                             p_mcnemar=mcnemar(tb.values, exact=True).pvalue,
+                             diff_lo=np.percentile(diff_bs, 2.5), diff_hi=np.percentile(diff_bs, 97.5),
+                             n_A_only=int(tb.values[1, 0]), n_B_only=int(tb.values[0, 1]), mcnemar_stat=float(mt.statistic),
+                             p_mcnemar=mt.pvalue,
                              JPCA_ratio=(ea.sum() / max(ca.sum(), 1)) / (eb.sum() / max(cb.sum(), 1)),
                              JPCA_ratio_lo=np.percentile(ratio, 2.5), JPCA_ratio_hi=np.percentile(ratio, 97.5)))
     df = pd.DataFrame(rows)
@@ -634,8 +652,13 @@ def key_tests(d1, meta):
     return df
 
 
+D_ALL = None
+
+
 def main():
+    global D_ALL
     d = load_runs()
+    D_ALL = d
     if d.empty:
         print('no data yet')
         return

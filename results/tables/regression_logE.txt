@@ -4,7 +4,7 @@ Dep. Variable:                   logE   R-squared:                       0.984
 Model:                            OLS   Adj. R-squared:                  0.984
 Method:                 Least Squares   F-statistic:                 3.099e+05
 Date:                Thu, 22 Oct 2026   Prob (F-statistic):               0.00
-Time:                        08:00:16   Log-Likelihood:                 554.17
+Time:                        08:44:07   Log-Likelihood:                 554.17
 No. Observations:               18398   AIC:                            -1096.
 Df Residuals:                   18392   BIC:                            -1049.
 Df Model:                           5                                         

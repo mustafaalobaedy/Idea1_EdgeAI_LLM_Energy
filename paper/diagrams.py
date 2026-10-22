@@ -117,7 +117,7 @@ def setup_diagram():
                              'greedy decoding', 'one request at a time', '', 'idle-machine guard'], fill=G)
     # the Jetson module (outer box) with a two-line title
     D.box(140, 0, 320, 196, [''], fill='FFFFFF')
-    D.text(145, 4, 310, 26, '**NVIDIA Jetson AGX Orin 32 GB module**  –  power mode set with nvpmodel: 15 W, 30 W, 40 W, or MAXN',
+    D.text(145, 4, 310, 26, '**NVIDIA Jetson AGX Orin 32 GB module**  –  power mode set with nvpmodel (MAXN or 40 W in this study)',
            size=8, align='center')
     D.box(160, 32, 130, 62, ['**Ollama 0.33 server**', '(dedicated instance)', 'llama.cpp, GGUF model', 'GPU + shared LPDDR5'])
     D.box(310, 32, 135, 62, ['**INA3221 sensors**', 'VDD_GPU_SOC, VDD_CPU_CV', 'VIN_SYS_5V0', 'VDDQ_VDD2_1V8AO'])
