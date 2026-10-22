@@ -55,6 +55,12 @@ From `../00 Instructions/Instructions.txt`: passive voice, good American English
 
 PeerJ template guidance (in its yellow text boxes): no figures or tables embedded in the submitted text (use `--submission`), structured abstract ≤ 500 words, title ≤ 250 characters, US Letter, line numbers on, left-aligned, full statistical reporting (test, statistic or discordant counts, exact p-value, effect size with CI), distributions rather than bare bars where possible.
 
+## Related projects (same device, same measurement approach)
+
+- `../006 How Much Energy Does a Correct Tool Call Cost - IMED`: conference paper (ICETEC 2026) on function-calling agents with energy per correct call. Its harness descends from this one but uses its own Ollama instance on :11501 and its own campaign scripts. Keep the two papers' text and numbers separate.
+- `../003 Agentic AI at the Edge`: conference paper (AAI 2026) on single- vs multi-agent smart-building control; cited by 006 as a companion study.
+- Neither is cited here yet. Once either is accepted, it can be added to the related-work subsection as companion work and self-citation.
+
 ## Things that matter
 
 - The Jetson is shared with other projects (other Claude sessions, training jobs). Check `ps` before any energy run; the guard will otherwise pause or quarantine.
