@@ -25,7 +25,7 @@ python code/analyze.py               # results/tables, results/summary.json, fig
 python paper/make_tables.py && python paper/build_paper.py --version V01
 ```
 
-The 30 W and 15 W modes change the GPU power-gating mask and require a reboot on JetPack 6; see `code/run_mode_after_reboot.sh`.
+The 30 W and 15 W modes change the GPU power-gating mask and require a reboot on JetPack 6. They are not part of the study; `code/run_mode_after_reboot.sh` documents how they could be run.
 
 ## Environment
 

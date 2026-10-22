@@ -25,9 +25,8 @@ $PY code/bench.py --mode MAXN --tag E1_main --models $E1_MODELS --n arc=300 bool
 $PY code/bench.py --mode MAXN --tag E2_modes --models $E2_MODELS --n $E2_N
 $PY code/bench.py --mode MAXN --tag E3_think --models $Q3 --think off --tasks arc gsm8k --n arc=100 gsm8k=100
 $PY code/bench.py --mode MAXN --tag E3_think --models $Q3 --think on  --tasks arc gsm8k --n arc=100 gsm8k=100 --num_ctx 8192 --think_tokens 4096
-for spec in "3 MODE_40W" "2 MODE_30W" "1 MODE_15W"; do
-  set -- $spec
-  set_mode $1 $2
-  $PY code/bench.py --mode $2 --tag E2_modes --models $E2_MODELS --n $E2_N
-done
+# Power-mode sweep: only MODE_40W can be switched at run time; MODE_30W and MODE_15W change the GPU
+# power-gating mask and need a reboot on JetPack 6, so they are outside this campaign (see run_mode_after_reboot.sh).
+set_mode 3 MODE_40W
+$PY code/bench.py --mode MODE_40W --tag E2_modes --models $E2_MODELS --n $E2_N
 echo "$(date) CAMPAIGN COMPLETE"
