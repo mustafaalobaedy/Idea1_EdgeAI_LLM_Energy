@@ -69,21 +69,19 @@ def parse_bib(text):
         i = j
 
 
-_ACC = {"\\'": {'a': 'á', 'e': 'é', 'i': 'í', 'o': 'ó', 'u': 'ú', 'c': 'ć', 'n': 'ń', 'y': 'ý'},
-        '\\"': {'a': 'ä', 'e': 'ë', 'i': 'ï', 'o': 'ö', 'u': 'ü'},
-        '\\`': {'a': 'à', 'e': 'è', 'o': 'ò', 'u': 'ù'},
-        '\\^': {'a': 'â', 'e': 'ê', 'o': 'ô', 'i': 'î'},
-        '\\~': {'a': 'ã', 'n': 'ñ', 'o': 'õ'},
-        '\\c': {'c': 'ç'}, '\\v': {'c': 'č', 's': 'š', 'z': 'ž', 'r': 'ř'}, '\\u': {'g': 'ğ'}}
+_COMB = {"'": '́', '"': '̈', '`': '̀', '^': '̂', '~': '̃', 'c': '̧', 'v': '̌', 'u': '̆', 'H': '̋', '=': '̄', '.': '̇'}
 
 
 def clean(s):
-    s = s.replace('\\aa', 'å').replace('\\o', 'ø').replace('\\ss', 'ß').replace('\\&', '&').replace('\\_', '_')
-    s = s.replace('$\\tau$', 'τ').replace('--', '–').replace('``', '“').replace("''", '”')
-    for acc, table in _ACC.items():
-        for ch, out in table.items():
-            s = s.replace('{' + acc + ch + '}', out).replace('{' + acc + '{' + ch + '}}', out).replace(acc + ch, out)
-    return re.sub(r'[{}]', '', s).strip()
+    """Strip braces and convert LaTeX accents/special letters to Unicode (NFC)."""
+    import unicodedata
+    s = s.replace('\\aa', 'å').replace('\\AA', 'Å').replace('\\o', 'ø').replace('\\O', 'Ø').replace('\\ss', 'ß').replace('\\l', 'ł')
+    s = s.replace('\\&', '&').replace('\\_', '_').replace('$\\tau$', 'τ').replace('--', '–').replace('``', '“').replace("''", '”')
+    s = s.replace('\\i', 'i').replace('\\j', 'j')
+    # {\'e}, \'e, {\'{e}}, {\c{c}} ... -> letter + combining accent
+    s = re.sub(r"\{?\\(['\"`^~cvuH=.])\{?([A-Za-z])\}?\}?", lambda m: m.group(2) + _COMB[m.group(1)], s)
+    s = re.sub(r'[{}]', '', s).strip()
+    return unicodedata.normalize('NFC', s)
 
 
 def split_authors(s):
@@ -127,7 +125,7 @@ def peerj_ref(e, year_label):
     url = e.get('url', '')
     note = clean(e.get('note', ''))
     acc = f' (accessed {note.split("Accessed ")[-1]})' if 'Accessed' in note else ''
-    head = [(f'{names}. {year_label}. {t}. ', False)]
+    head = [(f'{names}{"" if names.endswith(".") else "."} {year_label}. {t}. ', False)]
     typ = e['type']
     if typ == 'article':
         vol = e.get('volume', '')
