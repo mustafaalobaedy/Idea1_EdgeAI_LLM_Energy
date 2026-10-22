@@ -10,11 +10,11 @@ No funding was received for this work.
 
 ## Competing Interests
 
-The authors declare that they have no competing interests.
+The author declares that there are no competing interests.
 
 ## Author Contributions
 
-To be completed when the author list is finalized.
+Mustafa Muwafak Alobaedy conceived and designed the experiments, performed the experiments, analyzed the data, prepared the figures and tables, authored and reviewed the drafts of the article, and approved the final draft.
 
 ## Data and Code Availability
 
@@ -22,4 +22,4 @@ The measurement harness, the task definitions, the analysis scripts, the raw per
 
 ## Use of Generative AI
 
-HIGHLIGHT: Generative AI tools (Claude, Anthropic) were used during the preparation of this work to assist with the writing of the measurement and analysis code, with the verification of bibliographic metadata, and with language editing. All experimental design decisions, results, and interpretations were made and verified by the authors, who take full responsibility for the content of the manuscript.
+HIGHLIGHT: Generative AI tools (Claude, Anthropic) were used during the preparation of this work to assist with the writing of the measurement and analysis code, with the verification of bibliographic metadata, and with language editing. All experimental design decisions, results, and interpretations were made and verified by the author, who takes full responsibility for the content of the manuscript.

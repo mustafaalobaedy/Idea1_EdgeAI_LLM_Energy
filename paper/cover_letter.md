@@ -1,4 +1,4 @@
-[DATE]
+22 October 2026
 
 Editorial Office
 PeerJ Computer Science
@@ -13,12 +13,13 @@ The main findings are as follows. Joules per correct answer ranged from 2.6 J to
 
 The work fits the scope of PeerJ Computer Science in the areas of artificial intelligence, embedded computing, and green computing. All per-query logs, power traces, and code are released at https://github.com/mustafaalobaedy/Idea1_EdgeAI_LLM_Energy, so the campaign can be reproduced end to end with one script.
 
-The manuscript has not been published previously and is not under consideration elsewhere. All authors have approved the submission. No funding was received for this work, and the authors have no competing interests. Generative AI tools were used for code assistance and language editing, as stated in the manuscript.
+The manuscript has not been published previously and is not under consideration elsewhere. The author has approved the submission. No funding was received for this work, and the author has no competing interests. Generative AI tools were used for code assistance and language editing, as stated in the manuscript.
 
 Thank you for considering this submission.
 
 Sincerely,
 
-[CORRESPONDING AUTHOR]
-[AFFILIATION]
-[EMAIL]
+Mustafa Muwafak Alobaedy
+Centre for Image and Vision Computing, Multimedia University
+63100 Cyberjaya, Malaysia
+mustafa.alobaedy@mmu.edu.my

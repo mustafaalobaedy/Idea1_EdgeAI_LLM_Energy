@@ -445,7 +445,7 @@ def main():
             continue
         if s.startswith('{{') and not s.endswith('}}'):
             raise ValueError(f'text after a {{...}} directive would be lost: {s[:80]}')
-        if not s.startswith(('{{', 'TITLE:', '#')):
+        if not s.startswith(('{{', 'TITLE:', 'AUTHOR:', '#')):
             plain = re.sub(r'\([^)]*\d{4}[a-z]?\)|e\.g\.|i\.e\.|et al\.|vs\.', '', s)
             for sent in re.split(r'(?<=[.?!])\s+(?=[A-Z(])', plain):
                 if len(sent.split()) > 30:
@@ -467,6 +467,15 @@ def main():
             B.table(path, cap, labels[f'tab:{lab}'].split()[-1])
         elif s.startswith('TITLE:'):
             B.para([(s[6:].strip(), False, True, False)], size=18, after=18)
+        elif s.startswith('AUTHOR:'):
+            name, aff, addr, email = [x.strip() for x in s[7:].split('|')]
+            B.para([(name, False, False, False), ('1', False, False, False)], after=6)
+            B.d.paragraphs[-1].runs[-1].font.superscript = True
+            B.para([('1 ', False, False, False), (aff, False, False, False)], after=12)
+            B.para([('Corresponding Author:', False, True, False)], after=0)
+            B.para([(name, False, False, False)], after=0)
+            B.para([(addr, False, False, False)], after=0)
+            B.para([('Email address: ', False, False, False), (email, False, False, False)], after=12)
         elif s.startswith('ABSTRACT:'):
             B.heading('Abstract', 1)
             B.para(inline(s[9:].strip()))
