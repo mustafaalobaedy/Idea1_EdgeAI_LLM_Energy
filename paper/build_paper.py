@@ -389,7 +389,7 @@ def export_diagram_png(name, out_png):
     T.d.save(tmp / 'diagram.docx')
     subprocess.run(['soffice', '--headless', '--convert-to', 'pdf', '--outdir', str(tmp), str(tmp / 'diagram.docx')],
                    capture_output=True, timeout=300)
-    subprocess.run(['pdftoppm', '-r', '300', '-f', '1', '-l', '1', '-png', str(tmp / 'diagram.pdf'), str(tmp / 'pg')],
+    subprocess.run(['pdftoppm', '-r', '600', '-f', '1', '-l', '1', '-png', str(tmp / 'diagram.pdf'), str(tmp / 'pg')],
                    capture_output=True, timeout=300)
     png = next(tmp.glob('pg*.png'))
     im = Image.open(png).convert('RGB')
@@ -397,7 +397,7 @@ def export_diagram_png(name, out_png):
     bbox = ImageChops.difference(im, bg).getbbox()
     pad = 30
     im = im.crop((max(bbox[0] - pad, 0), max(bbox[1] - pad, 0), min(bbox[2] + pad, im.width), min(bbox[3] + pad, im.height)))
-    im.save(out_png, dpi=(300, 300))
+    im.save(out_png, dpi=(600, 600))
 
 
 # ---------------------------------------------------------------- main

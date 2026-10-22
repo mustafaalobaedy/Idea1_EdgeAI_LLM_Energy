@@ -50,7 +50,7 @@ plt.rcParams.update({
     'xtick.labelsize': 8, 'ytick.labelsize': 8, 'legend.fontsize': 8, 'axes.edgecolor': INK2,
     'axes.labelcolor': INK, 'xtick.color': INK, 'ytick.color': INK, 'axes.grid': True,
     'grid.color': GRID, 'grid.linewidth': 0.6, 'axes.spines.top': False, 'axes.spines.right': False,
-    'lines.linewidth': 2, 'figure.dpi': 150, 'savefig.dpi': 300, 'savefig.bbox': 'tight',
+    'lines.linewidth': 2, 'figure.dpi': 150, 'savefig.dpi': 600, 'savefig.bbox': 'tight',
     'figure.facecolor': 'white', 'axes.facecolor': 'white', 'legend.frameon': False,
 })
 

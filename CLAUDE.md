@@ -59,5 +59,6 @@ PeerJ template guidance (in its yellow text boxes): no figures or tables embedde
 
 - The Jetson is shared with other projects (other Claude sessions, training jobs). Check `ps` before any energy run; the guard will otherwise pause or quarantine.
 - The system Ollama on :11434 uses a different model store; always pull benchmark models with `OLLAMA_HOST=127.0.0.1:11500`.
+- Submission figures must be at least 900 × 900 px (PeerJ); figures are saved at 600 dpi for that reason. Do not lower `savefig.dpi`.
 - `logs/ollama_bench_server*.log` are gigabytes and git-ignored; `logs/campaign.log` is the run history.
 - Sentences in the draft are in passive voice on purpose; keep that voice when editing.
