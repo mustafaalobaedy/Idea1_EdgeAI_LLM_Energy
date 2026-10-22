@@ -1,18 +1,18 @@
-# Related Work
+## Related work
 
-## Energy and carbon accounting for machine learning
+### Energy and carbon accounting for machine learning
 
 Interest in the environmental cost of machine learning was first directed at training. The financial and carbon cost of training large NLP models was estimated by Strubell et al. [@strubell2019energy]. It was argued by Schwartz et al. that efficiency should be reported alongside accuracy ("Green AI") [@schwartz2020green]. It was shown by Patterson et al. that training emissions can be changed by orders of magnitude through hardware, datacenter, and model choices [@patterson2022carbon]. Tools and frameworks for energy reporting followed [@lacoste2019quantifying; @henderson2020towards], as did life-cycle analyses in which embodied emissions are included [@wu2022sustainable; @luccioni2023estimating]. In a systematic review of 98 Green AI studies, most studies were found to concentrate on training [@verdecchia2023systematic].
 
 Attention has since been moved to *inference*, because deployed models answer queries continuously. It was shown by Luccioni et al. that general-purpose generative models cost orders of magnitude more energy per inference than task-specific ones [@luccioni2024power]. LLaMA inference energy was benchmarked by Samsi et al. on datacenter V100 and A100 GPUs, including on GSM8K [@samsi2023words]. In the ML.ENERGY benchmark [@chung2025mlenergy] and in the study by Fernandez et al. [@fernandez2025energy], inference energy was shown to depend strongly on workload, software stack, and hardware. FLOP-based estimates were shown to underestimate real consumption. At datacenter scale, GPU frequency has been used as an energy knob for serving under latency targets [@stojkovic2025dynamollm; @wilkins2024offline], and GPU power limits are tuned for training by Zeus [@you2023zeus]. The work most relevant to the accuracy-normalized view of this paper was done by Jin et al. [@jin2025energy]. Test-time compute was compared with model scaling in terms of accuracy per unit energy. Output length was found to drive efficiency strongly. Datacenter GPUs were studied, however, not power-constrained edge devices.
 
-## Efficient and on-device language models
+### Efficient and on-device language models
 
 When LLM inference is moved to the edge, privacy is improved, network latency is removed, and offline operation is allowed [@shi2016edge; @zhou2019edge; @chen2019deep]. This move has been made feasible by three lines of work. *Small language models* are designed or distilled for limited memory. Examples are MobileLLM [@liu2024mobilellm], Phi-3 [@abdin2024phi3], and the small members of the Llama 3.2 [@meta2024llama32], Gemma 2 [@gemma2024gemma2], and Qwen [@qwen2024qwen25; @yang2025qwen3] families. Weight precision is reduced by *quantization* through mixed-precision INT8 [@dettmers2022llmint8], second-order post-training quantization [@frantar2023gptq], activation-aware scaling [@lin2024awq], outlier smoothing [@xiao2023smoothquant], and related methods [@dettmers2024spqr; @shao2024omniquant; @gholami2022survey]. Four-bit precision was found by Dettmers and Zettlemoyer to be almost universally optimal for zero-shot accuracy per total model bit [@dettmers2023case]. In later evaluations, however, non-negligible degradation was reported for recent, heavily trained models such as LLaMA3 at low bit widths [@huang2024llama3quant; @li2024evaluating; @jin2024comprehensive]. What fits on a device is extended by *systems techniques*, such as flash offloading [@alizadeh2024llm] and hot/cold-neuron GPU–CPU partitioning [@song2024powerinfer]. In practice, the most common edge deployment path is the llama.cpp engine [@gerganov2023llamacpp] with its GGUF k-quant formats, often through Ollama [@ollama2023ollama]. This landscape is covered in detail by several surveys [@xu2024ondevice; @wan2024efficient; @zhou2024survey; @lu2024small].
 
 The question of this paper is not answered directly by any of these works. In accuracy-oriented quantization studies, quality per bit is reported, but energy on real edge hardware is not. In systems papers, throughput is reported, but task accuracy rarely is.
 
-## Measuring LLM inference on edge devices
+### Measuring LLM inference on edge devices
 
 The closest related work is a growing body of measurement studies. The comparison is summarized in [tab:positioning].
 
@@ -22,13 +22,13 @@ The Jetson Orin family is targeted by the work closest to ours. Pythia models (7
 
 Power management on embedded GPUs has a longer history in DNN training and vision inference. Time and energy across Jetson power modes were modeled for training by Prashanthi et al. [@prashanthi2022characterizing]. It was shown by Tang et al. [@tang2019impact] and by E4 [@zhang2025e4] that 9–26% of energy can be saved by well-chosen GPU frequencies. At the processor level, it was shown by the race-to-idle literature that static power can make slower clocks *less* energy-efficient [@lesueur2010dynamic; @awan2014race]. Whether this holds for memory-bound LLM decoding under Jetson power budgets has, to the best of the author's knowledge, not been tested.
 
-## Cascades, routing, and reasoning cost
+### Cascades, routing, and reasoning cost
 
 In a cascade, easy queries are sent to cheap models and hard queries to expensive models. Computation in NLP classification was cut by confidence-based cascades [@varshney2022model]. API cost or large-model calls are reduced with little quality loss by FrugalGPT [@chen2024frugalgpt], AutoMix [@aggarwal2024automix], RouteLLM [@ong2025routellm], and hybrid edge–cloud routing [@ding2024hybrid]. Deferral rules based on token-level uncertainty were studied by Gupta et al. [@gupta2024language]. Monetary cost or call counts are optimized by these methods, usually between cloud models, and a trained router or token log-probabilities are often needed. The agreement cascade of this paper is training-free, needs only final answers, and is evaluated in measured joules on a single edge device.
 
 A parallel question is raised by reasoning models that are trained to produce long chains of thought [@guo2025deepseekr1; @yang2025qwen3]. Accuracy is improved by chain-of-thought [@wei2022chain] and self-consistency [@wang2023selfconsistency] through the generation of *more* tokens. "Overthinking" was documented by Chen et al. [@chen2025overthinking; @sui2025stop]. In overthinking, excessive tokens are spent by reasoning models on easy problems such as GSM8K. On a device where every token is paid for in measurable joules from a fixed power budget, the value of thinking should be judged per joule, not only per query.
 
-## Research gap
+### Research gap
 
 It is shown in [tab:positioning] that five elements have not been combined in any prior study. These are: (i) measured edge energy normalized by *task correctness*; (ii) a sweep of stock power budgets of a single edge GPU with model outputs held fixed; (iii) separation of precision from architecture with a full quantization ladder; (iv) pricing of reasoning ("thinking") per joule within one hybrid model; and (v) a test of whether every single model can be beaten on measured energy by a training-free multi-model policy. All five are addressed in this paper within one controlled, reproducible measurement campaign.
 

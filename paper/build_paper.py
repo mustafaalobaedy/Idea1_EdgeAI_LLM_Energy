@@ -201,8 +201,8 @@ class Builder:
         return p
 
     def heading(self, text, level):
-        size = {1: 14, 2: 12, 3: 12}[level]
-        self.para([(text, level == 3, True, False)], size=size, before={1: 18, 2: 12, 3: 8}[level], after=6, keep_next=True)
+        size = {1: 14, 2: 12, 3: 12, 4: 12}[level]
+        self.para([(text, level >= 3, level <= 3, False)], size=size, before={1: 18, 2: 12, 3: 8, 4: 6}[level], after=6, keep_next=True)
 
     def bullet(self, segs):
         self.para([('•\t', False, False, False)] + segs, left_indent=0.3, hanging=0.2, after=4)
@@ -481,6 +481,8 @@ def main():
             B.para(inline(s[9:].strip()))
         elif s.startswith('KEYWORDS:'):
             B.para([('Keywords: ', False, True, False)] + inline(s[9:].strip()))
+        elif s.startswith('#### '):
+            B.heading(s[5:], 4)
         elif s.startswith('### '):
             B.heading(s[4:], 3)
         elif s.startswith('## '):
