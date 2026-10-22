@@ -133,7 +133,10 @@ def main():
     if (TAB_IN / 'T7_pairwise_tests.csv').exists():
         s = pd.read_csv(TAB_IN / 'T7_pairwise_tests.csv')
         def pv(p):
-            return f'{p:.3f}' if p >= 0.001 else f'{p:.1e}'.replace('e-0', ' × 10⁻').replace('e-', ' × 10⁻')
+            if p >= 0.001:
+                return f'{p:.3f}'
+            m, e = f'{p:.1e}'.split('e')
+            return f'{m} × 10⁻' + str(abs(int(e))).translate(str.maketrans('0123456789', '⁰¹²³⁴⁵⁶⁷⁸⁹'))
         rows = [[r.A, r.B, dict(TASKS)[r.task], f'{f(r.diff_pp, 1)} [{f(r.diff_lo, 1)}, {f(r.diff_hi, 1)}]',
                  f'{int(r.n_A_only)} / {int(r.n_B_only)}', pv(r.p_mcnemar), pv(r.p_holm),
                  f'{f(r.JPCA_ratio, 2)} [{f(r.JPCA_ratio_lo, 2)}, {f(r.JPCA_ratio_hi, 2)}]']
@@ -170,7 +173,7 @@ def main():
                 coef, se, z, p = float(m.group(2)), float(m.group(3)), float(m.group(4)), float(m.group(5))
                 mult = f'{100 * (2 ** coef - 1):+.0f}% per doubling' if m.group(1).startswith('log') else (
                     f'{100 * (2.718281828 ** coef - 1):+.0f}% vs Gemma 2' if 'family' in m.group(1) else '–')
-                rows.append([names[m.group(1)], f(coef, 3), f(se, 3), f(z, 1), f'{p:.1e}'.replace('e-', ' × 10⁻') if 0 < p < 0.001 else ('< 1 × 10⁻³⁰⁰' if p == 0 else f(p, 3)), mult])
+                rows.append([names[m.group(1)], f(coef, 3), f(se, 3), f(z, 1), (lambda m, e: f'{m} × 10⁻' + str(abs(int(e))).translate(str.maketrans('0123456789', '⁰¹²³⁴⁵⁶⁷⁸⁹')))(*f'{p:.1e}'.split('e')) if 0 < p < 0.001 else ('< 1 × 10⁻³⁰⁰' if p == 0 else f(p, 3)), mult])
         write('T8_regression.md', md(rows, ['Term', 'Coefficient', 'Robust SE', 'z', 'p', 'Effect on energy']))
 
 
